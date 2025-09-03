@@ -181,7 +181,7 @@ body {
 .grid-with-headers {
     display: grid;
     grid-template-columns: 140px repeat(4, 1fr);
-    grid-template-rows: 50px repeat(8, auto);
+    grid-template-rows: 50px repeat(8, 240px);
     gap: 0;
     background: var(--light-bg);
 }
@@ -232,9 +232,12 @@ body {
 
 .grid-cell {
     background: var(--light-bg);
-    padding: 12px;
-    min-height: 80px;
+    padding: 8px;
+    height: 240px;
     overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
 }
 
 .grid-cell.empty {
@@ -245,6 +248,7 @@ body {
     color: var(--text-light);
     font-style: normal;
     font-size: 0.8em;
+    height: 240px;
 }
 
 .grid-cell.empty::before {
@@ -255,10 +259,24 @@ body {
 .course-item {
     background: var(--card-bg);
     border: 1px solid var(--border-color);
-    padding: 8px;
+    padding: 6px;
     margin-bottom: 4px;
     cursor: pointer;
-    transition: border-color 0.2s ease;
+    transition: border-color 0.2s ease, opacity 0.3s ease, transform 0.3s ease;
+    opacity: 0;
+    transform: translateY(10px);
+    animation: fadeInUp 0.4s ease forwards;
+}
+
+.course-item:hover {
+    border-color: var(--text-color);
+}
+
+@keyframes fadeInUp {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
 
 .course-item:hover {
@@ -266,11 +284,11 @@ body {
 }
 
 .course-item-full {
-    min-height: 160px;
+    min-height: 144px;
 }
 
 .course-item-half {
-    min-height: 80px;
+    min-height: 72px;
 }
 
 .course-code {

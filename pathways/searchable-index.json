@@ -1,0 +1,6164 @@
+{
+  "courses": {
+    "DIGF-1002": {
+      "id": 86,
+      "pathway": "games-playable-media-maker",
+      "year": "1",
+      "type": "core_courses",
+      "title": "Cross-Disciplinary Collab",
+      "credits": 0.5,
+      "description": "From concept to implementation, most projects require a diversity of people and skills in order to make the project successful or feasible. This course examines different models of collaboration, team formation, and communication to ensure success. It discusses the value and implications of different skill sets and problem-solving orientations over project life-cycles and group decision making. The course comprises reading discussions, small-exercises and student reflections with the aim to understanding the conditions and stages for high-functioning teams and successful projects. Note: This \"Writing Across the Curriculum\" (WAC) course is part of an initiative to support students in their disciplinary writing."
+    },
+    "DIGF-1001": {
+      "id": 40,
+      "pathway": "physical-interface-designer",
+      "year": "1",
+      "type": "core_courses",
+      "title": "Digital Models + Fabrication",
+      "credits": 0.5,
+      "description": "This studio seminar course provides a practical and theoretical introduction to the concepts and methods of digital design and production. It examines how digital sketching, fabrication, and generative design can be used for the exploration and communication of complex ideas. The applications range from constructing digital models of physical space, creating and generating 3D forms, and transforming digital models into physical objects. The projects undertaken will lead to informed choice-making of the appropriate tool for a particular concept or idea. The student will learn to build their own techniques for their design process, visualizations and presentations. Students with credit in DIGF-1B01 may not take this course for credit."
+    },
+    "MAAD-1003": {
+      "id": 41,
+      "pathway": "physical-interface-designer",
+      "year": "1",
+      "type": "core_courses",
+      "title": "Experimental Making",
+      "credits": 0.5,
+      "description": "Experimental approaches to using found, repurposed, and unusual materials are explored to develop innovative art and functional forms through play. Projects include working with themes of bodies, site-specific locations, and land-based learning. Emphasis is on methods of idea generation, documenting process work, and communicating concepts to others."
+    },
+    "ENGL-1003": {
+      "id": 89,
+      "pathway": "games-playable-media-maker",
+      "year": "1",
+      "type": "core_courses",
+      "title": "The Essay & the Argument",
+      "credits": 0.5,
+      "description": "This course is designed specifically for students who wish to sharpen their writing skills through intensive practice and review of composition mechanics and English grammar. Students will focus on grammar fundamentals, paragraph construction and reading strategies. This workshop allows students to explore aspects of essay composition while developing confidence in their own writing skills through practical exercises. Students who select this course will develop their basic writing skills such as sentence, paragraph and essay structure, punctuation, as well as critical thinking. Students with credit in ENGL-1004, ENGL-1B03, ENGL-1B04, LBST-1A41, LBST-1B11, ENGL-1B05, LBST-1A42, LBST-1B12, LBST-1004, LBST-1A43, LBST-1B13, LBST-1001, LBST-1A40 may not take this course for credit."
+    },
+    "DIGF-1007": {
+      "id": 87,
+      "pathway": "games-playable-media-maker",
+      "year": "1",
+      "type": "core_courses",
+      "title": "Intro to Game Design",
+      "credits": 0.5,
+      "description": "From film, television, animation, web to mobile; digital games are a central part of the modern media experience. This studio seminar course provides a practical introduction to game design via a series of applied game-making exercises. This course provides practical and theoretical studies of games and gameplay to build foundational game design skills for broad application. Class exercises will frame the fundamentals of games: rules, play and culture to support the game design process. Through a series of game making exercises the student will learn and apply a range of methods and approaches to design and build playful game experiences. Students with credit in DIGF-1B02, GDES-1028 or GDES-1B30 may not take this course for credit."
+    },
+    "GDES-1015": {
+      "id": 6,
+      "pathway": "creative-technologist",
+      "year": "1",
+      "type": "program-specific_electives",
+      "title": "Typography 1",
+      "credits": 0.5,
+      "description": "This introductory studio course provides students with an understanding of the basic vocabulary, skills and use of letterforms and how they combine to form words, text and meaning. The anatomy and structure of letterforms and the formal relationships between them are considered. Students are exposed to a foundational understanding of current typographic classification, technology and systems. This course will develop the students' ability to explore and employ typography and is a first step toward developing typographic mastery. Students with credit in GDES-1015, GDES-1B17, GRPH-2A04 may not take this course for credit."
+    },
+    "VISC-1002": {
+      "id": 91,
+      "pathway": "games-playable-media-maker",
+      "year": "1",
+      "type": "program-specific_electives",
+      "title": "Global Vis & Mat Cult: to Pres",
+      "credits": 0.5,
+      "description": "This lecture course surveys developments in global nineteenth through the twentieth-first-century art, architecture, design and material culture. Students will explore the historical, intellectual and socioeconomic contexts of this period using key examples of visual and material culture, while addressing themes such as industrialization, imperialism, propaganda, mass reproduction, technology and globalization. Particular emphasis will be placed on theoretical and critical issues emerging during this time period, including concepts of exoticism, scientific truth, the reproduction of images, the public sphere, commodity culture, hybridity and indigeneity from a global perspective that traces the development of multiple modernisms and postmodernity. Students with credit in LBST-1B05, VISC-1B07 may not take this course for credit."
+    },
+    "DIGF-2014": {
+      "id": 96,
+      "pathway": "games-playable-media-maker",
+      "year": "2",
+      "type": "core_courses",
+      "title": "Atelier I",
+      "credits": 1.0,
+      "description": "This studio-seminar course investigates current themes, technologies and debates that inform interdisciplinary digital science, art, design and enterprise. The classes explore issues and problems through project research, conception and initiation - including readings and discussion, lectures, site visits, engagement with industry partners, and student presentations. Students apply personal and group problem-solving strategies to their collective work. Seminar topics are developed on an annual basis through a faculty and student curriculum retreat process."
+    },
+    "DIGF-2015": {
+      "id": 97,
+      "pathway": "games-playable-media-maker",
+      "year": "2",
+      "type": "core_courses",
+      "title": "Atelier II",
+      "credits": 1.0,
+      "description": "In Atelier II: Collaboration, students develop their ideas and execute their projects as prototypes collectively with feedback from faculty and industry partners. Atelier II: Collaboration is linked to Atelier I: Discovery and builds on the practical and technical skills gained in the fall semester.The course encourages a wide range of approaches to collaborative research and practice-based problem-solving methods. Interaction with industry partners begun in the first semester in Atelier I: Discovery is deepened in the second semester with Atelier II: Collaboration as students work towards a physical articulation of their creative projects. Note: This \"Writing Across the Curriculum\" (WAC) course is part of an initiative to support students in their disciplinary writing."
+    },
+    "DIGF-2016": {
+      "id": 51,
+      "pathway": "physical-interface-designer",
+      "year": "2",
+      "type": "program-specific_electives",
+      "title": "Intro to Wearable Electronics",
+      "credits": 0.5,
+      "description": "Wearable Computing sits at the intersection of design, art, craft, and emerging technologies. This studio course focuses on interactivity in the wearable context and the human body as interface and display. It provides a hands-on introduction to basic tools and techniques for incorporating microcontrollers, sensors, and actuators into garments and accessories. No previous experience in physical computing is required. Through prototyping and experimentation, students will learn to create engaging wearable computing systems. Students with credit in DIGF-2016, GDES-3015, GDES-3B16 may not take this course for credit."
+    },
+    "INTM-2004": {
+      "id": 99,
+      "pathway": "games-playable-media-maker",
+      "year": "2",
+      "type": "program-specific_electives",
+      "title": "Sonic Arts",
+      "credits": 0.5,
+      "description": "This course introduces sound and audio as artistic media. Students learn to record sounds and transform them using visual editing computer software. Each student works at shaping and building this material into short sound studies. Contemporary and historical examples of artists' audio projects and methods of electronic composition are presented and discussed. Students are encouraged to develop their sound studies for film or video soundtracks, in performance or as audio installations. Students with credit in INTM-2B06 may not take this course for credit."
+    },
+    "HUMN-2007": {
+      "id": 100,
+      "pathway": "games-playable-media-maker",
+      "year": "2",
+      "type": "program-specific_electives",
+      "title": "Computational History & Theory",
+      "credits": 0.5,
+      "description": "Data machines in computational science transform information into science and social science knowledge � about disease, environments, human behaviour, traffic patterns, etc. This course studies the history of computational mathematics, computational neuro/cognitive sciences and practitioners, addressing how trends in mathematics and scientific paradigms inform science practices and their social effects. Students will employ critical approaches from science studies, philosophy, and communication to evaluate data's historical evolution, its constraints within modular systems and consumer science literature. The course examines historical and contemporary case studies to see how critical theory can be employed to study data in broader, complex (biological and sociocultural) systems to create meaningful findings for society. Students with credit in HUMN-2B31 may not take this course for credit."
+    },
+    "INTM-2017": {
+      "id": 54,
+      "pathway": "physical-interface-designer",
+      "year": "2",
+      "type": "open_electives",
+      "title": "Hybrid Media Lab",
+      "credits": 0.5,
+      "description": "Hybrid Media Lab has a multi-disciplinary focus; students learn to combine diverse media in their art production while being introduced to experimental working methods. The course will examine how artists integrate various media and materials, installation works, audio, film and video hybrids and digital interfaces. Students learn to work collaboratively by carrying interdisciplinary projects through various stages of fabrication and production. Converging sites of practice will be explored, discussed and analyzed."
+    },
+    "VISM-2006": {
+      "id": 102,
+      "pathway": "games-playable-media-maker",
+      "year": "2",
+      "type": "open_electives",
+      "title": "Critical Play",
+      "credits": 0.5,
+      "description": "Through critical play practices, we experiment with identity, creative expression and invention, and we learn to improvise in a system of rules. This course addresses how such forms of play can generate criticality among players. Students will explore meaning-making in play through exploration of a range of games, and by tracing a history of subversive art practices from Surrealism to contemporary game creation. Finally, the course presents diverse analytical approaches, including art history, critical theory and visual culture, to enable students to construct critical play practices. Understanding games beyond entertainment, the course seeks to foster critically-aware gamers. Students with credit in VISM-3001, VISM-3B01 may not take this course for credit."
+    },
+    "INTM-2003": {
+      "id": 56,
+      "pathway": "physical-interface-designer",
+      "year": "2",
+      "type": "breadth_electives",
+      "title": "Mechanics for Artists",
+      "credits": 0.5,
+      "description": "The mechanical skills and knowledge required by artists to build kinetic installation and sculpture are developed in this course. Topics for discussion include three-dimensional prototyping techniques and the principles inherent in such basic mechanical components as bearings, levers, cams, gears, pulleys, springs and pendulums. Particular attention is given to the use of recycled components. Students with credit in INTM-2B05, INTM-3B08 may not take this course for credit."
+    },
+    "VISM-2002": {
+      "id": 16,
+      "pathway": "creative-technologist",
+      "year": "2",
+      "type": "breadth_electives",
+      "title": "History of New Media Art",
+      "credits": 0.5,
+      "description": "This survey course offers a history of the relationship of art and media from the beginnings of photography and avant-garde cinema to contemporary digital and video art practices. The course examines technological developments that have affected and transformed perception and representation including time-motion studies, industrialization (Taylorism), mass culture, and global electronic networks (Internet). The influence of new media on various avant-garde movements including cubism, constructivism, surrealism, dada, and on the stylistic innovations of collage and montage will be explored. Selected writings on art and technology by key thinkers will complement a visual and intellectual survey of artworks."
+    },
+    "DIGF-3008": {
+      "id": 108,
+      "pathway": "games-playable-media-maker",
+      "year": "3",
+      "type": "core_courses",
+      "title": "Atelier III",
+      "credits": 1.0,
+      "description": "This studio-seminar course provides students with the opportunity to further develop their analytical and problem-solving skills in a collaborative praxis (practice through research) environment with the engagement of faculty and industry partners. Atelier III: Investigation is a theme-based course. The core seminar topic is developed on an annual basis through a faculty and student curriculum retreat process. Engagement with industry partners is a key component of the course and underpins student-driven projects. Atelier III: Investigation is a prerequisite for Atelier IV: Synthesis."
+    },
+    "DIGF-3009": {
+      "id": 109,
+      "pathway": "games-playable-media-maker",
+      "year": "3",
+      "type": "core_courses",
+      "title": "Atelier IV",
+      "credits": 1.0,
+      "description": "Atelier IV: Synthesis challenges students to refine and test their research and practice-based methods as they work towards the development of a collaborative project that was proposed and prototyped in the fall semester. Industry engagement continues to have an important role in project support and context. The skills gained in Atelier IV prepares students for the proposal of a major body of work in their thesis year, for which thesis development is provided."
+    },
+    "DIGF-3012": {
+      "id": 110,
+      "pathway": "games-playable-media-maker",
+      "year": "3",
+      "type": "program-specific_electives",
+      "title": "Experimental Projection",
+      "credits": 0.5,
+      "description": "Light is material, and with projection technologies comes greater capacity to shape experiences of light and space. This studio-seminar class provides foundations into projection and projection mapping technologies, combining discussion of criticalcontexts and perspectives from art, architecture, film, new media, and design, with the act of developing and implementing projection-based projects. Through lectures, in-class discussions of readings, exhibition visits, and project-based assignments,students will trace the techno-cultural histories of projection/mapping and their contemporary uses and also develop an understanding of the technical considerations of projection-based art, and learn tools and techniques for projection mapping."
+    },
+    "INDS-3013": {
+      "id": 111,
+      "pathway": "games-playable-media-maker",
+      "year": "3",
+      "type": "program-specific_electives",
+      "title": "Disruptive Futures",
+      "credits": 0.5,
+      "description": "This course examines how companies can deploy and implement disruptive technologies such as AI, robotics and the role design plays in this context. We will explore the development of disruptive technologies and how companies can adopt the new technologies to increase user experience and efficiency, enhance products and services, and diversify their revenue streams. Industry strategies are used to identify opportunities within disruptive technologies and to implement them in developing products and services. The legal, ethical, and economic implications of incorporating disruptive technologies into everyday products and services are examined."
+    },
+    "BUSI-3003": {
+      "id": 112,
+      "pathway": "games-playable-media-maker",
+      "year": "3",
+      "type": "program-specific_electives",
+      "title": "Busi Ethics, Sustainability",
+      "credits": 0.5,
+      "description": "This course is designed to increase student awareness of the importance of ethics and social responsibility and sustainable economic development for firms of all sizes as well as local and global economies. Following an overview of the complex landscape of business ethics and corporate social responsibility, and the added dimension of sustainable economic practices, the course focuses on three major themes: ethical leadership, ethical decision making, and the application of ethical/sustainability frameworks to all aspects of business, with particular attention to the creative industries."
+    },
+    "DIGF-3007": {
+      "id": 113,
+      "pathway": "games-playable-media-maker",
+      "year": "3",
+      "type": "open_electives",
+      "title": "Game Engines",
+      "credits": 0.5,
+      "description": "A game engine is a powerful development tool: enabling complex interactive experiences by providing a pre-defined structure from which to start. This course presents a critical introduction to the history, structure and craft of digital and analog game engines. It examines the affordances, mechanics, and techno-cultural histories behind a range of historic, contemporary and emerging engines and frameworks. Today's game engines are platforms on which creators build rich narratives, immersive experiences, and unique interfaces, within and beyond games. Students will gain a nuanced understanding of the ways in which game engines support and/or disrupt particular design, experiential, and cultural goals."
+    },
+    "GDES-3010": {
+      "id": 23,
+      "pathway": "creative-technologist",
+      "year": "3",
+      "type": "open_electives",
+      "title": "Motion Design",
+      "credits": 0.5,
+      "description": "The practices of visual communication are investigated in the specific context of motion design. Through an exploration of narrative structures, spatial compositions and sound, techniques of motion design will be applied in the production of time-based works. Techniques introduced include keyframing, 2D animation, rotoscoping, media integration and 2D / 3D tracking as it relates to timing and pacing, animation basics and sound."
+    },
+    "HUMN-3008": {
+      "id": 115,
+      "pathway": "games-playable-media-maker",
+      "year": "3",
+      "type": "open_electives",
+      "title": "Ethics in the Global Context",
+      "credits": 0.5,
+      "description": "A study of key ethical issues in the global context. Taking our approach from multiple points of view derived from American/European, Asian, African, and indigenous societies, we will consider questions such as the following: cultural exploitation, fair trade, social justice, racial discrimination, patenting indigenous knowledge, right to aid, right to food, human rights, justification of war and terrorism, gender rights, the ethical status of abortion, legalization of euthanasia, the value of affirmative action, abuse of power, environmental racism, development and displacement, the problem of ethnocentrism & diversity, terrorism and security, etc. Students will develop tolerance and respect for other cultures and theoretical perspectives, learn how to think critically about ethical issues, and become informed about global ethical values. Students with credit in HUMN-3B10 may not take this course for credit."
+    },
+    "INDS-2021": {
+      "id": 25,
+      "pathway": "creative-technologist",
+      "year": "3",
+      "type": "breadth_electives",
+      "title": "Design for Film & Theatre",
+      "credits": 0.5,
+      "description": "A production designer is responsible for the overall visual concept in theatre and film productions. Students will learn to apply art and design principles from the initial script study through the collaborative and creative process in order to visually enrich screen and stage narratives. This includes how to task timelines for preparation and procedures for production design, research, storyboarding, props, designing for special effects and location while working with limited budgets. The development of the artistic team in film and theatrical applications is studied through interdisciplinary class projects and critique of the production outcomes."
+    },
+    "SCTM-3003": {
+      "id": 118,
+      "pathway": "games-playable-media-maker",
+      "year": "3",
+      "type": "breadth_electives",
+      "title": "Bio Principles Sustainability",
+      "credits": 0.5,
+      "description": "This course examines major scientific issues surrounding the concept of sustainability. Topics covered will include: population growth and the human carrying capacity, land use and agriculture, biotechnology and genetic engineering, climate change and pollution, and ecosystem services in urban design. Each section of the course will discuss the scientific principles and concepts relevant to understanding sustainability within these areas. Students will apply their scientific knowledge to examine and critique contemporary design and cultural practices from the perspective of biological sustainability. An additional focus on emerging biologically focused design tools such as Biomimicry will be discussed. Students with credit in SCTM-2B04, SCTM-3B04 may not take this course for credit."
+    },
+    "DIGF-4002": {
+      "id": 119,
+      "pathway": "games-playable-media-maker",
+      "year": "4",
+      "type": "core_courses",
+      "title": "Critical Code",
+      "credits": 0.5,
+      "description": "Throughout this course students will write and critique code with respect to its effect on the world. Aspects of digital humanities, code aesthetics, software studies, and critical code studies will be introduced to students as forms of discourse for critiquing the generation and evaluation of code. Students will build on existing skills and knowledge to further investigate, write, and critique code and its generation methodologies with respect to its effect on the larger social context and its participation in networks of social relations."
+    },
+    "GDES-3037": {
+      "id": 120,
+      "pathway": "games-playable-media-maker",
+      "year": "4",
+      "type": "core_courses",
+      "title": "Research, Insight, Innovation",
+      "credits": 0.5,
+      "description": "Significant possibilities for design are at the intersection of human behaviour and new technology. These possibilities aid the designer in creating new experiences, spaces and products to benefit humankind. The focus of this course is the understanding of the motivation behind human behavior and the use of this understanding towards envisioning future product and service opportunities. This course explores methodologies used to discover the 'signals' emitted by new patterns of human behaviour.Students will also learn to inspire a creative culture of innovation through exploration, discovery and learning, both within a team structure and their solo practice."
+    },
+    "VISC-4008": {
+      "id": 121,
+      "pathway": "games-playable-media-maker",
+      "year": "4",
+      "type": "core_courses",
+      "title": "Art and Design Activism",
+      "credits": 0.5,
+      "description": "There is a rich history of artists/designers invested in social change and political activism. Art & Design Activism will look at the practices of artists and designers whose work intersects with issues of social justice. The course will investigate the cultural conditions of activist actions, the goals and effectiveness of visual activism, and the technological environments and tools that have been used to disseminate activist content in historic and contemporary cultures. Broad thematics include: the environment, globalization, war and peace movements, civil rights movements, indigenous rights, nationalism, sexual politics, race and class issues, new communication technologies and methodologies. Students with credit in VISC-4B22 may not take this course for credit."
+    },
+    "DIGF-4897": {
+      "id": 122,
+      "pathway": "games-playable-media-maker",
+      "year": "4",
+      "type": "open_electives",
+      "title": "Field Placement",
+      "credits": 0.5,
+      "description": "Field placements provide students with opportunities to gain experience in the professional worlds of art and design that will complement their studies. On-site work is performed under the guidance of the field study sponsor, and the field study credit is supervised and evaluated by an OCAD U teaching faculty. For more information: OCADU Centre for Emerging Artists and Designers, Experiential Learning - Field Placement (https://bit.ly/3iGJtOV)"
+    },
+    "GDES-3005": {
+      "id": 123,
+      "pathway": "games-playable-media-maker",
+      "year": "4",
+      "type": "open_electives",
+      "title": "Guerrilla Entrepreneurship",
+      "credits": 0.5,
+      "description": "In response to the growing practice of artist-produced objects (ie. books, zines, apparel, accessories, housewares, linens, toys, games, etc.), this course acts as an introduction to creative entrepreneurial activity. Various media and techniques available in self-publishing and production are researched, and proven DIY marketing tactics and venues are explored in the development of a final business plan. Students with credit in GDES-3B06 may not take this course for credit."
+    },
+    "SCTM-3001": {
+      "id": 124,
+      "pathway": "games-playable-media-maker",
+      "year": "4",
+      "type": "open_electives",
+      "title": "Statistics",
+      "credits": 0.5,
+      "description": "This course introduces students to quantitative research methods and statistical analyses. Students learn about the research process and strategies to choose appropriate methodologies given specific research questions and approaches. Students learn about statistical thinking and how to make meaning from data as a way of understanding the world from evidence based perspectives. Students learn to distinguish between unfounded, anecdotal and legitimate research evidence, strengthening their critical thinking, analytic and research literacy skills. Students learn how to (i) design a research study, (ii) collect, analyze and report data, (iii) write a report of research findings, (iv) evaluate and understand research findings. Students with credit in SCTM-3B02 may not take this course for credit."
+    },
+    "DIGF-4001": {
+      "id": 125,
+      "pathway": "games-playable-media-maker",
+      "year": "4",
+      "type": "breadth_electives",
+      "title": "Leadership in Digital Economy",
+      "credits": 0.5,
+      "description": "This course draws on the principles and foundations from the 1st year course: Cross-disciplinary Collaboration, as well as learner experiences of executing projects during the intervening time at OCAD U. The course supplements discussions on collaboration and team functioning and focuses on issues of leadership, conflict management, decision-making models, organizational change, and inclusivity. This is a seminar that draws on experiences of learners, as well as readings from diverse professional domains of business, sociology, cultural, and science and technology studies. The course progression will also be guided by key guest lecturers and case studies. Students with credit in DIGF-4B01 may not take this course for credit."
+    },
+    "GDES-3062": {
+      "id": 126,
+      "pathway": "games-playable-media-maker",
+      "year": "4",
+      "type": "breadth_electives",
+      "title": "Design (as) Research",
+      "credits": 0.5,
+      "description": "Practice-based research techniques in design as ethnographic methods are explored. Research projects are used to pursue three objectives: Research to inform design deliverables, research to educate designers/researchers for future practice, and research to inform the professional design, academic, and wider communities. This course is an optional replacement for: GRPH-3012 Research Methods for GD, INDS-3002 Research Methods for ID. Students wishing to use this course as a replacement require advance permission from Chair, so that this equivalency (requiring a minimum grade of 60) can be placed on their record. Students with credit in GDES-3B68 may not take this course for credit."
+    },
+    "SOSC-3013": {
+      "id": 127,
+      "pathway": "games-playable-media-maker",
+      "year": "4",
+      "type": "breadth_electives",
+      "title": "Race, Racism, and Media",
+      "credits": 0.5,
+      "description": "This course critically explores representations of citizen subjects who are marginalized and socially excluded through visual and discursive intersections of race, class, sexual subjectivity, and gender. Starting with colonialist and imperialist discourses of race, the course tracks the historical shaping of the global world via conquest, migration, racial politics and border crossings. We examine the theoretical and practical tensions, impacts and frameworks that media images and cultural discourses have, and what this means for questions of social justice, equality and global resistance."
+    },
+    "DIGF-4904": {
+      "id": 128,
+      "pathway": "games-playable-media-maker",
+      "year": "4",
+      "type": "breadth_electives",
+      "title": "Interdisciplinary Thesis 2",
+      "credits": 1.0,
+      "description": "This course gives students the opportunity to develop an in-depth, self-determined project either individually or as a team. Students will develop work from a conceptual, technical, and social perspective to an advanced level by utilizing a research and development framework. Open to students from all programs, this course provides the space to investigate and create work that spans multiple disciplines through the creative use of current and future technologies. Depending on the scale of the project this course may be taken on its own or in combination with DIGF Interdisciplinary Thesis 1 for credit."
+    },
+    "GDES-3103": {
+      "id": 129,
+      "pathway": "games-playable-media-maker",
+      "year": "4",
+      "type": "breadth_electives",
+      "title": "Information Visualization 1",
+      "credits": 0.5,
+      "description": "We live in a data rich world. Today's capacity to store and access vast amounts of data increases the need for citizens, researchers, governments and business to analyze, represent, and interpret information in useful, intuitive and compelling ways. This course introduces the design process of devising visualizations, from gathering and structuring data to encoding and representing information. It focuses on the design principles and techniques used in the process of revealing patterns and relationships in the data toward effective communication of information. Students with credit in GDES-2002, GDES-2B04 may not take this course for credit."
+    },
+    "HUMN-3016": {
+      "id": 130,
+      "pathway": "games-playable-media-maker",
+      "year": "4",
+      "type": "breadth_electives",
+      "title": "Extraordinary Bodies",
+      "credits": 0.5,
+      "description": "This seminar course looks at how \"physically different\" bodies have been viewed artistically throughout history and in our contemporary culture. We will look at how different models of looking at \"otherness\" have pervaded our culture and how a newer, social model has finally taken root, as well as how these models affect not only our creative lives but also our social, political and personal lives, as well as the environments in which we live. By exploring different bodies as cultural representations we will be challenged to find ways in which the experience of those deemed \"different\" can be included in contemporary art, literature, and film. Students with credit in HUMN-3B21 may not take this course for credit."
+    },
+    "GART-1003": {
+      "id": 43,
+      "pathway": "physical-interface-designer",
+      "year": "1",
+      "type": "program-specific_electives",
+      "title": "Social Change & Technology",
+      "credits": 0.5,
+      "description": "This course explores the relationship between art, technology and social change. Students will examine how artists and designers have used technology to address social issues, challenge power structures, and create new forms of community and activism. Through readings, discussions, and hands-on projects, students will learn to critically analyze the social impact of technology and develop their own approaches to using technology for social good."
+    },
+    "SCTM-2005": {
+      "id": 93,
+      "pathway": "games-playable-media-maker",
+      "year": "1",
+      "type": "breadth_electives",
+      "title": "Intro Comp Sci-Logic & Coding",
+      "credits": 0.5,
+      "description": "This course introduces fundamental concepts in computer science including logic, algorithms, and programming. Students will learn basic coding principles and problem-solving techniques using a programming language. The course covers computational thinking, debugging, and the application of programming concepts to creative projects."
+    },
+    "GART-1018": {
+      "id": 46,
+      "pathway": "physical-interface-designer",
+      "year": "1",
+      "type": "breadth_electives",
+      "title": "Wearable Art",
+      "credits": 0.5,
+      "description": "This course explores wearable art as a form of personal expression and cultural commentary. Students will learn techniques for creating wearable pieces that combine art, fashion, and technology. Projects will investigate how wearable art can challenge traditional notions of clothing and personal adornment."
+    },
+    "DIGF-2002": {
+      "id": 95,
+      "pathway": "games-playable-media-maker",
+      "year": "1",
+      "type": "breadth_electives",
+      "title": "Physical Computing",
+      "credits": 0.5,
+      "description": "This course introduces the fundamentals of physical computing, focusing on the integration of hardware and software to create interactive systems. Students will learn about sensors, actuators, microcontrollers, and basic electronics, developing skills to create responsive environments and objects."
+    },
+    "MAAD-1001": {
+      "id": 48,
+      "pathway": "physical-interface-designer",
+      "year": "1",
+      "type": "breadth_electives",
+      "title": "Intro to Textiles",
+      "credits": 0.5,
+      "description": "This introductory course explores textile materials, techniques, and their cultural significance. Students will learn basic textile processes including weaving, dyeing, and surface design, while exploring how textiles function as both functional and expressive materials in contemporary art and design."
+    },
+    "EXAN-2013": {
+      "id": 57,
+      "pathway": "physical-interface-designer",
+      "year": "2",
+      "type": "breadth_electives",
+      "title": "Stop Motion Puppet Maker",
+      "credits": 0.5,
+      "description": "This course introduces the art and technique of stop-motion animation through puppet making. Students will learn to design, construct, and animate puppets using various materials and techniques. The course covers the principles of character design, puppet mechanics, and basic animation workflows."
+    },
+    "SOSC-2003": {
+      "id": 105,
+      "pathway": "games-playable-media-maker",
+      "year": "2",
+      "type": "breadth_electives",
+      "title": "Doing Human-Centred Research",
+      "credits": 0.5,
+      "description": "This course introduces human-centered research methods, focusing on qualitative and participatory approaches to understanding user needs and experiences. Students will learn ethnographic methods, interview techniques, and design research methodologies to inform creative practice."
+    },
+    "SCIN-2004": {
+      "id": 59,
+      "pathway": "physical-interface-designer",
+      "year": "2",
+      "type": "breadth_electives",
+      "title": "Exploring 3D Digital Objects",
+      "credits": 0.5,
+      "description": "This course explores the creation and manipulation of 3D digital objects using various software tools. Students will learn modeling techniques, texturing, lighting, and rendering, with applications in art, design, and interactive media."
+    },
+    "VISD-2005": {
+      "id": 60,
+      "pathway": "physical-interface-designer",
+      "year": "2",
+      "type": "breadth_electives",
+      "title": "Contemp Design Theories & Prac",
+      "credits": 0.5,
+      "description": "This course examines contemporary design theories and practices, exploring how design thinking intersects with social, cultural, and technological developments. Students will analyze current design trends and develop their own theoretical frameworks for creative practice."
+    },
+    "CROS-3019": {
+      "id": 66,
+      "pathway": "physical-interface-designer",
+      "year": "3",
+      "type": "open_electives",
+      "title": "Complicated Bodies",
+      "credits": 0.5,
+      "description": "This course explores the intersection of technology and the human body, examining how digital interfaces and wearable technologies can enhance, augment, or complicate our understanding of embodiment. Through theoretical readings and practical projects, students will investigate how technology mediates our relationship with our bodies and the spaces we inhabit."
+    },
+    "LIFE-3001": {
+      "id": 68,
+      "pathway": "physical-interface-designer",
+      "year": "3",
+      "type": "breadth_electives",
+      "title": "Speculative Bodies",
+      "credits": 0.5,
+      "description": "This course explores speculative approaches to understanding the human body in relation to technology and design. Students will investigate how emerging technologies might transform our relationship with our bodies, examining themes of augmentation, hybridity, and post-humanism."
+    },
+    "GDES-3092": {
+      "id": 70,
+      "pathway": "physical-interface-designer",
+      "year": "3",
+      "type": "breadth_electives",
+      "title": "Interactive Media: Space",
+      "credits": 0.5,
+      "description": "This course explores the design of interactive media experiences in physical spaces. Students will learn about spatial computing, augmented reality, and the integration of digital media with architectural environments."
+    },
+    "VISD-3008": {
+      "id": 71,
+      "pathway": "physical-interface-designer",
+      "year": "3",
+      "type": "breadth_electives",
+      "title": "Sustainability: Theory/Praxis",
+      "credits": 0.5,
+      "description": "This course examines sustainability from both theoretical and practical perspectives. Students will explore sustainable design principles, circular economy concepts, and the role of design in addressing environmental challenges."
+    },
+    "INDS-3003": {
+      "id": 84,
+      "pathway": "physical-interface-designer",
+      "year": "4",
+      "type": "breadth_electives",
+      "title": "Conceptual & Foresight Methods",
+      "credits": 0.5,
+      "description": "This course introduces methods for conceptual thinking and foresight in design. Students will learn scenario planning, trend analysis, and speculative design techniques to anticipate future possibilities and challenges."
+    },
+    "SOSC-3014": {
+      "id": 85,
+      "pathway": "physical-interface-designer",
+      "year": "4",
+      "type": "breadth_electives",
+      "title": "Sociology of the Body",
+      "credits": 0.5,
+      "description": "This course examines the social construction of the body, exploring how cultural, political, and technological forces shape our understanding of embodiment. Students will investigate topics such as body modification, medicalization, and the intersection of technology and identity."
+    },
+    "ILLU-1002": {
+      "id": 88,
+      "pathway": "games-playable-media-maker",
+      "year": "1",
+      "type": "core_courses",
+      "title": "Illustrative Concepts 1",
+      "credits": 0.5,
+      "description": "This course introduces fundamental concepts in illustration and visual storytelling. Students will learn to develop visual narratives, character design, and conceptual illustration techniques. Through exercises and projects, students will explore how illustration can communicate ideas and evoke emotional responses."
+    },
+    "EXAN-1001": {
+      "id": 90,
+      "pathway": "games-playable-media-maker",
+      "year": "1",
+      "type": "program-specific_electives",
+      "title": "Intro: Experimental Animation",
+      "credits": 0.5,
+      "description": "This course introduces fundamental concepts and techniques in experimental animation. Students will explore non-traditional approaches to animation, including abstract, surreal, and conceptually-driven work. Through hands-on exercises, students will learn various animation techniques and develop their understanding of time-based media as an artistic expression."
+    },
+    "INDS-1003": {
+      "id": 92,
+      "pathway": "games-playable-media-maker",
+      "year": "1",
+      "type": "breadth_electives",
+      "title": "Body, Object & Digital Space",
+      "credits": 0.5,
+      "description": "This course explores the relationships between bodies, objects, and digital spaces. Students will examine how physical and digital environments interact, and how design can mediate between these spaces. Topics include human-computer interaction, spatial design, and the integration of physical and digital elements."
+    },
+    "EXAN-2008": {
+      "id": 94,
+      "pathway": "games-playable-media-maker",
+      "year": "1",
+      "type": "breadth_electives",
+      "title": "Intro to 3D Modeling and Anim",
+      "credits": 0.5,
+      "description": "This course introduces the fundamentals of 3D modeling and animation. Students will learn to create 3D models, apply textures and materials, and animate objects using industry-standard software. The course covers basic modeling techniques, animation principles, and rendering."
+    },
+    "DIGF-2013": {
+      "id": 98,
+      "pathway": "games-playable-media-maker",
+      "year": "2",
+      "type": "program-specific_electives",
+      "title": "2D Game Design",
+      "credits": 0.5,
+      "description": "This course focuses on the design and development of 2D games. Students will learn game design principles, level design, user interface design, and basic programming concepts specific to 2D game development. Through projects, students will create their own 2D games while exploring narrative, mechanics, and player experience."
+    },
+    "EXAN-2006": {
+      "id": 101,
+      "pathway": "games-playable-media-maker",
+      "year": "2",
+      "type": "open_electives",
+      "title": "2D Dig. Animation Principles",
+      "credits": 0.5,
+      "description": "This course covers the fundamental principles of 2D digital animation. Students will learn keyframe animation, timing, spacing, and the 12 principles of animation as they apply to digital tools. Through exercises and projects, students will develop skills in creating smooth, expressive 2D animations."
+    },
+    "DIGF-2012": {
+      "id": 103,
+      "pathway": "games-playable-media-maker",
+      "year": "2",
+      "type": "breadth_electives",
+      "title": "Low Poly Game Art",
+      "credits": 0.5,
+      "description": "This course focuses on creating game art with low polygon models, optimized for real-time rendering. Students will learn efficient modeling techniques, texture creation, and optimization strategies for game development. The course covers the technical and artistic aspects of creating compelling low-poly art for games."
+    },
+    "EXAN-2004": {
+      "id": 104,
+      "pathway": "games-playable-media-maker",
+      "year": "2",
+      "type": "breadth_electives",
+      "title": "XR Space Jam",
+      "credits": 0.5,
+      "description": "This course explores extended reality (XR) experiences, including virtual reality, augmented reality, and mixed reality. Students will learn to design and develop immersive XR experiences, focusing on spatial design, interaction design, and user experience in virtual environments."
+    },
+    "EXAN-2009": {
+      "id": 106,
+      "pathway": "games-playable-media-maker",
+      "year": "2",
+      "type": "breadth_electives",
+      "title": "3D Modeling & Animation 2",
+      "credits": 0.5,
+      "description": "This intermediate course builds on 3D modeling fundamentals, focusing on advanced techniques and complex animations. Students will work on more sophisticated projects, learning advanced modeling tools, character rigging, and complex animation sequences."
+    },
+    "VISM-2003": {
+      "id": 107,
+      "pathway": "games-playable-media-maker",
+      "year": "2",
+      "type": "breadth_electives",
+      "title": "Introduction to Games Studies",
+      "credits": 0.5,
+      "description": "This course provides an introduction to the academic study of games. Students will explore game theory, game design principles, cultural impacts of games, and critical analysis of gaming as a medium. The course covers historical and contemporary perspectives on games and gaming culture."
+    },
+    "EXAN-3005": {
+      "id": 114,
+      "pathway": "games-playable-media-maker",
+      "year": "3",
+      "type": "open_electives",
+      "title": "Character Design & Animation",
+      "credits": 0.5,
+      "description": "This course focuses on the design and animation of characters for games and animation. Students will learn character design principles, personality development, and animation techniques specific to character performance. Projects will involve creating character concepts and bringing them to life through animation."
+    },
+    "DIGF-3013": {
+      "id": 116,
+      "pathway": "games-playable-media-maker",
+      "year": "3",
+      "type": "breadth_electives",
+      "title": "3D Game Design",
+      "credits": 0.5,
+      "description": "This course focuses on the design and development of 3D games. Students will learn 3D game design principles, 3D modeling for games, level design in 3D spaces, and advanced game mechanics. Through projects, students will create 3D game prototypes and explore spatial gameplay."
+    },
+    "EXAN-3011": {
+      "id": 117,
+      "pathway": "games-playable-media-maker",
+      "year": "3",
+      "type": "breadth_electives",
+      "title": "Adv. XR Space Jam",
+      "credits": 0.5,
+      "description": "This advanced course delves deeper into extended reality experiences, focusing on complex XR design and development. Students will work on advanced projects involving sophisticated interactions, narrative design, and technical implementation in XR environments."
+    }
+  },
+  "keywords": {
+    "cross": [
+      "DIGF-1002",
+      "DIGF-4001"
+    ],
+    "disciplinary": [
+      "DIGF-1002",
+      "DIGF-2015",
+      "INTM-2017",
+      "DIGF-4001"
+    ],
+    "collab": [
+      "DIGF-1002"
+    ],
+    "from": [
+      "DIGF-1002",
+      "DIGF-1001",
+      "DIGF-1007",
+      "VISC-1002",
+      "DIGF-2015",
+      "HUMN-2007",
+      "VISM-2006",
+      "VISM-2002",
+      "DIGF-3012",
+      "DIGF-3007",
+      "HUMN-3008",
+      "INDS-2021",
+      "SCTM-3003",
+      "SCTM-3001",
+      "DIGF-4001",
+      "GDES-3062",
+      "DIGF-4904",
+      "GDES-3103",
+      "VISD-3008"
+    ],
+    "concept": [
+      "DIGF-1002",
+      "DIGF-1001",
+      "INDS-2021",
+      "SCTM-3003"
+    ],
+    "implementation": [
+      "DIGF-1002",
+      "EXAN-3011"
+    ],
+    "most": [
+      "DIGF-1002"
+    ],
+    "projects": [
+      "DIGF-1002",
+      "DIGF-1001",
+      "MAAD-1003",
+      "DIGF-2015",
+      "INTM-2004",
+      "INTM-2017",
+      "DIGF-3008",
+      "DIGF-3012",
+      "INDS-2021",
+      "DIGF-4001",
+      "GDES-3062",
+      "GART-1003",
+      "SCTM-2005",
+      "GART-1018",
+      "CROS-3019",
+      "ILLU-1002",
+      "DIGF-2013",
+      "EXAN-2006",
+      "EXAN-2009",
+      "EXAN-3005",
+      "DIGF-3013",
+      "EXAN-3011"
+    ],
+    "require": [
+      "DIGF-1002",
+      "GDES-3062"
+    ],
+    "diversity": [
+      "DIGF-1002",
+      "HUMN-3008"
+    ],
+    "people": [
+      "DIGF-1002"
+    ],
+    "and": [
+      "DIGF-1002",
+      "DIGF-1001",
+      "MAAD-1003",
+      "ENGL-1003",
+      "DIGF-1007",
+      "GDES-1015",
+      "VISC-1002",
+      "DIGF-2014",
+      "DIGF-2015",
+      "DIGF-2016",
+      "INTM-2004",
+      "HUMN-2007",
+      "INTM-2017",
+      "VISM-2006",
+      "INTM-2003",
+      "VISM-2002",
+      "DIGF-3008",
+      "DIGF-3009",
+      "DIGF-3012",
+      "INDS-3013",
+      "BUSI-3003",
+      "DIGF-3007",
+      "GDES-3010",
+      "HUMN-3008",
+      "INDS-2021",
+      "SCTM-3003",
+      "DIGF-4002",
+      "GDES-3037",
+      "VISC-4008",
+      "DIGF-4897",
+      "GDES-3005",
+      "SCTM-3001",
+      "DIGF-4001",
+      "GDES-3062",
+      "SOSC-3013",
+      "DIGF-4904",
+      "GDES-3103",
+      "HUMN-3016",
+      "GART-1003",
+      "SCTM-2005",
+      "GART-1018",
+      "DIGF-2002",
+      "MAAD-1001",
+      "EXAN-2013",
+      "SOSC-2003",
+      "SCIN-2004",
+      "VISD-2005",
+      "CROS-3019",
+      "LIFE-3001",
+      "GDES-3092",
+      "VISD-3008",
+      "INDS-3003",
+      "SOSC-3014",
+      "ILLU-1002",
+      "EXAN-1001",
+      "INDS-1003",
+      "EXAN-2008",
+      "DIGF-2013",
+      "EXAN-2006",
+      "DIGF-2012",
+      "EXAN-2004",
+      "EXAN-2009",
+      "VISM-2003",
+      "EXAN-3005",
+      "DIGF-3013",
+      "EXAN-3011"
+    ],
+    "skills": [
+      "DIGF-1002",
+      "ENGL-1003",
+      "DIGF-1007",
+      "GDES-1015",
+      "DIGF-2015",
+      "INTM-2003",
+      "DIGF-3008",
+      "DIGF-3009",
+      "DIGF-4002",
+      "SCTM-3001",
+      "DIGF-2002",
+      "EXAN-2006"
+    ],
+    "order": [
+      "DIGF-1002",
+      "INDS-2021"
+    ],
+    "make": [
+      "DIGF-1002",
+      "SCTM-3001"
+    ],
+    "the": [
+      "DIGF-1002",
+      "DIGF-1001",
+      "ENGL-1003",
+      "DIGF-1007",
+      "GDES-1015",
+      "VISC-1002",
+      "DIGF-2014",
+      "DIGF-2015",
+      "DIGF-2016",
+      "HUMN-2007",
+      "INTM-2017",
+      "VISM-2006",
+      "INTM-2003",
+      "VISM-2002",
+      "DIGF-3008",
+      "DIGF-3009",
+      "DIGF-3012",
+      "INDS-3013",
+      "BUSI-3003",
+      "DIGF-3007",
+      "GDES-3010",
+      "HUMN-3008",
+      "INDS-2021",
+      "SCTM-3003",
+      "DIGF-4002",
+      "GDES-3037",
+      "VISC-4008",
+      "DIGF-4897",
+      "GDES-3005",
+      "SCTM-3001",
+      "DIGF-4001",
+      "GDES-3062",
+      "SOSC-3013",
+      "DIGF-4904",
+      "GDES-3103",
+      "HUMN-3016",
+      "GART-1003",
+      "SCTM-2005",
+      "DIGF-2002",
+      "EXAN-2013",
+      "SCIN-2004",
+      "CROS-3019",
+      "LIFE-3001",
+      "GDES-3092",
+      "VISD-3008",
+      "SOSC-3014",
+      "INDS-1003",
+      "EXAN-2008",
+      "DIGF-2013",
+      "EXAN-2006",
+      "DIGF-2012",
+      "VISM-2003",
+      "EXAN-3005",
+      "DIGF-3013"
+    ],
+    "project": [
+      "DIGF-1002",
+      "DIGF-2014",
+      "DIGF-3009",
+      "DIGF-3012",
+      "DIGF-4904"
+    ],
+    "successful": [
+      "DIGF-1002"
+    ],
+    "feasible": [
+      "DIGF-1002"
+    ],
+    "this": [
+      "DIGF-1002",
+      "DIGF-1001",
+      "ENGL-1003",
+      "DIGF-1007",
+      "GDES-1015",
+      "VISC-1002",
+      "DIGF-2014",
+      "DIGF-2015",
+      "DIGF-2016",
+      "INTM-2004",
+      "HUMN-2007",
+      "VISM-2006",
+      "INTM-2003",
+      "VISM-2002",
+      "DIGF-3008",
+      "DIGF-3012",
+      "INDS-3013",
+      "BUSI-3003",
+      "DIGF-3007",
+      "HUMN-3008",
+      "INDS-2021",
+      "SCTM-3003",
+      "DIGF-4002",
+      "GDES-3037",
+      "VISC-4008",
+      "GDES-3005",
+      "SCTM-3001",
+      "DIGF-4001",
+      "GDES-3062",
+      "SOSC-3013",
+      "DIGF-4904",
+      "GDES-3103",
+      "HUMN-3016",
+      "GART-1003",
+      "SCTM-2005",
+      "GART-1018",
+      "DIGF-2002",
+      "MAAD-1001",
+      "EXAN-2013",
+      "SOSC-2003",
+      "SCIN-2004",
+      "VISD-2005",
+      "CROS-3019",
+      "LIFE-3001",
+      "GDES-3092",
+      "VISD-3008",
+      "INDS-3003",
+      "SOSC-3014",
+      "ILLU-1002",
+      "EXAN-1001",
+      "INDS-1003",
+      "EXAN-2008",
+      "DIGF-2013",
+      "EXAN-2006",
+      "DIGF-2012",
+      "EXAN-2004",
+      "EXAN-2009",
+      "VISM-2003",
+      "EXAN-3005",
+      "DIGF-3013",
+      "EXAN-3011"
+    ],
+    "course": [
+      "DIGF-1002",
+      "DIGF-1001",
+      "ENGL-1003",
+      "DIGF-1007",
+      "GDES-1015",
+      "VISC-1002",
+      "DIGF-2014",
+      "DIGF-2015",
+      "DIGF-2016",
+      "INTM-2004",
+      "HUMN-2007",
+      "INTM-2017",
+      "VISM-2006",
+      "INTM-2003",
+      "VISM-2002",
+      "DIGF-3008",
+      "INDS-3013",
+      "BUSI-3003",
+      "DIGF-3007",
+      "HUMN-3008",
+      "SCTM-3003",
+      "DIGF-4002",
+      "GDES-3037",
+      "VISC-4008",
+      "GDES-3005",
+      "SCTM-3001",
+      "DIGF-4001",
+      "GDES-3062",
+      "SOSC-3013",
+      "DIGF-4904",
+      "GDES-3103",
+      "HUMN-3016",
+      "GART-1003",
+      "SCTM-2005",
+      "GART-1018",
+      "DIGF-2002",
+      "MAAD-1001",
+      "EXAN-2013",
+      "SOSC-2003",
+      "SCIN-2004",
+      "VISD-2005",
+      "CROS-3019",
+      "LIFE-3001",
+      "GDES-3092",
+      "VISD-3008",
+      "INDS-3003",
+      "SOSC-3014",
+      "ILLU-1002",
+      "EXAN-1001",
+      "INDS-1003",
+      "EXAN-2008",
+      "DIGF-2013",
+      "EXAN-2006",
+      "DIGF-2012",
+      "EXAN-2004",
+      "EXAN-2009",
+      "VISM-2003",
+      "EXAN-3005",
+      "DIGF-3013",
+      "EXAN-3011"
+    ],
+    "examines": [
+      "DIGF-1002",
+      "DIGF-1001",
+      "HUMN-2007",
+      "VISM-2002",
+      "INDS-3013",
+      "DIGF-3007",
+      "SCTM-3003",
+      "VISD-2005",
+      "VISD-3008",
+      "SOSC-3014"
+    ],
+    "different": [
+      "DIGF-1002",
+      "HUMN-3016"
+    ],
+    "models": [
+      "DIGF-1002",
+      "DIGF-1001",
+      "DIGF-4001",
+      "HUMN-3016",
+      "EXAN-2008",
+      "DIGF-2012"
+    ],
+    "collaboration": [
+      "DIGF-1002",
+      "DIGF-2015",
+      "DIGF-4001"
+    ],
+    "team": [
+      "DIGF-1002",
+      "INDS-2021",
+      "GDES-3037",
+      "DIGF-4001",
+      "DIGF-4904"
+    ],
+    "formation": [
+      "DIGF-1002"
+    ],
+    "communication": [
+      "DIGF-1002",
+      "DIGF-1001",
+      "HUMN-2007",
+      "GDES-3010",
+      "VISC-4008",
+      "GDES-3103"
+    ],
+    "ensure": [
+      "DIGF-1002"
+    ],
+    "success": [
+      "DIGF-1002"
+    ],
+    "discusses": [
+      "DIGF-1002"
+    ],
+    "value": [
+      "DIGF-1002",
+      "HUMN-3008"
+    ],
+    "implications": [
+      "DIGF-1002",
+      "INDS-3013"
+    ],
+    "skill": [
+      "DIGF-1002"
+    ],
+    "sets": [
+      "DIGF-1002"
+    ],
+    "problem": [
+      "DIGF-1002",
+      "DIGF-2014",
+      "DIGF-2015",
+      "DIGF-3008",
+      "HUMN-3008",
+      "SCTM-2005"
+    ],
+    "solving": [
+      "DIGF-1002",
+      "DIGF-2014",
+      "DIGF-2015",
+      "DIGF-3008",
+      "SCTM-2005"
+    ],
+    "orientations": [
+      "DIGF-1002"
+    ],
+    "over": [
+      "DIGF-1002"
+    ],
+    "life": [
+      "DIGF-1002",
+      "EXAN-3005"
+    ],
+    "cycles": [
+      "DIGF-1002"
+    ],
+    "group": [
+      "DIGF-1002",
+      "DIGF-2014"
+    ],
+    "decision": [
+      "DIGF-1002",
+      "BUSI-3003",
+      "DIGF-4001"
+    ],
+    "making": [
+      "DIGF-1002",
+      "DIGF-1001",
+      "MAAD-1003",
+      "DIGF-1007",
+      "VISM-2006",
+      "BUSI-3003",
+      "DIGF-4001",
+      "EXAN-2013"
+    ],
+    "comprises": [
+      "DIGF-1002"
+    ],
+    "reading": [
+      "DIGF-1002",
+      "ENGL-1003"
+    ],
+    "discussions": [
+      "DIGF-1002",
+      "DIGF-3012",
+      "DIGF-4001",
+      "GART-1003"
+    ],
+    "small": [
+      "DIGF-1002"
+    ],
+    "exercises": [
+      "DIGF-1002",
+      "ENGL-1003",
+      "DIGF-1007",
+      "ILLU-1002",
+      "EXAN-1001",
+      "EXAN-2006"
+    ],
+    "student": [
+      "DIGF-1002",
+      "DIGF-1001",
+      "DIGF-1007",
+      "DIGF-2014",
+      "INTM-2004",
+      "DIGF-3008",
+      "BUSI-3003"
+    ],
+    "reflections": [
+      "DIGF-1002"
+    ],
+    "with": [
+      "DIGF-1002",
+      "DIGF-1001",
+      "MAAD-1003",
+      "ENGL-1003",
+      "DIGF-1007",
+      "GDES-1015",
+      "VISC-1002",
+      "DIGF-2014",
+      "DIGF-2015",
+      "DIGF-2016",
+      "INTM-2004",
+      "HUMN-2007",
+      "VISM-2006",
+      "INTM-2003",
+      "DIGF-3008",
+      "DIGF-3012",
+      "BUSI-3003",
+      "HUMN-3008",
+      "INDS-2021",
+      "SCTM-3003",
+      "DIGF-4002",
+      "VISC-4008",
+      "DIGF-4897",
+      "GDES-3005",
+      "SCTM-3001",
+      "DIGF-4001",
+      "GDES-3062",
+      "SOSC-3013",
+      "DIGF-4904",
+      "GDES-3103",
+      "HUMN-3016",
+      "SCIN-2004",
+      "VISD-2005",
+      "CROS-3019",
+      "LIFE-3001",
+      "GDES-3092",
+      "DIGF-2012"
+    ],
+    "aim": [
+      "DIGF-1002"
+    ],
+    "understanding": [
+      "DIGF-1002",
+      "GDES-1015",
+      "VISM-2006",
+      "DIGF-3012",
+      "DIGF-3007",
+      "SCTM-3003",
+      "GDES-3037",
+      "SCTM-3001",
+      "SOSC-2003",
+      "CROS-3019",
+      "LIFE-3001",
+      "SOSC-3014",
+      "EXAN-1001"
+    ],
+    "conditions": [
+      "DIGF-1002",
+      "VISC-4008"
+    ],
+    "stages": [
+      "DIGF-1002",
+      "INTM-2017"
+    ],
+    "for": [
+      "DIGF-1002",
+      "DIGF-1001",
+      "ENGL-1003",
+      "DIGF-1007",
+      "GDES-1015",
+      "VISC-1002",
+      "DIGF-2016",
+      "INTM-2004",
+      "HUMN-2007",
+      "VISM-2006",
+      "INTM-2003",
+      "DIGF-3008",
+      "DIGF-3009",
+      "DIGF-3012",
+      "BUSI-3003",
+      "HUMN-3008",
+      "INDS-2021",
+      "SCTM-3003",
+      "DIGF-4002",
+      "GDES-3037",
+      "VISC-4008",
+      "DIGF-4897",
+      "GDES-3005",
+      "SCTM-3001",
+      "DIGF-4001",
+      "GDES-3062",
+      "SOSC-3013",
+      "DIGF-4904",
+      "GDES-3103",
+      "HUMN-3016",
+      "GART-1003",
+      "GART-1018",
+      "VISD-2005",
+      "INDS-3003",
+      "DIGF-2012",
+      "EXAN-3005",
+      "DIGF-3013"
+    ],
+    "high": [
+      "DIGF-1002"
+    ],
+    "functioning": [
+      "DIGF-1002",
+      "DIGF-4001"
+    ],
+    "teams": [
+      "DIGF-1002"
+    ],
+    "note": [
+      "DIGF-1002",
+      "DIGF-2015"
+    ],
+    "writing": [
+      "DIGF-1002",
+      "ENGL-1003",
+      "DIGF-2015"
+    ],
+    "across": [
+      "DIGF-1002",
+      "DIGF-2015"
+    ],
+    "curriculum": [
+      "DIGF-1002",
+      "DIGF-2014",
+      "DIGF-2015",
+      "DIGF-3008"
+    ],
+    "wac": [
+      "DIGF-1002",
+      "DIGF-2015"
+    ],
+    "part": [
+      "DIGF-1002",
+      "DIGF-1007",
+      "DIGF-2015"
+    ],
+    "initiative": [
+      "DIGF-1002",
+      "DIGF-2015"
+    ],
+    "support": [
+      "DIGF-1002",
+      "DIGF-1007",
+      "DIGF-2015",
+      "DIGF-3009",
+      "DIGF-3007"
+    ],
+    "students": [
+      "DIGF-1002",
+      "DIGF-1001",
+      "ENGL-1003",
+      "DIGF-1007",
+      "GDES-1015",
+      "VISC-1002",
+      "DIGF-2014",
+      "DIGF-2015",
+      "DIGF-2016",
+      "INTM-2004",
+      "HUMN-2007",
+      "INTM-2017",
+      "VISM-2006",
+      "INTM-2003",
+      "DIGF-3008",
+      "DIGF-3009",
+      "DIGF-3012",
+      "DIGF-3007",
+      "HUMN-3008",
+      "INDS-2021",
+      "SCTM-3003",
+      "DIGF-4002",
+      "GDES-3037",
+      "VISC-4008",
+      "DIGF-4897",
+      "GDES-3005",
+      "SCTM-3001",
+      "DIGF-4001",
+      "GDES-3062",
+      "DIGF-4904",
+      "GDES-3103",
+      "HUMN-3016",
+      "GART-1003",
+      "SCTM-2005",
+      "GART-1018",
+      "DIGF-2002",
+      "MAAD-1001",
+      "EXAN-2013",
+      "SOSC-2003",
+      "SCIN-2004",
+      "VISD-2005",
+      "CROS-3019",
+      "LIFE-3001",
+      "GDES-3092",
+      "VISD-3008",
+      "INDS-3003",
+      "SOSC-3014",
+      "ILLU-1002",
+      "EXAN-1001",
+      "INDS-1003",
+      "EXAN-2008",
+      "DIGF-2013",
+      "EXAN-2006",
+      "DIGF-2012",
+      "EXAN-2004",
+      "EXAN-2009",
+      "VISM-2003",
+      "EXAN-3005",
+      "DIGF-3013",
+      "EXAN-3011"
+    ],
+    "their": [
+      "DIGF-1002",
+      "DIGF-1001",
+      "ENGL-1003",
+      "DIGF-2014",
+      "DIGF-2015",
+      "INTM-2004",
+      "HUMN-2007",
+      "INTM-2017",
+      "DIGF-3008",
+      "DIGF-3009",
+      "DIGF-3012",
+      "INDS-3013",
+      "SCTM-3003",
+      "GDES-3037",
+      "DIGF-4897",
+      "SCTM-3001",
+      "GDES-3062",
+      "GART-1003",
+      "MAAD-1001",
+      "VISD-2005",
+      "EXAN-1001",
+      "DIGF-2013"
+    ],
+    "digital": [
+      "DIGF-1001",
+      "DIGF-1007",
+      "DIGF-2014",
+      "INTM-2017",
+      "VISM-2002",
+      "DIGF-3007",
+      "DIGF-4002",
+      "DIGF-4001",
+      "SCIN-2004",
+      "CROS-3019",
+      "GDES-3092",
+      "INDS-1003",
+      "EXAN-2006"
+    ],
+    "fabrication": [
+      "DIGF-1001",
+      "INTM-2017"
+    ],
+    "studio": [
+      "DIGF-1001",
+      "DIGF-1007",
+      "GDES-1015",
+      "DIGF-2014",
+      "DIGF-2016",
+      "DIGF-3008",
+      "DIGF-3012"
+    ],
+    "seminar": [
+      "DIGF-1001",
+      "DIGF-1007",
+      "DIGF-2014",
+      "DIGF-3008",
+      "DIGF-3012",
+      "DIGF-4001",
+      "HUMN-3016"
+    ],
+    "provides": [
+      "DIGF-1001",
+      "DIGF-1007",
+      "GDES-1015",
+      "DIGF-2016",
+      "DIGF-3008",
+      "DIGF-3012",
+      "DIGF-4904",
+      "VISM-2003"
+    ],
+    "practical": [
+      "DIGF-1001",
+      "ENGL-1003",
+      "DIGF-1007",
+      "DIGF-2015",
+      "SOSC-3013",
+      "CROS-3019",
+      "VISD-3008"
+    ],
+    "theoretical": [
+      "DIGF-1001",
+      "DIGF-1007",
+      "VISC-1002",
+      "HUMN-3008",
+      "SOSC-3013",
+      "VISD-2005",
+      "CROS-3019",
+      "VISD-3008"
+    ],
+    "introduction": [
+      "DIGF-1001",
+      "DIGF-1007",
+      "DIGF-2016",
+      "DIGF-3007",
+      "GDES-3005",
+      "VISM-2003"
+    ],
+    "concepts": [
+      "DIGF-1001",
+      "MAAD-1003",
+      "VISC-1002",
+      "SCTM-3003",
+      "SCTM-2005",
+      "VISD-3008",
+      "ILLU-1002",
+      "EXAN-1001",
+      "DIGF-2013",
+      "EXAN-3005"
+    ],
+    "methods": [
+      "DIGF-1001",
+      "MAAD-1003",
+      "DIGF-1007",
+      "DIGF-2015",
+      "INTM-2004",
+      "INTM-2017",
+      "DIGF-3009",
+      "SCTM-3001",
+      "GDES-3062",
+      "SOSC-2003",
+      "INDS-3003"
+    ],
+    "design": [
+      "DIGF-1001",
+      "DIGF-1007",
+      "VISC-1002",
+      "DIGF-2014",
+      "DIGF-2016",
+      "DIGF-3012",
+      "INDS-3013",
+      "DIGF-3007",
+      "GDES-3010",
+      "INDS-2021",
+      "SCTM-3003",
+      "GDES-3037",
+      "VISC-4008",
+      "DIGF-4897",
+      "SCTM-3001",
+      "GDES-3062",
+      "GDES-3103",
+      "MAAD-1001",
+      "EXAN-2013",
+      "SOSC-2003",
+      "SCIN-2004",
+      "VISD-2005",
+      "LIFE-3001",
+      "GDES-3092",
+      "VISD-3008",
+      "INDS-3003",
+      "ILLU-1002",
+      "INDS-1003",
+      "DIGF-2013",
+      "EXAN-2004",
+      "VISM-2003",
+      "EXAN-3005",
+      "DIGF-3013",
+      "EXAN-3011"
+    ],
+    "production": [
+      "DIGF-1001",
+      "INTM-2017",
+      "GDES-3010",
+      "INDS-2021",
+      "GDES-3005"
+    ],
+    "how": [
+      "DIGF-1001",
+      "GDES-1015",
+      "HUMN-2007",
+      "INTM-2017",
+      "VISM-2006",
+      "INDS-3013",
+      "HUMN-3008",
+      "INDS-2021",
+      "SCTM-3001",
+      "HUMN-3016",
+      "GART-1003",
+      "GART-1018",
+      "MAAD-1001",
+      "VISD-2005",
+      "CROS-3019",
+      "LIFE-3001",
+      "SOSC-3014",
+      "ILLU-1002",
+      "INDS-1003"
+    ],
+    "sketching": [
+      "DIGF-1001"
+    ],
+    "generative": [
+      "DIGF-1001"
+    ],
+    "can": [
+      "DIGF-1001",
+      "HUMN-2007",
+      "VISM-2006",
+      "INDS-3013",
+      "GDES-3062",
+      "HUMN-3016",
+      "GART-1018",
+      "CROS-3019",
+      "ILLU-1002",
+      "INDS-1003"
+    ],
+    "used": [
+      "DIGF-1001",
+      "INDS-3013",
+      "GDES-3037",
+      "VISC-4008",
+      "GDES-3062",
+      "GDES-3103",
+      "GART-1003"
+    ],
+    "exploration": [
+      "DIGF-1001",
+      "VISM-2006",
+      "GDES-3010",
+      "GDES-3037"
+    ],
+    "complex": [
+      "DIGF-1001",
+      "HUMN-2007",
+      "BUSI-3003",
+      "DIGF-3007",
+      "EXAN-2009",
+      "EXAN-3011"
+    ],
+    "ideas": [
+      "DIGF-1001",
+      "DIGF-2015",
+      "ILLU-1002"
+    ],
+    "applications": [
+      "DIGF-1001",
+      "INDS-2021",
+      "SCIN-2004"
+    ],
+    "range": [
+      "DIGF-1001",
+      "DIGF-1007",
+      "DIGF-2015",
+      "VISM-2006",
+      "DIGF-3007"
+    ],
+    "constructing": [
+      "DIGF-1001"
+    ],
+    "physical": [
+      "DIGF-1001",
+      "DIGF-2015",
+      "DIGF-2016",
+      "DIGF-2002",
+      "GDES-3092",
+      "INDS-1003"
+    ],
+    "space": [
+      "DIGF-1001",
+      "DIGF-3012",
+      "DIGF-4904",
+      "GDES-3092",
+      "INDS-1003",
+      "EXAN-2004",
+      "EXAN-3011"
+    ],
+    "creating": [
+      "DIGF-1001",
+      "GDES-3037",
+      "GART-1018",
+      "EXAN-2006",
+      "DIGF-2012",
+      "EXAN-3005"
+    ],
+    "generating": [
+      "DIGF-1001"
+    ],
+    "forms": [
+      "DIGF-1001",
+      "MAAD-1003",
+      "VISM-2006",
+      "DIGF-4002",
+      "GART-1003"
+    ],
+    "transforming": [
+      "DIGF-1001"
+    ],
+    "into": [
+      "DIGF-1001",
+      "DIGF-2016",
+      "INTM-2004",
+      "HUMN-2007",
+      "DIGF-3012",
+      "INDS-3013",
+      "EXAN-3011"
+    ],
+    "objects": [
+      "DIGF-1001",
+      "GDES-3005",
+      "DIGF-2002",
+      "SCIN-2004",
+      "INDS-1003",
+      "EXAN-2008"
+    ],
+    "undertaken": [
+      "DIGF-1001"
+    ],
+    "will": [
+      "DIGF-1001",
+      "ENGL-1003",
+      "DIGF-1007",
+      "GDES-1015",
+      "VISC-1002",
+      "DIGF-2016",
+      "HUMN-2007",
+      "INTM-2017",
+      "VISM-2006",
+      "VISM-2002",
+      "DIGF-3012",
+      "INDS-3013",
+      "DIGF-3007",
+      "GDES-3010",
+      "HUMN-3008",
+      "INDS-2021",
+      "SCTM-3003",
+      "DIGF-4002",
+      "GDES-3037",
+      "VISC-4008",
+      "DIGF-4897",
+      "DIGF-4001",
+      "DIGF-4904",
+      "HUMN-3016",
+      "GART-1003",
+      "SCTM-2005",
+      "GART-1018",
+      "DIGF-2002",
+      "MAAD-1001",
+      "EXAN-2013",
+      "SOSC-2003",
+      "SCIN-2004",
+      "VISD-2005",
+      "CROS-3019",
+      "LIFE-3001",
+      "GDES-3092",
+      "VISD-3008",
+      "INDS-3003",
+      "SOSC-3014",
+      "ILLU-1002",
+      "EXAN-1001",
+      "INDS-1003",
+      "EXAN-2008",
+      "DIGF-2013",
+      "EXAN-2006",
+      "DIGF-2012",
+      "EXAN-2004",
+      "EXAN-2009",
+      "VISM-2003",
+      "EXAN-3005",
+      "DIGF-3013",
+      "EXAN-3011"
+    ],
+    "lead": [
+      "DIGF-1001"
+    ],
+    "informed": [
+      "DIGF-1001",
+      "HUMN-3008"
+    ],
+    "choice": [
+      "DIGF-1001"
+    ],
+    "appropriate": [
+      "DIGF-1001",
+      "SCTM-3001"
+    ],
+    "tool": [
+      "DIGF-1001",
+      "DIGF-3007"
+    ],
+    "particular": [
+      "DIGF-1001",
+      "VISC-1002",
+      "INTM-2003",
+      "BUSI-3003",
+      "DIGF-3007"
+    ],
+    "idea": [
+      "DIGF-1001",
+      "MAAD-1003"
+    ],
+    "learn": [
+      "DIGF-1001",
+      "DIGF-1007",
+      "DIGF-2016",
+      "INTM-2004",
+      "INTM-2017",
+      "VISM-2006",
+      "DIGF-3012",
+      "HUMN-3008",
+      "INDS-2021",
+      "GDES-3037",
+      "SCTM-3001",
+      "GART-1003",
+      "SCTM-2005",
+      "GART-1018",
+      "DIGF-2002",
+      "MAAD-1001",
+      "EXAN-2013",
+      "SOSC-2003",
+      "SCIN-2004",
+      "GDES-3092",
+      "INDS-3003",
+      "ILLU-1002",
+      "EXAN-1001",
+      "EXAN-2008",
+      "DIGF-2013",
+      "EXAN-2006",
+      "DIGF-2012",
+      "EXAN-2004",
+      "EXAN-3005",
+      "DIGF-3013"
+    ],
+    "build": [
+      "DIGF-1001",
+      "DIGF-1007",
+      "INTM-2003",
+      "DIGF-3007",
+      "DIGF-4002"
+    ],
+    "own": [
+      "DIGF-1001",
+      "ENGL-1003",
+      "DIGF-4904",
+      "GART-1003",
+      "VISD-2005",
+      "DIGF-2013"
+    ],
+    "techniques": [
+      "DIGF-1001",
+      "DIGF-2016",
+      "INTM-2003",
+      "DIGF-3012",
+      "GDES-3010",
+      "GDES-3005",
+      "GDES-3062",
+      "GDES-3103",
+      "SCTM-2005",
+      "GART-1018",
+      "MAAD-1001",
+      "EXAN-2013",
+      "SOSC-2003",
+      "SCIN-2004",
+      "INDS-3003",
+      "ILLU-1002",
+      "EXAN-1001",
+      "EXAN-2008",
+      "DIGF-2012",
+      "EXAN-2009",
+      "EXAN-3005"
+    ],
+    "process": [
+      "DIGF-1001",
+      "MAAD-1003",
+      "DIGF-1007",
+      "DIGF-2014",
+      "DIGF-3008",
+      "INDS-2021",
+      "SCTM-3001",
+      "GDES-3103"
+    ],
+    "visualizations": [
+      "DIGF-1001",
+      "GDES-3103"
+    ],
+    "presentations": [
+      "DIGF-1001",
+      "DIGF-2014"
+    ],
+    "credit": [
+      "DIGF-1001",
+      "ENGL-1003",
+      "DIGF-1007",
+      "GDES-1015",
+      "VISC-1002",
+      "DIGF-2016",
+      "INTM-2004",
+      "HUMN-2007",
+      "VISM-2006",
+      "INTM-2003",
+      "HUMN-3008",
+      "SCTM-3003",
+      "VISC-4008",
+      "DIGF-4897",
+      "GDES-3005",
+      "SCTM-3001",
+      "DIGF-4001",
+      "GDES-3062",
+      "DIGF-4904",
+      "GDES-3103",
+      "HUMN-3016"
+    ],
+    "digf": [
+      "DIGF-1001",
+      "DIGF-1007",
+      "DIGF-2016",
+      "DIGF-4001",
+      "DIGF-4904"
+    ],
+    "1b01": [
+      "DIGF-1001"
+    ],
+    "may": [
+      "DIGF-1001",
+      "ENGL-1003",
+      "DIGF-1007",
+      "GDES-1015",
+      "VISC-1002",
+      "DIGF-2016",
+      "INTM-2004",
+      "HUMN-2007",
+      "VISM-2006",
+      "INTM-2003",
+      "HUMN-3008",
+      "SCTM-3003",
+      "VISC-4008",
+      "GDES-3005",
+      "SCTM-3001",
+      "DIGF-4001",
+      "GDES-3062",
+      "DIGF-4904",
+      "GDES-3103",
+      "HUMN-3016"
+    ],
+    "not": [
+      "DIGF-1001",
+      "ENGL-1003",
+      "DIGF-1007",
+      "GDES-1015",
+      "VISC-1002",
+      "DIGF-2016",
+      "INTM-2004",
+      "HUMN-2007",
+      "VISM-2006",
+      "INTM-2003",
+      "HUMN-3008",
+      "SCTM-3003",
+      "VISC-4008",
+      "GDES-3005",
+      "SCTM-3001",
+      "DIGF-4001",
+      "GDES-3062",
+      "GDES-3103",
+      "HUMN-3016"
+    ],
+    "take": [
+      "DIGF-1001",
+      "ENGL-1003",
+      "DIGF-1007",
+      "GDES-1015",
+      "VISC-1002",
+      "DIGF-2016",
+      "INTM-2004",
+      "HUMN-2007",
+      "VISM-2006",
+      "INTM-2003",
+      "HUMN-3008",
+      "SCTM-3003",
+      "VISC-4008",
+      "GDES-3005",
+      "SCTM-3001",
+      "DIGF-4001",
+      "GDES-3062",
+      "GDES-3103",
+      "HUMN-3016"
+    ],
+    "experimental": [
+      "MAAD-1003",
+      "INTM-2017",
+      "DIGF-3012",
+      "EXAN-1001"
+    ],
+    "approaches": [
+      "MAAD-1003",
+      "DIGF-1007",
+      "DIGF-2015",
+      "HUMN-2007",
+      "VISM-2006",
+      "SCTM-3001",
+      "GART-1003",
+      "SOSC-2003",
+      "LIFE-3001",
+      "EXAN-1001"
+    ],
+    "using": [
+      "MAAD-1003",
+      "VISC-1002",
+      "INTM-2004",
+      "GART-1003",
+      "SCTM-2005",
+      "EXAN-2013",
+      "SCIN-2004",
+      "EXAN-2008"
+    ],
+    "found": [
+      "MAAD-1003"
+    ],
+    "repurposed": [
+      "MAAD-1003"
+    ],
+    "unusual": [
+      "MAAD-1003"
+    ],
+    "materials": [
+      "MAAD-1003",
+      "INTM-2017",
+      "MAAD-1001",
+      "EXAN-2013",
+      "EXAN-2008"
+    ],
+    "are": [
+      "MAAD-1003",
+      "DIGF-1007",
+      "GDES-1015",
+      "DIGF-2014",
+      "INTM-2004",
+      "INTM-2003",
+      "INDS-3013",
+      "DIGF-3007",
+      "GDES-3010",
+      "GDES-3037",
+      "GDES-3005",
+      "GDES-3062",
+      "SOSC-3013"
+    ],
+    "explored": [
+      "MAAD-1003",
+      "INTM-2017",
+      "VISM-2002",
+      "GDES-3005",
+      "GDES-3062"
+    ],
+    "develop": [
+      "MAAD-1003",
+      "ENGL-1003",
+      "GDES-1015",
+      "DIGF-2015",
+      "INTM-2004",
+      "DIGF-3008",
+      "DIGF-3012",
+      "HUMN-3008",
+      "DIGF-4904",
+      "GART-1003",
+      "VISD-2005",
+      "ILLU-1002",
+      "EXAN-1001",
+      "EXAN-2006",
+      "EXAN-2004"
+    ],
+    "innovative": [
+      "MAAD-1003"
+    ],
+    "art": [
+      "MAAD-1003",
+      "VISC-1002",
+      "DIGF-2014",
+      "DIGF-2016",
+      "INTM-2017",
+      "VISM-2006",
+      "VISM-2002",
+      "DIGF-3012",
+      "INDS-2021",
+      "VISC-4008",
+      "DIGF-4897",
+      "HUMN-3016",
+      "GART-1003",
+      "GART-1018",
+      "MAAD-1001",
+      "EXAN-2013",
+      "SCIN-2004",
+      "DIGF-2012"
+    ],
+    "functional": [
+      "MAAD-1003",
+      "MAAD-1001"
+    ],
+    "through": [
+      "MAAD-1003",
+      "ENGL-1003",
+      "DIGF-1007",
+      "VISC-1002",
+      "DIGF-2014",
+      "DIGF-2016",
+      "INTM-2017",
+      "VISM-2006",
+      "DIGF-3008",
+      "DIGF-3012",
+      "GDES-3010",
+      "INDS-2021",
+      "GDES-3037",
+      "SOSC-3013",
+      "DIGF-4904",
+      "GART-1003",
+      "EXAN-2013",
+      "CROS-3019",
+      "ILLU-1002",
+      "EXAN-1001",
+      "DIGF-2013",
+      "EXAN-2006",
+      "EXAN-3005",
+      "DIGF-3013"
+    ],
+    "play": [
+      "MAAD-1003",
+      "DIGF-1007",
+      "VISM-2006"
+    ],
+    "include": [
+      "MAAD-1003",
+      "INTM-2003",
+      "GDES-3010",
+      "SCTM-3003",
+      "VISC-4008",
+      "INDS-1003"
+    ],
+    "working": [
+      "MAAD-1003",
+      "INTM-2017",
+      "INDS-2021"
+    ],
+    "themes": [
+      "MAAD-1003",
+      "VISC-1002",
+      "DIGF-2014",
+      "BUSI-3003",
+      "LIFE-3001"
+    ],
+    "bodies": [
+      "MAAD-1003",
+      "HUMN-3016",
+      "CROS-3019",
+      "LIFE-3001",
+      "INDS-1003"
+    ],
+    "site": [
+      "MAAD-1003",
+      "DIGF-2014",
+      "DIGF-4897"
+    ],
+    "specific": [
+      "MAAD-1003",
+      "GDES-3010",
+      "SCTM-3001",
+      "DIGF-2013",
+      "EXAN-3005"
+    ],
+    "locations": [
+      "MAAD-1003"
+    ],
+    "land": [
+      "MAAD-1003",
+      "SCTM-3003"
+    ],
+    "based": [
+      "MAAD-1003",
+      "DIGF-2015",
+      "DIGF-3008",
+      "DIGF-3009",
+      "DIGF-3012",
+      "GDES-3010",
+      "SCTM-3001",
+      "GDES-3062",
+      "EXAN-1001"
+    ],
+    "learning": [
+      "MAAD-1003",
+      "GDES-3037",
+      "DIGF-4897",
+      "EXAN-2009"
+    ],
+    "emphasis": [
+      "MAAD-1003",
+      "VISC-1002"
+    ],
+    "generation": [
+      "MAAD-1003",
+      "DIGF-4002"
+    ],
+    "documenting": [
+      "MAAD-1003"
+    ],
+    "work": [
+      "MAAD-1003",
+      "DIGF-2014",
+      "DIGF-2015",
+      "INTM-2017",
+      "DIGF-3009",
+      "VISC-4008",
+      "DIGF-4897",
+      "DIGF-4904",
+      "EXAN-1001",
+      "EXAN-2009",
+      "EXAN-3011"
+    ],
+    "communicating": [
+      "MAAD-1003"
+    ],
+    "others": [
+      "MAAD-1003"
+    ],
+    "essay": [
+      "ENGL-1003"
+    ],
+    "argument": [
+      "ENGL-1003"
+    ],
+    "designed": [
+      "ENGL-1003",
+      "BUSI-3003"
+    ],
+    "specifically": [
+      "ENGL-1003"
+    ],
+    "who": [
+      "ENGL-1003",
+      "SOSC-3013"
+    ],
+    "wish": [
+      "ENGL-1003"
+    ],
+    "sharpen": [
+      "ENGL-1003"
+    ],
+    "intensive": [
+      "ENGL-1003"
+    ],
+    "practice": [
+      "ENGL-1003",
+      "DIGF-2015",
+      "INTM-2017",
+      "DIGF-3008",
+      "DIGF-3009",
+      "GDES-3037",
+      "GDES-3005",
+      "GDES-3062",
+      "SOSC-2003",
+      "VISD-2005"
+    ],
+    "review": [
+      "ENGL-1003"
+    ],
+    "composition": [
+      "ENGL-1003",
+      "INTM-2004"
+    ],
+    "mechanics": [
+      "ENGL-1003",
+      "INTM-2003",
+      "DIGF-3007",
+      "EXAN-2013",
+      "DIGF-2013",
+      "DIGF-3013"
+    ],
+    "english": [
+      "ENGL-1003"
+    ],
+    "grammar": [
+      "ENGL-1003"
+    ],
+    "focus": [
+      "ENGL-1003",
+      "INTM-2017",
+      "SCTM-3003",
+      "GDES-3037"
+    ],
+    "fundamentals": [
+      "ENGL-1003",
+      "DIGF-1007",
+      "DIGF-2002",
+      "EXAN-2008",
+      "EXAN-2009"
+    ],
+    "paragraph": [
+      "ENGL-1003"
+    ],
+    "construction": [
+      "ENGL-1003",
+      "SOSC-3014"
+    ],
+    "strategies": [
+      "ENGL-1003",
+      "DIGF-2014",
+      "INDS-3013",
+      "SCTM-3001",
+      "DIGF-2012"
+    ],
+    "workshop": [
+      "ENGL-1003"
+    ],
+    "allows": [
+      "ENGL-1003"
+    ],
+    "explore": [
+      "ENGL-1003",
+      "GDES-1015",
+      "VISC-1002",
+      "DIGF-2014",
+      "VISM-2006",
+      "INDS-3013",
+      "VISD-3008",
+      "ILLU-1002",
+      "EXAN-1001",
+      "VISM-2003",
+      "DIGF-3013"
+    ],
+    "aspects": [
+      "ENGL-1003",
+      "BUSI-3003",
+      "DIGF-4002",
+      "DIGF-2012"
+    ],
+    "while": [
+      "ENGL-1003",
+      "VISC-1002",
+      "INTM-2017",
+      "INDS-2021",
+      "MAAD-1001",
+      "DIGF-2013"
+    ],
+    "developing": [
+      "ENGL-1003",
+      "GDES-1015",
+      "DIGF-3012",
+      "INDS-3013",
+      "DIGF-2002"
+    ],
+    "confidence": [
+      "ENGL-1003"
+    ],
+    "select": [
+      "ENGL-1003"
+    ],
+    "basic": [
+      "ENGL-1003",
+      "GDES-1015",
+      "DIGF-2016",
+      "INTM-2003",
+      "SCTM-2005",
+      "DIGF-2002",
+      "MAAD-1001",
+      "EXAN-2013",
+      "EXAN-2008",
+      "DIGF-2013"
+    ],
+    "such": [
+      "ENGL-1003",
+      "VISC-1002",
+      "VISM-2006",
+      "INTM-2003",
+      "INDS-3013",
+      "HUMN-3008",
+      "SCTM-3003",
+      "SOSC-3014"
+    ],
+    "sentence": [
+      "ENGL-1003"
+    ],
+    "structure": [
+      "ENGL-1003",
+      "GDES-1015",
+      "DIGF-3007",
+      "GDES-3037"
+    ],
+    "punctuation": [
+      "ENGL-1003"
+    ],
+    "well": [
+      "ENGL-1003",
+      "BUSI-3003",
+      "DIGF-4001",
+      "HUMN-3016"
+    ],
+    "critical": [
+      "ENGL-1003",
+      "VISC-1002",
+      "HUMN-2007",
+      "VISM-2006",
+      "DIGF-3007",
+      "DIGF-4002",
+      "SCTM-3001",
+      "VISM-2003"
+    ],
+    "thinking": [
+      "ENGL-1003",
+      "SCTM-3001",
+      "SCTM-2005",
+      "VISD-2005",
+      "INDS-3003"
+    ],
+    "engl": [
+      "ENGL-1003"
+    ],
+    "1004": [
+      "ENGL-1003"
+    ],
+    "1b03": [
+      "ENGL-1003"
+    ],
+    "1b04": [
+      "ENGL-1003"
+    ],
+    "lbst": [
+      "ENGL-1003",
+      "VISC-1002"
+    ],
+    "1a41": [
+      "ENGL-1003"
+    ],
+    "1b11": [
+      "ENGL-1003"
+    ],
+    "1b05": [
+      "ENGL-1003",
+      "VISC-1002"
+    ],
+    "1a42": [
+      "ENGL-1003"
+    ],
+    "1b12": [
+      "ENGL-1003"
+    ],
+    "1a43": [
+      "ENGL-1003"
+    ],
+    "1b13": [
+      "ENGL-1003"
+    ],
+    "1001": [
+      "ENGL-1003"
+    ],
+    "1a40": [
+      "ENGL-1003"
+    ],
+    "intro": [
+      "DIGF-1007",
+      "DIGF-2016",
+      "SCTM-2005",
+      "MAAD-1001",
+      "EXAN-1001",
+      "EXAN-2008"
+    ],
+    "game": [
+      "DIGF-1007",
+      "VISM-2006",
+      "DIGF-3007",
+      "DIGF-2013",
+      "DIGF-2012",
+      "VISM-2003",
+      "DIGF-3013"
+    ],
+    "film": [
+      "DIGF-1007",
+      "INTM-2004",
+      "INTM-2017",
+      "DIGF-3012",
+      "INDS-2021",
+      "HUMN-3016"
+    ],
+    "television": [
+      "DIGF-1007"
+    ],
+    "animation": [
+      "DIGF-1007",
+      "GDES-3010",
+      "EXAN-2013",
+      "EXAN-1001",
+      "EXAN-2008",
+      "EXAN-2006",
+      "EXAN-2009",
+      "EXAN-3005"
+    ],
+    "web": [
+      "DIGF-1007"
+    ],
+    "mobile": [
+      "DIGF-1007"
+    ],
+    "games": [
+      "DIGF-1007",
+      "VISM-2006",
+      "DIGF-3007",
+      "GDES-3005",
+      "DIGF-2013",
+      "DIGF-2012",
+      "VISM-2003",
+      "EXAN-3005",
+      "DIGF-3013"
+    ],
+    "central": [
+      "DIGF-1007"
+    ],
+    "modern": [
+      "DIGF-1007"
+    ],
+    "media": [
+      "DIGF-1007",
+      "INTM-2004",
+      "INTM-2017",
+      "VISM-2002",
+      "DIGF-3012",
+      "GDES-3010",
+      "GDES-3005",
+      "SOSC-3013",
+      "SCIN-2004",
+      "GDES-3092",
+      "EXAN-1001"
+    ],
+    "experience": [
+      "DIGF-1007",
+      "DIGF-2016",
+      "INDS-3013",
+      "DIGF-4897",
+      "HUMN-3016",
+      "DIGF-2013",
+      "EXAN-2004"
+    ],
+    "via": [
+      "DIGF-1007",
+      "SOSC-3013"
+    ],
+    "series": [
+      "DIGF-1007"
+    ],
+    "applied": [
+      "DIGF-1007",
+      "GDES-3010"
+    ],
+    "studies": [
+      "DIGF-1007",
+      "INTM-2004",
+      "HUMN-2007",
+      "VISM-2002",
+      "DIGF-4002",
+      "DIGF-4897",
+      "DIGF-4001",
+      "VISM-2003"
+    ],
+    "gameplay": [
+      "DIGF-1007",
+      "DIGF-3013"
+    ],
+    "foundational": [
+      "DIGF-1007",
+      "GDES-1015"
+    ],
+    "broad": [
+      "DIGF-1007",
+      "VISC-4008"
+    ],
+    "application": [
+      "DIGF-1007",
+      "BUSI-3003",
+      "SCTM-2005"
+    ],
+    "class": [
+      "DIGF-1007",
+      "DIGF-3012",
+      "INDS-2021",
+      "VISC-4008",
+      "SOSC-3013"
+    ],
+    "frame": [
+      "DIGF-1007"
+    ],
+    "rules": [
+      "DIGF-1007",
+      "VISM-2006"
+    ],
+    "culture": [
+      "DIGF-1007",
+      "VISC-1002",
+      "VISM-2006",
+      "VISM-2002",
+      "GDES-3037",
+      "HUMN-3016",
+      "VISM-2003"
+    ],
+    "apply": [
+      "DIGF-1007",
+      "DIGF-2014",
+      "INDS-2021",
+      "SCTM-3003",
+      "EXAN-2008",
+      "EXAN-2006"
+    ],
+    "playful": [
+      "DIGF-1007"
+    ],
+    "experiences": [
+      "DIGF-1007",
+      "DIGF-3012",
+      "DIGF-3007",
+      "GDES-3037",
+      "DIGF-4001",
+      "SOSC-2003",
+      "GDES-3092",
+      "EXAN-2004",
+      "EXAN-3011"
+    ],
+    "1b02": [
+      "DIGF-1007"
+    ],
+    "gdes": [
+      "DIGF-1007",
+      "GDES-1015",
+      "DIGF-2016",
+      "GDES-3005",
+      "GDES-3062",
+      "GDES-3103"
+    ],
+    "1028": [
+      "DIGF-1007"
+    ],
+    "1b30": [
+      "DIGF-1007"
+    ],
+    "typography": [
+      "GDES-1015"
+    ],
+    "introductory": [
+      "GDES-1015",
+      "MAAD-1001"
+    ],
+    "vocabulary": [
+      "GDES-1015"
+    ],
+    "use": [
+      "GDES-1015",
+      "INTM-2003",
+      "SCTM-3003",
+      "GDES-3037",
+      "GDES-3062",
+      "DIGF-4904"
+    ],
+    "letterforms": [
+      "GDES-1015"
+    ],
+    "they": [
+      "GDES-1015",
+      "DIGF-3009",
+      "EXAN-2006"
+    ],
+    "combine": [
+      "GDES-1015",
+      "INTM-2017",
+      "GART-1018"
+    ],
+    "form": [
+      "GDES-1015",
+      "GART-1018"
+    ],
+    "words": [
+      "GDES-1015"
+    ],
+    "text": [
+      "GDES-1015"
+    ],
+    "meaning": [
+      "GDES-1015",
+      "VISM-2006",
+      "SCTM-3001"
+    ],
+    "anatomy": [
+      "GDES-1015"
+    ],
+    "formal": [
+      "GDES-1015"
+    ],
+    "relationships": [
+      "GDES-1015",
+      "GDES-3103",
+      "INDS-1003"
+    ],
+    "between": [
+      "GDES-1015",
+      "SCTM-3001",
+      "GART-1003",
+      "INDS-1003"
+    ],
+    "them": [
+      "GDES-1015",
+      "INTM-2004",
+      "INDS-3013",
+      "EXAN-3005"
+    ],
+    "considered": [
+      "GDES-1015"
+    ],
+    "exposed": [
+      "GDES-1015"
+    ],
+    "current": [
+      "GDES-1015",
+      "DIGF-2014",
+      "DIGF-4904",
+      "VISD-2005"
+    ],
+    "typographic": [
+      "GDES-1015"
+    ],
+    "classification": [
+      "GDES-1015"
+    ],
+    "technology": [
+      "GDES-1015",
+      "VISC-1002",
+      "VISM-2002",
+      "GDES-3037",
+      "DIGF-4001",
+      "GART-1003",
+      "GART-1018",
+      "CROS-3019",
+      "LIFE-3001",
+      "SOSC-3014"
+    ],
+    "systems": [
+      "GDES-1015",
+      "DIGF-2016",
+      "HUMN-2007",
+      "DIGF-2002"
+    ],
+    "ability": [
+      "GDES-1015"
+    ],
+    "employ": [
+      "GDES-1015",
+      "HUMN-2007"
+    ],
+    "first": [
+      "GDES-1015",
+      "VISC-1002",
+      "DIGF-2015"
+    ],
+    "step": [
+      "GDES-1015"
+    ],
+    "toward": [
+      "GDES-1015",
+      "GDES-3103"
+    ],
+    "mastery": [
+      "GDES-1015"
+    ],
+    "1015": [
+      "GDES-1015"
+    ],
+    "1b17": [
+      "GDES-1015"
+    ],
+    "grph": [
+      "GDES-1015",
+      "GDES-3062"
+    ],
+    "2a04": [
+      "GDES-1015"
+    ],
+    "global": [
+      "VISC-1002",
+      "VISM-2002",
+      "BUSI-3003",
+      "HUMN-3008",
+      "SOSC-3013"
+    ],
+    "vis": [
+      "VISC-1002"
+    ],
+    "mat": [
+      "VISC-1002"
+    ],
+    "cult": [
+      "VISC-1002"
+    ],
+    "pres": [
+      "VISC-1002"
+    ],
+    "lecture": [
+      "VISC-1002"
+    ],
+    "surveys": [
+      "VISC-1002"
+    ],
+    "developments": [
+      "VISC-1002",
+      "VISM-2002",
+      "VISD-2005"
+    ],
+    "nineteenth": [
+      "VISC-1002"
+    ],
+    "twentieth": [
+      "VISC-1002"
+    ],
+    "century": [
+      "VISC-1002"
+    ],
+    "architecture": [
+      "VISC-1002",
+      "DIGF-3012"
+    ],
+    "material": [
+      "VISC-1002",
+      "INTM-2004",
+      "DIGF-3012"
+    ],
+    "historical": [
+      "VISC-1002",
+      "INTM-2004",
+      "HUMN-2007",
+      "SOSC-3013",
+      "VISM-2003"
+    ],
+    "intellectual": [
+      "VISC-1002",
+      "VISM-2002"
+    ],
+    "socioeconomic": [
+      "VISC-1002"
+    ],
+    "contexts": [
+      "VISC-1002"
+    ],
+    "period": [
+      "VISC-1002"
+    ],
+    "key": [
+      "VISC-1002",
+      "VISM-2002",
+      "DIGF-3008",
+      "HUMN-3008",
+      "DIGF-4001"
+    ],
+    "examples": [
+      "VISC-1002",
+      "INTM-2004"
+    ],
+    "visual": [
+      "VISC-1002",
+      "INTM-2004",
+      "VISM-2006",
+      "VISM-2002",
+      "GDES-3010",
+      "INDS-2021",
+      "VISC-4008",
+      "SOSC-3013",
+      "ILLU-1002"
+    ],
+    "addressing": [
+      "VISC-1002",
+      "HUMN-2007",
+      "VISD-3008"
+    ],
+    "industrialization": [
+      "VISC-1002",
+      "VISM-2002"
+    ],
+    "imperialism": [
+      "VISC-1002"
+    ],
+    "propaganda": [
+      "VISC-1002"
+    ],
+    "mass": [
+      "VISC-1002",
+      "VISM-2002"
+    ],
+    "reproduction": [
+      "VISC-1002"
+    ],
+    "globalization": [
+      "VISC-1002",
+      "VISC-4008"
+    ],
+    "placed": [
+      "VISC-1002",
+      "GDES-3062"
+    ],
+    "issues": [
+      "VISC-1002",
+      "DIGF-2014",
+      "HUMN-3008",
+      "SCTM-3003",
+      "VISC-4008",
+      "DIGF-4001",
+      "GART-1003"
+    ],
+    "emerging": [
+      "VISC-1002",
+      "DIGF-2016",
+      "DIGF-3007",
+      "SCTM-3003",
+      "DIGF-4897",
+      "LIFE-3001"
+    ],
+    "during": [
+      "VISC-1002",
+      "DIGF-4001"
+    ],
+    "time": [
+      "VISC-1002",
+      "VISM-2002",
+      "GDES-3010",
+      "DIGF-4001",
+      "EXAN-1001",
+      "DIGF-2012"
+    ],
+    "including": [
+      "VISC-1002",
+      "DIGF-2014",
+      "VISM-2006",
+      "VISM-2002",
+      "SCTM-2005",
+      "MAAD-1001",
+      "EXAN-1001",
+      "EXAN-2004"
+    ],
+    "exoticism": [
+      "VISC-1002"
+    ],
+    "scientific": [
+      "VISC-1002",
+      "HUMN-2007",
+      "SCTM-3003"
+    ],
+    "truth": [
+      "VISC-1002"
+    ],
+    "images": [
+      "VISC-1002",
+      "SOSC-3013"
+    ],
+    "public": [
+      "VISC-1002"
+    ],
+    "sphere": [
+      "VISC-1002"
+    ],
+    "commodity": [
+      "VISC-1002"
+    ],
+    "hybridity": [
+      "VISC-1002",
+      "LIFE-3001"
+    ],
+    "indigeneity": [
+      "VISC-1002"
+    ],
+    "perspective": [
+      "VISC-1002",
+      "SCTM-3003",
+      "DIGF-4904"
+    ],
+    "that": [
+      "VISC-1002",
+      "DIGF-2014",
+      "VISM-2002",
+      "DIGF-3009",
+      "VISC-4008",
+      "DIGF-4897",
+      "DIGF-4001",
+      "GDES-3062",
+      "SOSC-3013",
+      "DIGF-4904",
+      "GART-1018"
+    ],
+    "traces": [
+      "VISC-1002"
+    ],
+    "development": [
+      "VISC-1002",
+      "DIGF-3009",
+      "INDS-3013",
+      "BUSI-3003",
+      "DIGF-3007",
+      "HUMN-3008",
+      "INDS-2021",
+      "GDES-3005",
+      "DIGF-4904",
+      "DIGF-2013",
+      "DIGF-2012",
+      "EXAN-3005",
+      "DIGF-3013",
+      "EXAN-3011"
+    ],
+    "multiple": [
+      "VISC-1002",
+      "HUMN-3008",
+      "DIGF-4904"
+    ],
+    "modernisms": [
+      "VISC-1002"
+    ],
+    "postmodernity": [
+      "VISC-1002"
+    ],
+    "visc": [
+      "VISC-1002",
+      "VISC-4008"
+    ],
+    "1b07": [
+      "VISC-1002"
+    ],
+    "atelier": [
+      "DIGF-2014",
+      "DIGF-2015",
+      "DIGF-3008",
+      "DIGF-3009"
+    ],
+    "investigates": [
+      "DIGF-2014"
+    ],
+    "technologies": [
+      "DIGF-2014",
+      "DIGF-2016",
+      "DIGF-3012",
+      "INDS-3013",
+      "VISC-4008",
+      "DIGF-4904",
+      "CROS-3019",
+      "LIFE-3001"
+    ],
+    "debates": [
+      "DIGF-2014"
+    ],
+    "inform": [
+      "DIGF-2014",
+      "HUMN-2007",
+      "GDES-3062",
+      "SOSC-2003"
+    ],
+    "interdisciplinary": [
+      "DIGF-2014",
+      "INTM-2017",
+      "INDS-2021",
+      "DIGF-4904"
+    ],
+    "science": [
+      "DIGF-2014",
+      "HUMN-2007",
+      "DIGF-4001",
+      "SCTM-2005"
+    ],
+    "enterprise": [
+      "DIGF-2014"
+    ],
+    "classes": [
+      "DIGF-2014"
+    ],
+    "problems": [
+      "DIGF-2014"
+    ],
+    "research": [
+      "DIGF-2014",
+      "DIGF-2015",
+      "DIGF-3008",
+      "DIGF-3009",
+      "INDS-2021",
+      "GDES-3037",
+      "SCTM-3001",
+      "GDES-3062",
+      "DIGF-4904",
+      "SOSC-2003"
+    ],
+    "conception": [
+      "DIGF-2014"
+    ],
+    "initiation": [
+      "DIGF-2014"
+    ],
+    "readings": [
+      "DIGF-2014",
+      "DIGF-3012",
+      "DIGF-4001",
+      "GART-1003",
+      "CROS-3019"
+    ],
+    "discussion": [
+      "DIGF-2014",
+      "INTM-2003",
+      "DIGF-3012"
+    ],
+    "lectures": [
+      "DIGF-2014",
+      "DIGF-3012"
+    ],
+    "visits": [
+      "DIGF-2014",
+      "DIGF-3012"
+    ],
+    "engagement": [
+      "DIGF-2014",
+      "DIGF-3008",
+      "DIGF-3009"
+    ],
+    "industry": [
+      "DIGF-2014",
+      "DIGF-2015",
+      "DIGF-3008",
+      "DIGF-3009",
+      "INDS-3013",
+      "EXAN-2008"
+    ],
+    "partners": [
+      "DIGF-2014",
+      "DIGF-2015",
+      "DIGF-3008"
+    ],
+    "personal": [
+      "DIGF-2014",
+      "HUMN-3016",
+      "GART-1018"
+    ],
+    "collective": [
+      "DIGF-2014"
+    ],
+    "topics": [
+      "DIGF-2014",
+      "INTM-2003",
+      "SCTM-3003",
+      "SOSC-3014",
+      "INDS-1003"
+    ],
+    "developed": [
+      "DIGF-2014",
+      "INTM-2003",
+      "DIGF-3008"
+    ],
+    "annual": [
+      "DIGF-2014",
+      "DIGF-3008"
+    ],
+    "basis": [
+      "DIGF-2014",
+      "DIGF-3008"
+    ],
+    "faculty": [
+      "DIGF-2014",
+      "DIGF-2015",
+      "DIGF-3008",
+      "DIGF-4897"
+    ],
+    "retreat": [
+      "DIGF-2014",
+      "DIGF-3008"
+    ],
+    "execute": [
+      "DIGF-2015"
+    ],
+    "prototypes": [
+      "DIGF-2015",
+      "DIGF-3013"
+    ],
+    "collectively": [
+      "DIGF-2015"
+    ],
+    "feedback": [
+      "DIGF-2015"
+    ],
+    "linked": [
+      "DIGF-2015"
+    ],
+    "discovery": [
+      "DIGF-2015",
+      "GDES-3037"
+    ],
+    "builds": [
+      "DIGF-2015",
+      "EXAN-2009"
+    ],
+    "technical": [
+      "DIGF-2015",
+      "DIGF-3012",
+      "DIGF-4904",
+      "DIGF-2012",
+      "EXAN-3011"
+    ],
+    "gained": [
+      "DIGF-2015",
+      "DIGF-3009"
+    ],
+    "fall": [
+      "DIGF-2015",
+      "DIGF-3009"
+    ],
+    "semester": [
+      "DIGF-2015",
+      "DIGF-3009"
+    ],
+    "encourages": [
+      "DIGF-2015"
+    ],
+    "wide": [
+      "DIGF-2015"
+    ],
+    "collaborative": [
+      "DIGF-2015",
+      "DIGF-3008",
+      "DIGF-3009",
+      "INDS-2021"
+    ],
+    "interaction": [
+      "DIGF-2015",
+      "INDS-1003",
+      "EXAN-2004"
+    ],
+    "begun": [
+      "DIGF-2015"
+    ],
+    "deepened": [
+      "DIGF-2015"
+    ],
+    "second": [
+      "DIGF-2015"
+    ],
+    "towards": [
+      "DIGF-2015",
+      "DIGF-3009",
+      "GDES-3037"
+    ],
+    "articulation": [
+      "DIGF-2015"
+    ],
+    "creative": [
+      "DIGF-2015",
+      "VISM-2006",
+      "BUSI-3003",
+      "INDS-2021",
+      "GDES-3037",
+      "GDES-3005",
+      "DIGF-4904",
+      "HUMN-3016",
+      "SCTM-2005",
+      "SOSC-2003",
+      "VISD-2005"
+    ],
+    "wearable": [
+      "DIGF-2016",
+      "GART-1018",
+      "CROS-3019"
+    ],
+    "electronics": [
+      "DIGF-2016",
+      "DIGF-2002"
+    ],
+    "computing": [
+      "DIGF-2016",
+      "DIGF-2002",
+      "GDES-3092"
+    ],
+    "sits": [
+      "DIGF-2016"
+    ],
+    "intersection": [
+      "DIGF-2016",
+      "GDES-3037",
+      "CROS-3019",
+      "SOSC-3014"
+    ],
+    "craft": [
+      "DIGF-2016",
+      "DIGF-3007"
+    ],
+    "focuses": [
+      "DIGF-2016",
+      "BUSI-3003",
+      "DIGF-4001",
+      "GDES-3103",
+      "DIGF-2013",
+      "DIGF-2012",
+      "EXAN-3005",
+      "DIGF-3013"
+    ],
+    "interactivity": [
+      "DIGF-2016"
+    ],
+    "context": [
+      "DIGF-2016",
+      "DIGF-3009",
+      "INDS-3013",
+      "GDES-3010",
+      "HUMN-3008",
+      "DIGF-4002"
+    ],
+    "human": [
+      "DIGF-2016",
+      "HUMN-2007",
+      "HUMN-3008",
+      "SCTM-3003",
+      "GDES-3037",
+      "SOSC-2003",
+      "CROS-3019",
+      "LIFE-3001",
+      "INDS-1003"
+    ],
+    "body": [
+      "DIGF-2016",
+      "DIGF-3009",
+      "CROS-3019",
+      "LIFE-3001",
+      "SOSC-3014",
+      "INDS-1003"
+    ],
+    "interface": [
+      "DIGF-2016",
+      "DIGF-2013"
+    ],
+    "display": [
+      "DIGF-2016"
+    ],
+    "hands": [
+      "DIGF-2016",
+      "GART-1003",
+      "EXAN-1001"
+    ],
+    "tools": [
+      "DIGF-2016",
+      "DIGF-3012",
+      "SCTM-3003",
+      "VISC-4008",
+      "SCIN-2004",
+      "EXAN-2006",
+      "EXAN-2009"
+    ],
+    "incorporating": [
+      "DIGF-2016",
+      "INDS-3013"
+    ],
+    "microcontrollers": [
+      "DIGF-2016",
+      "DIGF-2002"
+    ],
+    "sensors": [
+      "DIGF-2016",
+      "DIGF-2002"
+    ],
+    "actuators": [
+      "DIGF-2016",
+      "DIGF-2002"
+    ],
+    "garments": [
+      "DIGF-2016"
+    ],
+    "accessories": [
+      "DIGF-2016",
+      "GDES-3005"
+    ],
+    "previous": [
+      "DIGF-2016"
+    ],
+    "required": [
+      "DIGF-2016",
+      "INTM-2003"
+    ],
+    "prototyping": [
+      "DIGF-2016",
+      "INTM-2003"
+    ],
+    "experimentation": [
+      "DIGF-2016"
+    ],
+    "create": [
+      "DIGF-2016",
+      "HUMN-2007",
+      "DIGF-4904",
+      "GART-1003",
+      "DIGF-2002",
+      "EXAN-2008",
+      "DIGF-2013",
+      "DIGF-3013"
+    ],
+    "engaging": [
+      "DIGF-2016"
+    ],
+    "2016": [
+      "DIGF-2016"
+    ],
+    "3015": [
+      "DIGF-2016"
+    ],
+    "3b16": [
+      "DIGF-2016"
+    ],
+    "sonic": [
+      "INTM-2004"
+    ],
+    "arts": [
+      "INTM-2004"
+    ],
+    "introduces": [
+      "INTM-2004",
+      "SCTM-3001",
+      "GDES-3103",
+      "SCTM-2005",
+      "DIGF-2002",
+      "EXAN-2013",
+      "SOSC-2003",
+      "INDS-3003",
+      "ILLU-1002",
+      "EXAN-1001",
+      "EXAN-2008"
+    ],
+    "sound": [
+      "INTM-2004",
+      "GDES-3010"
+    ],
+    "audio": [
+      "INTM-2004",
+      "INTM-2017"
+    ],
+    "artistic": [
+      "INTM-2004",
+      "INDS-2021",
+      "EXAN-1001",
+      "DIGF-2012"
+    ],
+    "record": [
+      "INTM-2004",
+      "GDES-3062"
+    ],
+    "sounds": [
+      "INTM-2004"
+    ],
+    "transform": [
+      "INTM-2004",
+      "HUMN-2007",
+      "LIFE-3001"
+    ],
+    "editing": [
+      "INTM-2004"
+    ],
+    "computer": [
+      "INTM-2004",
+      "SCTM-2005",
+      "INDS-1003"
+    ],
+    "software": [
+      "INTM-2004",
+      "DIGF-4002",
+      "DIGF-2002",
+      "SCIN-2004",
+      "EXAN-2008"
+    ],
+    "each": [
+      "INTM-2004",
+      "SCTM-3003"
+    ],
+    "works": [
+      "INTM-2004",
+      "INTM-2017",
+      "GDES-3010"
+    ],
+    "shaping": [
+      "INTM-2004",
+      "SOSC-3013"
+    ],
+    "building": [
+      "INTM-2004"
+    ],
+    "short": [
+      "INTM-2004"
+    ],
+    "contemporary": [
+      "INTM-2004",
+      "HUMN-2007",
+      "VISM-2006",
+      "VISM-2002",
+      "DIGF-3012",
+      "DIGF-3007",
+      "SCTM-3003",
+      "VISC-4008",
+      "HUMN-3016",
+      "MAAD-1001",
+      "VISD-2005",
+      "VISM-2003"
+    ],
+    "artists": [
+      "INTM-2004",
+      "INTM-2017",
+      "INTM-2003",
+      "VISC-4008",
+      "DIGF-4897",
+      "GART-1003"
+    ],
+    "electronic": [
+      "INTM-2004",
+      "VISM-2002"
+    ],
+    "presented": [
+      "INTM-2004"
+    ],
+    "discussed": [
+      "INTM-2004",
+      "INTM-2017",
+      "SCTM-3003"
+    ],
+    "encouraged": [
+      "INTM-2004"
+    ],
+    "video": [
+      "INTM-2004",
+      "INTM-2017",
+      "VISM-2002"
+    ],
+    "soundtracks": [
+      "INTM-2004"
+    ],
+    "performance": [
+      "INTM-2004",
+      "EXAN-3005"
+    ],
+    "installations": [
+      "INTM-2004"
+    ],
+    "intm": [
+      "INTM-2004",
+      "INTM-2003"
+    ],
+    "2b06": [
+      "INTM-2004"
+    ],
+    "computational": [
+      "HUMN-2007",
+      "SCTM-2005"
+    ],
+    "history": [
+      "HUMN-2007",
+      "VISM-2006",
+      "VISM-2002",
+      "DIGF-3007",
+      "VISC-4008",
+      "HUMN-3016"
+    ],
+    "theory": [
+      "HUMN-2007",
+      "VISM-2006",
+      "VISD-3008",
+      "VISM-2003"
+    ],
+    "data": [
+      "HUMN-2007",
+      "SCTM-3001",
+      "GDES-3103"
+    ],
+    "machines": [
+      "HUMN-2007"
+    ],
+    "information": [
+      "HUMN-2007",
+      "DIGF-4897",
+      "GDES-3103"
+    ],
+    "social": [
+      "HUMN-2007",
+      "BUSI-3003",
+      "HUMN-3008",
+      "DIGF-4002",
+      "VISC-4008",
+      "SOSC-3013",
+      "DIGF-4904",
+      "HUMN-3016",
+      "GART-1003",
+      "VISD-2005",
+      "SOSC-3014"
+    ],
+    "knowledge": [
+      "HUMN-2007",
+      "INTM-2003",
+      "HUMN-3008",
+      "SCTM-3003",
+      "DIGF-4002"
+    ],
+    "about": [
+      "HUMN-2007",
+      "HUMN-3008",
+      "SCTM-3001",
+      "DIGF-2002",
+      "GDES-3092"
+    ],
+    "disease": [
+      "HUMN-2007"
+    ],
+    "environments": [
+      "HUMN-2007",
+      "VISC-4008",
+      "HUMN-3016",
+      "DIGF-2002",
+      "GDES-3092",
+      "INDS-1003",
+      "EXAN-2004",
+      "EXAN-3011"
+    ],
+    "behaviour": [
+      "HUMN-2007",
+      "GDES-3037"
+    ],
+    "traffic": [
+      "HUMN-2007"
+    ],
+    "patterns": [
+      "HUMN-2007",
+      "GDES-3037",
+      "GDES-3103"
+    ],
+    "etc": [
+      "HUMN-2007",
+      "HUMN-3008",
+      "GDES-3005"
+    ],
+    "mathematics": [
+      "HUMN-2007"
+    ],
+    "neuro": [
+      "HUMN-2007"
+    ],
+    "cognitive": [
+      "HUMN-2007"
+    ],
+    "sciences": [
+      "HUMN-2007"
+    ],
+    "practitioners": [
+      "HUMN-2007"
+    ],
+    "trends": [
+      "HUMN-2007",
+      "VISD-2005"
+    ],
+    "paradigms": [
+      "HUMN-2007"
+    ],
+    "practices": [
+      "HUMN-2007",
+      "VISM-2006",
+      "VISM-2002",
+      "BUSI-3003",
+      "GDES-3010",
+      "SCTM-3003",
+      "VISC-4008",
+      "VISD-2005"
+    ],
+    "effects": [
+      "HUMN-2007",
+      "INDS-2021"
+    ],
+    "philosophy": [
+      "HUMN-2007"
+    ],
+    "evaluate": [
+      "HUMN-2007",
+      "SCTM-3001"
+    ],
+    "evolution": [
+      "HUMN-2007"
+    ],
+    "its": [
+      "HUMN-2007",
+      "DIGF-4002",
+      "DIGF-4904"
+    ],
+    "constraints": [
+      "HUMN-2007"
+    ],
+    "within": [
+      "HUMN-2007",
+      "INDS-3013",
+      "DIGF-3007",
+      "SCTM-3003",
+      "GDES-3037"
+    ],
+    "modular": [
+      "HUMN-2007"
+    ],
+    "consumer": [
+      "HUMN-2007"
+    ],
+    "literature": [
+      "HUMN-2007",
+      "HUMN-3016"
+    ],
+    "case": [
+      "HUMN-2007",
+      "DIGF-4001"
+    ],
+    "see": [
+      "HUMN-2007"
+    ],
+    "employed": [
+      "HUMN-2007"
+    ],
+    "study": [
+      "HUMN-2007",
+      "HUMN-3008",
+      "INDS-2021",
+      "DIGF-4897",
+      "SCTM-3001",
+      "VISM-2003"
+    ],
+    "broader": [
+      "HUMN-2007"
+    ],
+    "biological": [
+      "HUMN-2007",
+      "SCTM-3003"
+    ],
+    "sociocultural": [
+      "HUMN-2007"
+    ],
+    "meaningful": [
+      "HUMN-2007"
+    ],
+    "findings": [
+      "HUMN-2007",
+      "SCTM-3001"
+    ],
+    "society": [
+      "HUMN-2007"
+    ],
+    "humn": [
+      "HUMN-2007",
+      "HUMN-3008",
+      "HUMN-3016"
+    ],
+    "2b31": [
+      "HUMN-2007"
+    ],
+    "hybrid": [
+      "INTM-2017"
+    ],
+    "lab": [
+      "INTM-2017"
+    ],
+    "has": [
+      "INTM-2017",
+      "HUMN-3016"
+    ],
+    "multi": [
+      "INTM-2017"
+    ],
+    "diverse": [
+      "INTM-2017",
+      "VISM-2006",
+      "DIGF-4001"
+    ],
+    "being": [
+      "INTM-2017"
+    ],
+    "introduced": [
+      "INTM-2017",
+      "GDES-3010",
+      "DIGF-4002"
+    ],
+    "examine": [
+      "INTM-2017",
+      "SCTM-3003",
+      "SOSC-3013",
+      "GART-1003",
+      "INDS-1003"
+    ],
+    "integrate": [
+      "INTM-2017"
+    ],
+    "various": [
+      "INTM-2017",
+      "VISM-2002",
+      "GDES-3005",
+      "EXAN-2013",
+      "SCIN-2004",
+      "EXAN-1001"
+    ],
+    "installation": [
+      "INTM-2017",
+      "INTM-2003"
+    ],
+    "hybrids": [
+      "INTM-2017"
+    ],
+    "interfaces": [
+      "INTM-2017",
+      "DIGF-3007",
+      "CROS-3019"
+    ],
+    "collaboratively": [
+      "INTM-2017"
+    ],
+    "carrying": [
+      "INTM-2017",
+      "SCTM-3003"
+    ],
+    "converging": [
+      "INTM-2017"
+    ],
+    "sites": [
+      "INTM-2017"
+    ],
+    "analyzed": [
+      "INTM-2017"
+    ],
+    "experiment": [
+      "VISM-2006"
+    ],
+    "identity": [
+      "VISM-2006",
+      "SOSC-3014"
+    ],
+    "expression": [
+      "VISM-2006",
+      "GART-1018",
+      "EXAN-1001"
+    ],
+    "invention": [
+      "VISM-2006"
+    ],
+    "improvise": [
+      "VISM-2006"
+    ],
+    "system": [
+      "VISM-2006"
+    ],
+    "addresses": [
+      "VISM-2006"
+    ],
+    "generate": [
+      "VISM-2006"
+    ],
+    "criticality": [
+      "VISM-2006"
+    ],
+    "among": [
+      "VISM-2006"
+    ],
+    "players": [
+      "VISM-2006"
+    ],
+    "tracing": [
+      "VISM-2006"
+    ],
+    "subversive": [
+      "VISM-2006"
+    ],
+    "surrealism": [
+      "VISM-2006",
+      "VISM-2002"
+    ],
+    "creation": [
+      "VISM-2006",
+      "SCIN-2004",
+      "DIGF-2012"
+    ],
+    "finally": [
+      "VISM-2006",
+      "HUMN-3016"
+    ],
+    "presents": [
+      "VISM-2006",
+      "DIGF-3007"
+    ],
+    "analytical": [
+      "VISM-2006",
+      "DIGF-3008"
+    ],
+    "enable": [
+      "VISM-2006"
+    ],
+    "construct": [
+      "VISM-2006",
+      "EXAN-2013"
+    ],
+    "beyond": [
+      "VISM-2006",
+      "DIGF-3007"
+    ],
+    "entertainment": [
+      "VISM-2006"
+    ],
+    "seeks": [
+      "VISM-2006"
+    ],
+    "foster": [
+      "VISM-2006"
+    ],
+    "critically": [
+      "VISM-2006",
+      "HUMN-3008",
+      "SOSC-3013",
+      "GART-1003"
+    ],
+    "aware": [
+      "VISM-2006"
+    ],
+    "gamers": [
+      "VISM-2006"
+    ],
+    "vism": [
+      "VISM-2006"
+    ],
+    "3001": [
+      "VISM-2006"
+    ],
+    "3b01": [
+      "VISM-2006"
+    ],
+    "mechanical": [
+      "INTM-2003"
+    ],
+    "kinetic": [
+      "INTM-2003"
+    ],
+    "sculpture": [
+      "INTM-2003"
+    ],
+    "three": [
+      "INTM-2003",
+      "BUSI-3003",
+      "GDES-3062"
+    ],
+    "dimensional": [
+      "INTM-2003"
+    ],
+    "principles": [
+      "INTM-2003",
+      "INDS-2021",
+      "SCTM-3003",
+      "DIGF-4001",
+      "GDES-3103",
+      "SCTM-2005",
+      "EXAN-2013",
+      "VISD-3008",
+      "EXAN-2008",
+      "DIGF-2013",
+      "EXAN-2006",
+      "VISM-2003",
+      "EXAN-3005",
+      "DIGF-3013"
+    ],
+    "inherent": [
+      "INTM-2003"
+    ],
+    "components": [
+      "INTM-2003"
+    ],
+    "bearings": [
+      "INTM-2003"
+    ],
+    "levers": [
+      "INTM-2003"
+    ],
+    "cams": [
+      "INTM-2003"
+    ],
+    "gears": [
+      "INTM-2003"
+    ],
+    "pulleys": [
+      "INTM-2003"
+    ],
+    "springs": [
+      "INTM-2003"
+    ],
+    "pendulums": [
+      "INTM-2003"
+    ],
+    "attention": [
+      "INTM-2003",
+      "BUSI-3003"
+    ],
+    "given": [
+      "INTM-2003",
+      "SCTM-3001"
+    ],
+    "recycled": [
+      "INTM-2003"
+    ],
+    "2b05": [
+      "INTM-2003"
+    ],
+    "3b08": [
+      "INTM-2003"
+    ],
+    "new": [
+      "VISM-2002",
+      "DIGF-3012",
+      "INDS-3013",
+      "GDES-3037",
+      "VISC-4008",
+      "GART-1003"
+    ],
+    "survey": [
+      "VISM-2002"
+    ],
+    "offers": [
+      "VISM-2002"
+    ],
+    "relationship": [
+      "VISM-2002",
+      "GART-1003",
+      "CROS-3019",
+      "LIFE-3001"
+    ],
+    "beginnings": [
+      "VISM-2002"
+    ],
+    "photography": [
+      "VISM-2002"
+    ],
+    "avant": [
+      "VISM-2002"
+    ],
+    "garde": [
+      "VISM-2002"
+    ],
+    "cinema": [
+      "VISM-2002"
+    ],
+    "technological": [
+      "VISM-2002",
+      "VISC-4008",
+      "VISD-2005",
+      "SOSC-3014"
+    ],
+    "have": [
+      "VISM-2002",
+      "DIGF-3009",
+      "VISC-4008",
+      "SOSC-3013",
+      "HUMN-3016",
+      "GART-1003"
+    ],
+    "affected": [
+      "VISM-2002"
+    ],
+    "transformed": [
+      "VISM-2002"
+    ],
+    "perception": [
+      "VISM-2002"
+    ],
+    "representation": [
+      "VISM-2002"
+    ],
+    "motion": [
+      "VISM-2002",
+      "GDES-3010",
+      "EXAN-2013"
+    ],
+    "taylorism": [
+      "VISM-2002"
+    ],
+    "networks": [
+      "VISM-2002",
+      "DIGF-4002"
+    ],
+    "internet": [
+      "VISM-2002"
+    ],
+    "influence": [
+      "VISM-2002"
+    ],
+    "movements": [
+      "VISM-2002",
+      "VISC-4008"
+    ],
+    "cubism": [
+      "VISM-2002"
+    ],
+    "constructivism": [
+      "VISM-2002"
+    ],
+    "dada": [
+      "VISM-2002"
+    ],
+    "stylistic": [
+      "VISM-2002"
+    ],
+    "innovations": [
+      "VISM-2002"
+    ],
+    "collage": [
+      "VISM-2002"
+    ],
+    "montage": [
+      "VISM-2002"
+    ],
+    "selected": [
+      "VISM-2002"
+    ],
+    "writings": [
+      "VISM-2002"
+    ],
+    "thinkers": [
+      "VISM-2002"
+    ],
+    "complement": [
+      "VISM-2002",
+      "DIGF-4897"
+    ],
+    "artworks": [
+      "VISM-2002"
+    ],
+    "iii": [
+      "DIGF-3008",
+      "SCTM-3001"
+    ],
+    "opportunity": [
+      "DIGF-3008",
+      "DIGF-4904"
+    ],
+    "further": [
+      "DIGF-3008",
+      "DIGF-4002"
+    ],
+    "praxis": [
+      "DIGF-3008",
+      "VISD-3008"
+    ],
+    "environment": [
+      "DIGF-3008",
+      "VISC-4008"
+    ],
+    "investigation": [
+      "DIGF-3008"
+    ],
+    "theme": [
+      "DIGF-3008"
+    ],
+    "core": [
+      "DIGF-3008"
+    ],
+    "topic": [
+      "DIGF-3008"
+    ],
+    "component": [
+      "DIGF-3008"
+    ],
+    "underpins": [
+      "DIGF-3008"
+    ],
+    "driven": [
+      "DIGF-3008",
+      "EXAN-1001"
+    ],
+    "prerequisite": [
+      "DIGF-3008"
+    ],
+    "synthesis": [
+      "DIGF-3008",
+      "DIGF-3009"
+    ],
+    "challenges": [
+      "DIGF-3009",
+      "VISD-3008",
+      "INDS-3003"
+    ],
+    "refine": [
+      "DIGF-3009"
+    ],
+    "test": [
+      "DIGF-3009"
+    ],
+    "was": [
+      "DIGF-3009"
+    ],
+    "proposed": [
+      "DIGF-3009"
+    ],
+    "prototyped": [
+      "DIGF-3009"
+    ],
+    "continues": [
+      "DIGF-3009"
+    ],
+    "important": [
+      "DIGF-3009"
+    ],
+    "role": [
+      "DIGF-3009",
+      "INDS-3013",
+      "VISD-3008"
+    ],
+    "prepares": [
+      "DIGF-3009"
+    ],
+    "proposal": [
+      "DIGF-3009"
+    ],
+    "major": [
+      "DIGF-3009",
+      "BUSI-3003",
+      "SCTM-3003"
+    ],
+    "thesis": [
+      "DIGF-3009",
+      "DIGF-4904"
+    ],
+    "year": [
+      "DIGF-3009",
+      "DIGF-4001"
+    ],
+    "which": [
+      "DIGF-3009",
+      "DIGF-3007",
+      "HUMN-3016"
+    ],
+    "provided": [
+      "DIGF-3009"
+    ],
+    "projection": [
+      "DIGF-3012"
+    ],
+    "light": [
+      "DIGF-3012"
+    ],
+    "comes": [
+      "DIGF-3012"
+    ],
+    "greater": [
+      "DIGF-3012"
+    ],
+    "capacity": [
+      "DIGF-3012",
+      "SCTM-3003",
+      "GDES-3103"
+    ],
+    "shape": [
+      "DIGF-3012",
+      "SOSC-3014"
+    ],
+    "foundations": [
+      "DIGF-3012",
+      "DIGF-4001"
+    ],
+    "mapping": [
+      "DIGF-3012"
+    ],
+    "combining": [
+      "DIGF-3012"
+    ],
+    "criticalcontexts": [
+      "DIGF-3012"
+    ],
+    "perspectives": [
+      "DIGF-3012",
+      "HUMN-3008",
+      "SCTM-3001",
+      "VISD-3008",
+      "VISM-2003"
+    ],
+    "act": [
+      "DIGF-3012"
+    ],
+    "implementing": [
+      "DIGF-3012"
+    ],
+    "exhibition": [
+      "DIGF-3012"
+    ],
+    "assignments": [
+      "DIGF-3012"
+    ],
+    "trace": [
+      "DIGF-3012"
+    ],
+    "techno": [
+      "DIGF-3012",
+      "DIGF-3007"
+    ],
+    "cultural": [
+      "DIGF-3012",
+      "DIGF-3007",
+      "HUMN-3008",
+      "SCTM-3003",
+      "VISC-4008",
+      "DIGF-4001",
+      "SOSC-3013",
+      "HUMN-3016",
+      "GART-1018",
+      "MAAD-1001",
+      "VISD-2005",
+      "SOSC-3014",
+      "VISM-2003"
+    ],
+    "histories": [
+      "DIGF-3012",
+      "DIGF-3007"
+    ],
+    "uses": [
+      "DIGF-3012"
+    ],
+    "also": [
+      "DIGF-3012",
+      "GDES-3037",
+      "DIGF-4001",
+      "HUMN-3016"
+    ],
+    "considerations": [
+      "DIGF-3012"
+    ],
+    "disruptive": [
+      "INDS-3013"
+    ],
+    "futures": [
+      "INDS-3013"
+    ],
+    "companies": [
+      "INDS-3013"
+    ],
+    "deploy": [
+      "INDS-3013"
+    ],
+    "implement": [
+      "INDS-3013"
+    ],
+    "robotics": [
+      "INDS-3013"
+    ],
+    "plays": [
+      "INDS-3013"
+    ],
+    "adopt": [
+      "INDS-3013"
+    ],
+    "increase": [
+      "INDS-3013",
+      "BUSI-3003"
+    ],
+    "user": [
+      "INDS-3013",
+      "SOSC-2003",
+      "DIGF-2013",
+      "EXAN-2004"
+    ],
+    "efficiency": [
+      "INDS-3013"
+    ],
+    "enhance": [
+      "INDS-3013",
+      "CROS-3019"
+    ],
+    "products": [
+      "INDS-3013",
+      "GDES-3037"
+    ],
+    "services": [
+      "INDS-3013",
+      "SCTM-3003"
+    ],
+    "diversify": [
+      "INDS-3013"
+    ],
+    "revenue": [
+      "INDS-3013"
+    ],
+    "streams": [
+      "INDS-3013"
+    ],
+    "identify": [
+      "INDS-3013"
+    ],
+    "opportunities": [
+      "INDS-3013",
+      "GDES-3037",
+      "DIGF-4897"
+    ],
+    "legal": [
+      "INDS-3013"
+    ],
+    "ethical": [
+      "INDS-3013",
+      "BUSI-3003",
+      "HUMN-3008"
+    ],
+    "economic": [
+      "INDS-3013",
+      "BUSI-3003"
+    ],
+    "everyday": [
+      "INDS-3013"
+    ],
+    "examined": [
+      "INDS-3013"
+    ],
+    "busi": [
+      "BUSI-3003"
+    ],
+    "ethics": [
+      "BUSI-3003",
+      "HUMN-3008"
+    ],
+    "sustainability": [
+      "BUSI-3003",
+      "SCTM-3003",
+      "VISD-3008"
+    ],
+    "awareness": [
+      "BUSI-3003"
+    ],
+    "importance": [
+      "BUSI-3003"
+    ],
+    "responsibility": [
+      "BUSI-3003"
+    ],
+    "sustainable": [
+      "BUSI-3003",
+      "VISD-3008"
+    ],
+    "firms": [
+      "BUSI-3003"
+    ],
+    "all": [
+      "BUSI-3003",
+      "DIGF-4904"
+    ],
+    "sizes": [
+      "BUSI-3003"
+    ],
+    "local": [
+      "BUSI-3003"
+    ],
+    "economies": [
+      "BUSI-3003"
+    ],
+    "following": [
+      "BUSI-3003",
+      "HUMN-3008"
+    ],
+    "overview": [
+      "BUSI-3003"
+    ],
+    "landscape": [
+      "BUSI-3003"
+    ],
+    "business": [
+      "BUSI-3003",
+      "GDES-3005",
+      "DIGF-4001",
+      "GDES-3103"
+    ],
+    "corporate": [
+      "BUSI-3003"
+    ],
+    "added": [
+      "BUSI-3003"
+    ],
+    "dimension": [
+      "BUSI-3003"
+    ],
+    "leadership": [
+      "BUSI-3003",
+      "DIGF-4001"
+    ],
+    "frameworks": [
+      "BUSI-3003",
+      "DIGF-3007",
+      "SOSC-3013",
+      "VISD-2005"
+    ],
+    "industries": [
+      "BUSI-3003"
+    ],
+    "engines": [
+      "DIGF-3007"
+    ],
+    "engine": [
+      "DIGF-3007"
+    ],
+    "powerful": [
+      "DIGF-3007"
+    ],
+    "enabling": [
+      "DIGF-3007"
+    ],
+    "interactive": [
+      "DIGF-3007",
+      "DIGF-2002",
+      "SCIN-2004",
+      "GDES-3092"
+    ],
+    "providing": [
+      "DIGF-3007"
+    ],
+    "pre": [
+      "DIGF-3007"
+    ],
+    "defined": [
+      "DIGF-3007"
+    ],
+    "start": [
+      "DIGF-3007"
+    ],
+    "analog": [
+      "DIGF-3007"
+    ],
+    "affordances": [
+      "DIGF-3007"
+    ],
+    "behind": [
+      "DIGF-3007",
+      "GDES-3037"
+    ],
+    "historic": [
+      "DIGF-3007",
+      "VISC-4008"
+    ],
+    "today": [
+      "DIGF-3007",
+      "GDES-3103"
+    ],
+    "platforms": [
+      "DIGF-3007"
+    ],
+    "creators": [
+      "DIGF-3007"
+    ],
+    "rich": [
+      "DIGF-3007",
+      "VISC-4008",
+      "GDES-3103"
+    ],
+    "narratives": [
+      "DIGF-3007",
+      "INDS-2021",
+      "ILLU-1002"
+    ],
+    "immersive": [
+      "DIGF-3007",
+      "EXAN-2004"
+    ],
+    "unique": [
+      "DIGF-3007"
+    ],
+    "gain": [
+      "DIGF-3007",
+      "DIGF-4897"
+    ],
+    "nuanced": [
+      "DIGF-3007"
+    ],
+    "ways": [
+      "DIGF-3007",
+      "GDES-3103",
+      "HUMN-3016"
+    ],
+    "disrupt": [
+      "DIGF-3007"
+    ],
+    "experiential": [
+      "DIGF-3007",
+      "DIGF-4897"
+    ],
+    "goals": [
+      "DIGF-3007",
+      "VISC-4008"
+    ],
+    "investigated": [
+      "GDES-3010"
+    ],
+    "narrative": [
+      "GDES-3010",
+      "DIGF-2013",
+      "EXAN-3011"
+    ],
+    "structures": [
+      "GDES-3010",
+      "GART-1003"
+    ],
+    "spatial": [
+      "GDES-3010",
+      "GDES-3092",
+      "INDS-1003",
+      "EXAN-2004",
+      "DIGF-3013"
+    ],
+    "compositions": [
+      "GDES-3010"
+    ],
+    "keyframing": [
+      "GDES-3010"
+    ],
+    "rotoscoping": [
+      "GDES-3010"
+    ],
+    "integration": [
+      "GDES-3010",
+      "DIGF-2002",
+      "GDES-3092",
+      "INDS-1003"
+    ],
+    "tracking": [
+      "GDES-3010"
+    ],
+    "relates": [
+      "GDES-3010"
+    ],
+    "timing": [
+      "GDES-3010",
+      "EXAN-2006"
+    ],
+    "pacing": [
+      "GDES-3010"
+    ],
+    "basics": [
+      "GDES-3010"
+    ],
+    "taking": [
+      "HUMN-3008"
+    ],
+    "our": [
+      "HUMN-3008",
+      "HUMN-3016",
+      "CROS-3019",
+      "LIFE-3001",
+      "SOSC-3014"
+    ],
+    "approach": [
+      "HUMN-3008"
+    ],
+    "points": [
+      "HUMN-3008"
+    ],
+    "view": [
+      "HUMN-3008"
+    ],
+    "derived": [
+      "HUMN-3008"
+    ],
+    "american": [
+      "HUMN-3008"
+    ],
+    "european": [
+      "HUMN-3008"
+    ],
+    "asian": [
+      "HUMN-3008"
+    ],
+    "african": [
+      "HUMN-3008"
+    ],
+    "indigenous": [
+      "HUMN-3008",
+      "VISC-4008"
+    ],
+    "societies": [
+      "HUMN-3008"
+    ],
+    "consider": [
+      "HUMN-3008"
+    ],
+    "questions": [
+      "HUMN-3008",
+      "SCTM-3001",
+      "SOSC-3013"
+    ],
+    "exploitation": [
+      "HUMN-3008"
+    ],
+    "fair": [
+      "HUMN-3008"
+    ],
+    "trade": [
+      "HUMN-3008"
+    ],
+    "justice": [
+      "HUMN-3008",
+      "VISC-4008",
+      "SOSC-3013"
+    ],
+    "racial": [
+      "HUMN-3008",
+      "SOSC-3013"
+    ],
+    "discrimination": [
+      "HUMN-3008"
+    ],
+    "patenting": [
+      "HUMN-3008"
+    ],
+    "right": [
+      "HUMN-3008"
+    ],
+    "aid": [
+      "HUMN-3008",
+      "GDES-3037"
+    ],
+    "food": [
+      "HUMN-3008"
+    ],
+    "rights": [
+      "HUMN-3008",
+      "VISC-4008"
+    ],
+    "justification": [
+      "HUMN-3008"
+    ],
+    "war": [
+      "HUMN-3008",
+      "VISC-4008"
+    ],
+    "terrorism": [
+      "HUMN-3008"
+    ],
+    "gender": [
+      "HUMN-3008",
+      "SOSC-3013"
+    ],
+    "status": [
+      "HUMN-3008"
+    ],
+    "abortion": [
+      "HUMN-3008"
+    ],
+    "legalization": [
+      "HUMN-3008"
+    ],
+    "euthanasia": [
+      "HUMN-3008"
+    ],
+    "affirmative": [
+      "HUMN-3008"
+    ],
+    "action": [
+      "HUMN-3008"
+    ],
+    "abuse": [
+      "HUMN-3008"
+    ],
+    "power": [
+      "HUMN-3008",
+      "GART-1003"
+    ],
+    "environmental": [
+      "HUMN-3008",
+      "VISD-3008"
+    ],
+    "racism": [
+      "HUMN-3008",
+      "SOSC-3013"
+    ],
+    "displacement": [
+      "HUMN-3008"
+    ],
+    "ethnocentrism": [
+      "HUMN-3008"
+    ],
+    "security": [
+      "HUMN-3008"
+    ],
+    "tolerance": [
+      "HUMN-3008"
+    ],
+    "respect": [
+      "HUMN-3008",
+      "DIGF-4002"
+    ],
+    "other": [
+      "HUMN-3008"
+    ],
+    "cultures": [
+      "HUMN-3008",
+      "VISC-4008"
+    ],
+    "think": [
+      "HUMN-3008"
+    ],
+    "become": [
+      "HUMN-3008"
+    ],
+    "values": [
+      "HUMN-3008"
+    ],
+    "3b10": [
+      "HUMN-3008"
+    ],
+    "theatre": [
+      "INDS-2021"
+    ],
+    "designer": [
+      "INDS-2021",
+      "GDES-3037"
+    ],
+    "responsible": [
+      "INDS-2021"
+    ],
+    "overall": [
+      "INDS-2021"
+    ],
+    "productions": [
+      "INDS-2021"
+    ],
+    "initial": [
+      "INDS-2021"
+    ],
+    "script": [
+      "INDS-2021"
+    ],
+    "visually": [
+      "INDS-2021"
+    ],
+    "enrich": [
+      "INDS-2021"
+    ],
+    "screen": [
+      "INDS-2021"
+    ],
+    "stage": [
+      "INDS-2021"
+    ],
+    "includes": [
+      "INDS-2021"
+    ],
+    "task": [
+      "INDS-2021"
+    ],
+    "timelines": [
+      "INDS-2021"
+    ],
+    "preparation": [
+      "INDS-2021"
+    ],
+    "procedures": [
+      "INDS-2021"
+    ],
+    "storyboarding": [
+      "INDS-2021"
+    ],
+    "props": [
+      "INDS-2021"
+    ],
+    "designing": [
+      "INDS-2021"
+    ],
+    "special": [
+      "INDS-2021"
+    ],
+    "location": [
+      "INDS-2021"
+    ],
+    "limited": [
+      "INDS-2021"
+    ],
+    "budgets": [
+      "INDS-2021"
+    ],
+    "theatrical": [
+      "INDS-2021"
+    ],
+    "studied": [
+      "INDS-2021"
+    ],
+    "critique": [
+      "INDS-2021",
+      "SCTM-3003",
+      "DIGF-4002"
+    ],
+    "outcomes": [
+      "INDS-2021"
+    ],
+    "bio": [
+      "SCTM-3003"
+    ],
+    "surrounding": [
+      "SCTM-3003"
+    ],
+    "covered": [
+      "SCTM-3003"
+    ],
+    "population": [
+      "SCTM-3003"
+    ],
+    "growth": [
+      "SCTM-3003"
+    ],
+    "agriculture": [
+      "SCTM-3003"
+    ],
+    "biotechnology": [
+      "SCTM-3003"
+    ],
+    "genetic": [
+      "SCTM-3003"
+    ],
+    "engineering": [
+      "SCTM-3003"
+    ],
+    "climate": [
+      "SCTM-3003"
+    ],
+    "change": [
+      "SCTM-3003",
+      "VISC-4008",
+      "DIGF-4001",
+      "GART-1003"
+    ],
+    "pollution": [
+      "SCTM-3003"
+    ],
+    "ecosystem": [
+      "SCTM-3003"
+    ],
+    "urban": [
+      "SCTM-3003"
+    ],
+    "section": [
+      "SCTM-3003"
+    ],
+    "discuss": [
+      "SCTM-3003"
+    ],
+    "relevant": [
+      "SCTM-3003"
+    ],
+    "these": [
+      "SCTM-3003",
+      "GDES-3037",
+      "HUMN-3016",
+      "INDS-1003"
+    ],
+    "areas": [
+      "SCTM-3003"
+    ],
+    "additional": [
+      "SCTM-3003"
+    ],
+    "biologically": [
+      "SCTM-3003"
+    ],
+    "focused": [
+      "SCTM-3003"
+    ],
+    "biomimicry": [
+      "SCTM-3003"
+    ],
+    "sctm": [
+      "SCTM-3003",
+      "SCTM-3001"
+    ],
+    "2b04": [
+      "SCTM-3003",
+      "GDES-3103"
+    ],
+    "3b04": [
+      "SCTM-3003"
+    ],
+    "code": [
+      "DIGF-4002"
+    ],
+    "throughout": [
+      "DIGF-4002",
+      "HUMN-3016"
+    ],
+    "write": [
+      "DIGF-4002",
+      "SCTM-3001"
+    ],
+    "effect": [
+      "DIGF-4002"
+    ],
+    "world": [
+      "DIGF-4002",
+      "SCTM-3001",
+      "SOSC-3013",
+      "GDES-3103"
+    ],
+    "humanities": [
+      "DIGF-4002"
+    ],
+    "aesthetics": [
+      "DIGF-4002"
+    ],
+    "discourse": [
+      "DIGF-4002"
+    ],
+    "critiquing": [
+      "DIGF-4002"
+    ],
+    "evaluation": [
+      "DIGF-4002"
+    ],
+    "existing": [
+      "DIGF-4002"
+    ],
+    "investigate": [
+      "DIGF-4002",
+      "VISC-4008",
+      "DIGF-4904",
+      "GART-1018",
+      "CROS-3019",
+      "LIFE-3001",
+      "SOSC-3014"
+    ],
+    "methodologies": [
+      "DIGF-4002",
+      "GDES-3037",
+      "VISC-4008",
+      "SCTM-3001",
+      "SOSC-2003"
+    ],
+    "larger": [
+      "DIGF-4002"
+    ],
+    "participation": [
+      "DIGF-4002"
+    ],
+    "relations": [
+      "DIGF-4002"
+    ],
+    "insight": [
+      "GDES-3037"
+    ],
+    "innovation": [
+      "GDES-3037"
+    ],
+    "significant": [
+      "GDES-3037"
+    ],
+    "possibilities": [
+      "GDES-3037",
+      "INDS-3003"
+    ],
+    "spaces": [
+      "GDES-3037",
+      "CROS-3019",
+      "GDES-3092",
+      "INDS-1003",
+      "DIGF-3013"
+    ],
+    "benefit": [
+      "GDES-3037"
+    ],
+    "humankind": [
+      "GDES-3037"
+    ],
+    "motivation": [
+      "GDES-3037"
+    ],
+    "behavior": [
+      "GDES-3037"
+    ],
+    "envisioning": [
+      "GDES-3037"
+    ],
+    "future": [
+      "GDES-3037",
+      "GDES-3062",
+      "DIGF-4904",
+      "INDS-3003"
+    ],
+    "product": [
+      "GDES-3037"
+    ],
+    "service": [
+      "GDES-3037"
+    ],
+    "explores": [
+      "GDES-3037",
+      "SOSC-3013",
+      "GART-1003",
+      "GART-1018",
+      "MAAD-1001",
+      "SCIN-2004",
+      "CROS-3019",
+      "LIFE-3001",
+      "GDES-3092",
+      "INDS-1003",
+      "EXAN-2004"
+    ],
+    "discover": [
+      "GDES-3037"
+    ],
+    "signals": [
+      "GDES-3037"
+    ],
+    "emitted": [
+      "GDES-3037"
+    ],
+    "inspire": [
+      "GDES-3037"
+    ],
+    "both": [
+      "GDES-3037",
+      "MAAD-1001",
+      "VISD-3008"
+    ],
+    "solo": [
+      "GDES-3037"
+    ],
+    "activism": [
+      "VISC-4008",
+      "GART-1003"
+    ],
+    "there": [
+      "VISC-4008"
+    ],
+    "designers": [
+      "VISC-4008",
+      "DIGF-4897",
+      "GDES-3062",
+      "GART-1003"
+    ],
+    "invested": [
+      "VISC-4008"
+    ],
+    "political": [
+      "VISC-4008",
+      "HUMN-3016",
+      "SOSC-3014"
+    ],
+    "look": [
+      "VISC-4008",
+      "HUMN-3016"
+    ],
+    "whose": [
+      "VISC-4008"
+    ],
+    "intersects": [
+      "VISC-4008",
+      "VISD-2005"
+    ],
+    "activist": [
+      "VISC-4008"
+    ],
+    "actions": [
+      "VISC-4008"
+    ],
+    "effectiveness": [
+      "VISC-4008"
+    ],
+    "been": [
+      "VISC-4008",
+      "HUMN-3016"
+    ],
+    "disseminate": [
+      "VISC-4008"
+    ],
+    "content": [
+      "VISC-4008"
+    ],
+    "thematics": [
+      "VISC-4008"
+    ],
+    "peace": [
+      "VISC-4008"
+    ],
+    "civil": [
+      "VISC-4008"
+    ],
+    "religious": [
+      "VISC-4008"
+    ],
+    "dissent": [
+      "VISC-4008"
+    ],
+    "nationalism": [
+      "VISC-4008"
+    ],
+    "sexual": [
+      "VISC-4008",
+      "SOSC-3013"
+    ],
+    "politics": [
+      "VISC-4008",
+      "SOSC-3013"
+    ],
+    "race": [
+      "VISC-4008",
+      "SOSC-3013"
+    ],
+    "4b22": [
+      "VISC-4008"
+    ],
+    "field": [
+      "DIGF-4897"
+    ],
+    "placement": [
+      "DIGF-4897"
+    ],
+    "placements": [
+      "DIGF-4897"
+    ],
+    "provide": [
+      "DIGF-4897"
+    ],
+    "professional": [
+      "DIGF-4897",
+      "DIGF-4001",
+      "GDES-3062"
+    ],
+    "worlds": [
+      "DIGF-4897"
+    ],
+    "performed": [
+      "DIGF-4897"
+    ],
+    "under": [
+      "DIGF-4897"
+    ],
+    "guidance": [
+      "DIGF-4897"
+    ],
+    "sponsor": [
+      "DIGF-4897"
+    ],
+    "supervised": [
+      "DIGF-4897"
+    ],
+    "evaluated": [
+      "DIGF-4897"
+    ],
+    "ocad": [
+      "DIGF-4897",
+      "DIGF-4001"
+    ],
+    "teaching": [
+      "DIGF-4897"
+    ],
+    "more": [
+      "DIGF-4897",
+      "EXAN-2009"
+    ],
+    "ocadu": [
+      "DIGF-4897"
+    ],
+    "centre": [
+      "DIGF-4897"
+    ],
+    "https": [
+      "DIGF-4897"
+    ],
+    "bit": [
+      "DIGF-4897"
+    ],
+    "3igjtov": [
+      "DIGF-4897"
+    ],
+    "guerrilla": [
+      "GDES-3005"
+    ],
+    "entrepreneurship": [
+      "GDES-3005"
+    ],
+    "response": [
+      "GDES-3005"
+    ],
+    "growing": [
+      "GDES-3005"
+    ],
+    "artist": [
+      "GDES-3005"
+    ],
+    "produced": [
+      "GDES-3005"
+    ],
+    "books": [
+      "GDES-3005"
+    ],
+    "zines": [
+      "GDES-3005"
+    ],
+    "apparel": [
+      "GDES-3005"
+    ],
+    "housewares": [
+      "GDES-3005"
+    ],
+    "linens": [
+      "GDES-3005"
+    ],
+    "toys": [
+      "GDES-3005"
+    ],
+    "acts": [
+      "GDES-3005"
+    ],
+    "entrepreneurial": [
+      "GDES-3005"
+    ],
+    "activity": [
+      "GDES-3005"
+    ],
+    "available": [
+      "GDES-3005"
+    ],
+    "self": [
+      "GDES-3005",
+      "DIGF-4904"
+    ],
+    "publishing": [
+      "GDES-3005"
+    ],
+    "researched": [
+      "GDES-3005"
+    ],
+    "proven": [
+      "GDES-3005"
+    ],
+    "diy": [
+      "GDES-3005"
+    ],
+    "marketing": [
+      "GDES-3005"
+    ],
+    "tactics": [
+      "GDES-3005"
+    ],
+    "venues": [
+      "GDES-3005"
+    ],
+    "final": [
+      "GDES-3005"
+    ],
+    "plan": [
+      "GDES-3005"
+    ],
+    "3b06": [
+      "GDES-3005"
+    ],
+    "statistics": [
+      "SCTM-3001"
+    ],
+    "quantitative": [
+      "SCTM-3001"
+    ],
+    "statistical": [
+      "SCTM-3001"
+    ],
+    "analyses": [
+      "SCTM-3001"
+    ],
+    "choose": [
+      "SCTM-3001"
+    ],
+    "way": [
+      "SCTM-3001"
+    ],
+    "evidence": [
+      "SCTM-3001"
+    ],
+    "distinguish": [
+      "SCTM-3001"
+    ],
+    "unfounded": [
+      "SCTM-3001"
+    ],
+    "anecdotal": [
+      "SCTM-3001"
+    ],
+    "legitimate": [
+      "SCTM-3001"
+    ],
+    "strengthening": [
+      "SCTM-3001"
+    ],
+    "analytic": [
+      "SCTM-3001"
+    ],
+    "literacy": [
+      "SCTM-3001"
+    ],
+    "collect": [
+      "SCTM-3001"
+    ],
+    "analyze": [
+      "SCTM-3001",
+      "GDES-3103",
+      "GART-1003",
+      "VISD-2005"
+    ],
+    "report": [
+      "SCTM-3001"
+    ],
+    "understand": [
+      "SCTM-3001"
+    ],
+    "3b02": [
+      "SCTM-3001"
+    ],
+    "economy": [
+      "DIGF-4001",
+      "VISD-3008"
+    ],
+    "draws": [
+      "DIGF-4001"
+    ],
+    "1st": [
+      "DIGF-4001"
+    ],
+    "learner": [
+      "DIGF-4001"
+    ],
+    "executing": [
+      "DIGF-4001"
+    ],
+    "intervening": [
+      "DIGF-4001"
+    ],
+    "supplements": [
+      "DIGF-4001"
+    ],
+    "conflict": [
+      "DIGF-4001"
+    ],
+    "management": [
+      "DIGF-4001"
+    ],
+    "organizational": [
+      "DIGF-4001"
+    ],
+    "inclusivity": [
+      "DIGF-4001"
+    ],
+    "learners": [
+      "DIGF-4001"
+    ],
+    "domains": [
+      "DIGF-4001"
+    ],
+    "sociology": [
+      "DIGF-4001",
+      "SOSC-3014"
+    ],
+    "progression": [
+      "DIGF-4001"
+    ],
+    "guided": [
+      "DIGF-4001"
+    ],
+    "guest": [
+      "DIGF-4001"
+    ],
+    "lecturers": [
+      "DIGF-4001"
+    ],
+    "4b01": [
+      "DIGF-4001"
+    ],
+    "ethnographic": [
+      "GDES-3062",
+      "SOSC-2003"
+    ],
+    "pursue": [
+      "GDES-3062"
+    ],
+    "objectives": [
+      "GDES-3062"
+    ],
+    "deliverables": [
+      "GDES-3062"
+    ],
+    "educate": [
+      "GDES-3062"
+    ],
+    "researchers": [
+      "GDES-3062",
+      "GDES-3103"
+    ],
+    "academic": [
+      "GDES-3062",
+      "VISM-2003"
+    ],
+    "wider": [
+      "GDES-3062"
+    ],
+    "communities": [
+      "GDES-3062"
+    ],
+    "optional": [
+      "GDES-3062"
+    ],
+    "replacement": [
+      "GDES-3062"
+    ],
+    "3012": [
+      "GDES-3062"
+    ],
+    "inds": [
+      "GDES-3062"
+    ],
+    "3002": [
+      "GDES-3062"
+    ],
+    "wishing": [
+      "GDES-3062"
+    ],
+    "advance": [
+      "GDES-3062"
+    ],
+    "permission": [
+      "GDES-3062"
+    ],
+    "chair": [
+      "GDES-3062"
+    ],
+    "equivalency": [
+      "GDES-3062"
+    ],
+    "requiring": [
+      "GDES-3062"
+    ],
+    "minimum": [
+      "GDES-3062"
+    ],
+    "grade": [
+      "GDES-3062"
+    ],
+    "3b68": [
+      "GDES-3062"
+    ],
+    "representations": [
+      "SOSC-3013",
+      "HUMN-3016"
+    ],
+    "citizen": [
+      "SOSC-3013"
+    ],
+    "subjects": [
+      "SOSC-3013"
+    ],
+    "marginalized": [
+      "SOSC-3013"
+    ],
+    "socially": [
+      "SOSC-3013"
+    ],
+    "excluded": [
+      "SOSC-3013"
+    ],
+    "discursive": [
+      "SOSC-3013"
+    ],
+    "intersections": [
+      "SOSC-3013"
+    ],
+    "subjectivity": [
+      "SOSC-3013"
+    ],
+    "starting": [
+      "SOSC-3013"
+    ],
+    "colonialist": [
+      "SOSC-3013"
+    ],
+    "imperialist": [
+      "SOSC-3013"
+    ],
+    "discourses": [
+      "SOSC-3013"
+    ],
+    "tracks": [
+      "SOSC-3013"
+    ],
+    "conquest": [
+      "SOSC-3013"
+    ],
+    "migration": [
+      "SOSC-3013"
+    ],
+    "border": [
+      "SOSC-3013"
+    ],
+    "crossings": [
+      "SOSC-3013"
+    ],
+    "tensions": [
+      "SOSC-3013"
+    ],
+    "impacts": [
+      "SOSC-3013",
+      "VISM-2003"
+    ],
+    "what": [
+      "SOSC-3013"
+    ],
+    "means": [
+      "SOSC-3013"
+    ],
+    "equality": [
+      "SOSC-3013"
+    ],
+    "resistance": [
+      "SOSC-3013"
+    ],
+    "gives": [
+      "DIGF-4904"
+    ],
+    "depth": [
+      "DIGF-4904"
+    ],
+    "determined": [
+      "DIGF-4904"
+    ],
+    "either": [
+      "DIGF-4904"
+    ],
+    "individually": [
+      "DIGF-4904"
+    ],
+    "conceptual": [
+      "DIGF-4904",
+      "INDS-3003",
+      "ILLU-1002"
+    ],
+    "advanced": [
+      "DIGF-4904",
+      "EXAN-2009",
+      "DIGF-3013",
+      "EXAN-3011"
+    ],
+    "level": [
+      "DIGF-4904",
+      "DIGF-2013",
+      "DIGF-3013"
+    ],
+    "utilizing": [
+      "DIGF-4904"
+    ],
+    "framework": [
+      "DIGF-4904"
+    ],
+    "open": [
+      "DIGF-4904"
+    ],
+    "programs": [
+      "DIGF-4904"
+    ],
+    "spans": [
+      "DIGF-4904"
+    ],
+    "disciplines": [
+      "DIGF-4904"
+    ],
+    "depending": [
+      "DIGF-4904"
+    ],
+    "scale": [
+      "DIGF-4904"
+    ],
+    "taken": [
+      "DIGF-4904",
+      "HUMN-3016"
+    ],
+    "combination": [
+      "DIGF-4904"
+    ],
+    "visualization": [
+      "GDES-3103"
+    ],
+    "live": [
+      "GDES-3103",
+      "HUMN-3016"
+    ],
+    "store": [
+      "GDES-3103"
+    ],
+    "access": [
+      "GDES-3103"
+    ],
+    "vast": [
+      "GDES-3103"
+    ],
+    "amounts": [
+      "GDES-3103"
+    ],
+    "increases": [
+      "GDES-3103"
+    ],
+    "need": [
+      "GDES-3103"
+    ],
+    "citizens": [
+      "GDES-3103"
+    ],
+    "governments": [
+      "GDES-3103"
+    ],
+    "represent": [
+      "GDES-3103"
+    ],
+    "interpret": [
+      "GDES-3103"
+    ],
+    "useful": [
+      "GDES-3103"
+    ],
+    "intuitive": [
+      "GDES-3103"
+    ],
+    "compelling": [
+      "GDES-3103",
+      "DIGF-2012"
+    ],
+    "devising": [
+      "GDES-3103"
+    ],
+    "gathering": [
+      "GDES-3103"
+    ],
+    "structuring": [
+      "GDES-3103"
+    ],
+    "encoding": [
+      "GDES-3103"
+    ],
+    "representing": [
+      "GDES-3103"
+    ],
+    "revealing": [
+      "GDES-3103"
+    ],
+    "effective": [
+      "GDES-3103"
+    ],
+    "2002": [
+      "GDES-3103"
+    ],
+    "extraordinary": [
+      "HUMN-3016"
+    ],
+    "looks": [
+      "HUMN-3016"
+    ],
+    "physically": [
+      "HUMN-3016"
+    ],
+    "viewed": [
+      "HUMN-3016"
+    ],
+    "artistically": [
+      "HUMN-3016"
+    ],
+    "looking": [
+      "HUMN-3016"
+    ],
+    "otherness": [
+      "HUMN-3016"
+    ],
+    "pervaded": [
+      "HUMN-3016"
+    ],
+    "newer": [
+      "HUMN-3016"
+    ],
+    "model": [
+      "HUMN-3016"
+    ],
+    "root": [
+      "HUMN-3016"
+    ],
+    "affect": [
+      "HUMN-3016"
+    ],
+    "only": [
+      "HUMN-3016"
+    ],
+    "lives": [
+      "HUMN-3016"
+    ],
+    "but": [
+      "HUMN-3016"
+    ],
+    "exploring": [
+      "HUMN-3016",
+      "MAAD-1001",
+      "SCIN-2004",
+      "VISD-2005",
+      "SOSC-3014",
+      "DIGF-2013"
+    ],
+    "challenged": [
+      "HUMN-3016"
+    ],
+    "find": [
+      "HUMN-3016"
+    ],
+    "those": [
+      "HUMN-3016"
+    ],
+    "deemed": [
+      "HUMN-3016"
+    ],
+    "included": [
+      "HUMN-3016"
+    ],
+    "3b21": [
+      "HUMN-3016"
+    ],
+    "address": [
+      "GART-1003"
+    ],
+    "challenge": [
+      "GART-1003",
+      "GART-1018"
+    ],
+    "community": [
+      "GART-1003"
+    ],
+    "impact": [
+      "GART-1003"
+    ],
+    "good": [
+      "GART-1003"
+    ],
+    "comp": [
+      "SCTM-2005"
+    ],
+    "sci": [
+      "SCTM-2005"
+    ],
+    "logic": [
+      "SCTM-2005"
+    ],
+    "coding": [
+      "SCTM-2005"
+    ],
+    "fundamental": [
+      "SCTM-2005",
+      "ILLU-1002",
+      "EXAN-1001",
+      "EXAN-2006"
+    ],
+    "algorithms": [
+      "SCTM-2005"
+    ],
+    "programming": [
+      "SCTM-2005",
+      "DIGF-2013"
+    ],
+    "language": [
+      "SCTM-2005"
+    ],
+    "covers": [
+      "SCTM-2005",
+      "EXAN-2013",
+      "EXAN-2008",
+      "EXAN-2006",
+      "DIGF-2012",
+      "VISM-2003"
+    ],
+    "debugging": [
+      "SCTM-2005"
+    ],
+    "commentary": [
+      "GART-1018"
+    ],
+    "pieces": [
+      "GART-1018"
+    ],
+    "fashion": [
+      "GART-1018"
+    ],
+    "traditional": [
+      "GART-1018",
+      "EXAN-1001"
+    ],
+    "notions": [
+      "GART-1018"
+    ],
+    "clothing": [
+      "GART-1018"
+    ],
+    "adornment": [
+      "GART-1018"
+    ],
+    "focusing": [
+      "DIGF-2002",
+      "SOSC-2003",
+      "EXAN-2004",
+      "EXAN-2009",
+      "EXAN-3011"
+    ],
+    "hardware": [
+      "DIGF-2002"
+    ],
+    "responsive": [
+      "DIGF-2002"
+    ],
+    "textiles": [
+      "MAAD-1001"
+    ],
+    "textile": [
+      "MAAD-1001"
+    ],
+    "significance": [
+      "MAAD-1001"
+    ],
+    "processes": [
+      "MAAD-1001"
+    ],
+    "weaving": [
+      "MAAD-1001"
+    ],
+    "dyeing": [
+      "MAAD-1001"
+    ],
+    "surface": [
+      "MAAD-1001"
+    ],
+    "function": [
+      "MAAD-1001"
+    ],
+    "expressive": [
+      "MAAD-1001",
+      "EXAN-2006"
+    ],
+    "stop": [
+      "EXAN-2013"
+    ],
+    "puppet": [
+      "EXAN-2013"
+    ],
+    "maker": [
+      "EXAN-2013"
+    ],
+    "technique": [
+      "EXAN-2013"
+    ],
+    "animate": [
+      "EXAN-2013",
+      "EXAN-2008"
+    ],
+    "puppets": [
+      "EXAN-2013"
+    ],
+    "character": [
+      "EXAN-2013",
+      "ILLU-1002",
+      "EXAN-2009",
+      "EXAN-3005"
+    ],
+    "workflows": [
+      "EXAN-2013"
+    ],
+    "doing": [
+      "SOSC-2003"
+    ],
+    "centred": [
+      "SOSC-2003"
+    ],
+    "centered": [
+      "SOSC-2003"
+    ],
+    "qualitative": [
+      "SOSC-2003"
+    ],
+    "participatory": [
+      "SOSC-2003"
+    ],
+    "needs": [
+      "SOSC-2003"
+    ],
+    "interview": [
+      "SOSC-2003"
+    ],
+    "manipulation": [
+      "SCIN-2004"
+    ],
+    "modeling": [
+      "SCIN-2004",
+      "EXAN-2008",
+      "DIGF-2012",
+      "EXAN-2009",
+      "DIGF-3013"
+    ],
+    "texturing": [
+      "SCIN-2004"
+    ],
+    "lighting": [
+      "SCIN-2004"
+    ],
+    "rendering": [
+      "SCIN-2004",
+      "EXAN-2008",
+      "DIGF-2012"
+    ],
+    "contemp": [
+      "VISD-2005"
+    ],
+    "theories": [
+      "VISD-2005"
+    ],
+    "prac": [
+      "VISD-2005"
+    ],
+    "complicated": [
+      "CROS-3019"
+    ],
+    "examining": [
+      "CROS-3019",
+      "LIFE-3001"
+    ],
+    "augment": [
+      "CROS-3019"
+    ],
+    "complicate": [
+      "CROS-3019"
+    ],
+    "embodiment": [
+      "CROS-3019",
+      "SOSC-3014"
+    ],
+    "mediates": [
+      "CROS-3019"
+    ],
+    "inhabit": [
+      "CROS-3019"
+    ],
+    "speculative": [
+      "LIFE-3001",
+      "INDS-3003"
+    ],
+    "relation": [
+      "LIFE-3001"
+    ],
+    "might": [
+      "LIFE-3001"
+    ],
+    "augmentation": [
+      "LIFE-3001"
+    ],
+    "post": [
+      "LIFE-3001"
+    ],
+    "humanism": [
+      "LIFE-3001"
+    ],
+    "augmented": [
+      "GDES-3092",
+      "EXAN-2004"
+    ],
+    "reality": [
+      "GDES-3092",
+      "EXAN-2004",
+      "EXAN-3011"
+    ],
+    "architectural": [
+      "GDES-3092"
+    ],
+    "circular": [
+      "VISD-3008"
+    ],
+    "foresight": [
+      "INDS-3003"
+    ],
+    "scenario": [
+      "INDS-3003"
+    ],
+    "planning": [
+      "INDS-3003"
+    ],
+    "trend": [
+      "INDS-3003"
+    ],
+    "analysis": [
+      "INDS-3003",
+      "VISM-2003"
+    ],
+    "anticipate": [
+      "INDS-3003"
+    ],
+    "forces": [
+      "SOSC-3014"
+    ],
+    "modification": [
+      "SOSC-3014"
+    ],
+    "medicalization": [
+      "SOSC-3014"
+    ],
+    "illustrative": [
+      "ILLU-1002"
+    ],
+    "illustration": [
+      "ILLU-1002"
+    ],
+    "storytelling": [
+      "ILLU-1002"
+    ],
+    "communicate": [
+      "ILLU-1002"
+    ],
+    "evoke": [
+      "ILLU-1002"
+    ],
+    "emotional": [
+      "ILLU-1002"
+    ],
+    "responses": [
+      "ILLU-1002"
+    ],
+    "non": [
+      "EXAN-1001"
+    ],
+    "abstract": [
+      "EXAN-1001"
+    ],
+    "surreal": [
+      "EXAN-1001"
+    ],
+    "conceptually": [
+      "EXAN-1001"
+    ],
+    "object": [
+      "INDS-1003"
+    ],
+    "interact": [
+      "INDS-1003"
+    ],
+    "mediate": [
+      "INDS-1003"
+    ],
+    "elements": [
+      "INDS-1003"
+    ],
+    "anim": [
+      "EXAN-2008"
+    ],
+    "textures": [
+      "EXAN-2008"
+    ],
+    "standard": [
+      "EXAN-2008"
+    ],
+    "player": [
+      "DIGF-2013"
+    ],
+    "dig": [
+      "EXAN-2006"
+    ],
+    "keyframe": [
+      "EXAN-2006"
+    ],
+    "spacing": [
+      "EXAN-2006"
+    ],
+    "smooth": [
+      "EXAN-2006"
+    ],
+    "animations": [
+      "EXAN-2006",
+      "EXAN-2009"
+    ],
+    "low": [
+      "DIGF-2012"
+    ],
+    "poly": [
+      "DIGF-2012"
+    ],
+    "polygon": [
+      "DIGF-2012"
+    ],
+    "optimized": [
+      "DIGF-2012"
+    ],
+    "real": [
+      "DIGF-2012"
+    ],
+    "efficient": [
+      "DIGF-2012"
+    ],
+    "texture": [
+      "DIGF-2012"
+    ],
+    "optimization": [
+      "DIGF-2012"
+    ],
+    "jam": [
+      "EXAN-2004",
+      "EXAN-3011"
+    ],
+    "extended": [
+      "EXAN-2004",
+      "EXAN-3011"
+    ],
+    "virtual": [
+      "EXAN-2004"
+    ],
+    "mixed": [
+      "EXAN-2004"
+    ],
+    "intermediate": [
+      "EXAN-2009"
+    ],
+    "sophisticated": [
+      "EXAN-2009",
+      "EXAN-3011"
+    ],
+    "rigging": [
+      "EXAN-2009"
+    ],
+    "sequences": [
+      "EXAN-2009"
+    ],
+    "gaming": [
+      "VISM-2003"
+    ],
+    "medium": [
+      "VISM-2003"
+    ],
+    "characters": [
+      "EXAN-3005"
+    ],
+    "personality": [
+      "EXAN-3005"
+    ],
+    "involve": [
+      "EXAN-3005"
+    ],
+    "bringing": [
+      "EXAN-3005"
+    ],
+    "adv": [
+      "EXAN-3011"
+    ],
+    "delves": [
+      "EXAN-3011"
+    ],
+    "deeper": [
+      "EXAN-3011"
+    ],
+    "involving": [
+      "EXAN-3011"
+    ],
+    "interactions": [
+      "EXAN-3011"
+    ]
+  }
+}

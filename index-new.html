@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Futures Pathways</title>
+    <link rel="stylesheet" href="styles-new.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Sidebar with pathway cards -->
+        <aside class="sidebar">
+            <div class="sidebar-header">
+                <h2>Digital Futures</h2>
+            </div>
+
+            <div class="pathway-cards">
+                <div class="pathway-card" data-pathway="creative-technologist">
+                    <h3>Creative Technologist</h3>
+                    <p>Technological generalist focusing on prototypes and emerging tech. Combines technical skills with creative problem-solving across digital domains.</p>
+                </div>
+
+                <div class="pathway-card" data-pathway="physical-interface-designer">
+                    <h3>Physical Interface Designer</h3>
+                    <p>Specializes in digital-physical interfaces and wearables. Bridges the gap between digital experiences and physical interaction design.</p>
+                </div>
+
+                <div class="pathway-card" data-pathway="games-playable-media-maker">
+                    <h3>Games & Playable Media Maker</h3>
+                    <p>Focuses on game design, narratives, and playable media. Creates interactive experiences that engage and entertain through innovative gameplay.</p>
+                </div>
+            </div>
+
+            <!-- Placeholder for future search and filters -->
+            <!-- <div class="sidebar-footer">
+                <div class="search-placeholder">
+                    <p>🔍 Search & Filters</p>
+                    <small>Coming soon...</small>
+                </div>
+            </div> -->
+        </aside>
+
+        <!-- Main content area -->
+        <main class="main-content">
+            <div class="content-header pathway-info">
+            </div>
+
+            <!-- Course grid with headers -->
+            <div class="course-grid-container" id="courseGridContainer">
+                <!-- Grid will be populated by JavaScript -->
+                <div class="grid-placeholder">
+                    <div class="placeholder-icon">📚</div>
+                    <h3>Course Overview</h3>
+                    <p>Choose a pathway to see the 4-year course structure</p>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <!-- Course detail modal -->
+    <div class="modal" id="courseModal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3 id="modalTitle"></h3>
+                <span class="modal-close">&times;</span>
+            </div>
+            <div class="modal-body">
+                <div class="course-meta">
+                    <span class="course-code" id="modalCode"></span>
+                    <span class="course-credits" id="modalCredits"></span>
+                </div>
+                <div class="course-description" id="modalDescription"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script-new.js"></script>
+</body>
+</html>

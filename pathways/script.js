@@ -146,8 +146,8 @@ class PathwayViewer {
             const courseItem = document.createElement('div');
             courseItem.className = 'course-item';
             courseItem.innerHTML = `
-                <div class="course-code">${course.code || 'TBD'}</div>
                 <div class="course-title">${course.title}</div>
+                <div class="course-code">${course.code || 'TBD'}</div>
                 <div class="course-credits">${course.credits} Credits</div>
             `;
 

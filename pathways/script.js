@@ -22,15 +22,15 @@ class PathwayViewer {
             const pathways = ['creative-technologist', 'physical-interface-designer', 'games-playable-media-maker'];
 
             for (const pathway of pathways) {
-                const response = await fetch(`pathways/${pathway}.json`);
+                const response = await fetch(`${pathway}.json`);
                 this.pathwayData[pathway] = await response.json();
             }
 
             // Load comparison and search data
-            const comparisonResponse = await fetch('pathways/pathway-comparison.json');
+            const comparisonResponse = await fetch('pathway-comparison.json');
             this.comparisonData = await comparisonResponse.json();
 
-            const searchResponse = await fetch('pathways/searchable-index.json');
+            const searchResponse = await fetch('searchable-index.json');
             this.searchIndex = await searchResponse.json();
 
         } catch (error) {

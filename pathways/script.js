@@ -167,7 +167,9 @@ class PathwayViewer {
 
         courses.forEach(course => {
             const courseItem = document.createElement('div');
-            courseItem.className = 'course-item';
+            // Add class based on credit value
+            const creditClass = course.credits === 1.0 ? 'course-item-full' : 'course-item-half';
+            courseItem.className = `course-item ${creditClass}`;
             courseItem.innerHTML = `
                 <div class="course-title">${course.title}</div>
                 <div class="course-code">${course.code || 'TBD'}</div>

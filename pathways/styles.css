@@ -265,6 +265,14 @@ body {
     border-color: var(--text-color);
 }
 
+.course-item-full {
+    min-height: 160px;
+}
+
+.course-item-half {
+    min-height: 80px;
+}
+
 .course-code {
     font-weight: 500;
     color: var(--text-color);

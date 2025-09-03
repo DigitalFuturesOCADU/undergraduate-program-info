@@ -2,269 +2,438 @@
   "name": "Creative Technologist",
   "years": {
     "1": {
-      "core_courses": [
-        {
-          "code": "DIGF-1002",
-          "title": "Cross-Disciplinary Collab",
-          "credits": 0.5,
-          "description": "From concept to implementation, most projects require a diversity of people and skills in order to make the project successful or feasible. This course examines different models of collaboration, team formation, and communication to ensure success. It discusses the value and implications of different skill sets and problem-solving orientations over project life-cycles and group decision making. The course comprises reading discussions, small-exercises and student reflections with the aim to understanding the conditions and stages for high-functioning teams and successful projects. Note: This \"Writing Across the Curriculum\" (WAC) course is part of an initiative to support students in their disciplinary writing."
-        },
-        {
-          "code": "DIGF-1001",
-          "title": "Digital Models + Fabrication",
-          "credits": 0.5,
-          "description": "This studio seminar course provides a practical and theoretical introduction to the concepts and methods of digital design and production. It examines how digital sketching, fabrication, and generative design can be used for the exploration and communication of complex ideas. The applications range from constructing digital models of physical space, creating and generating 3D forms, and transforming digital models into physical objects. The projects undertaken will lead to informed choice-making of the appropriate tool for a particular concept or idea. The student will learn to build their own techniques for their design process, visualizations and presentations. Students with credit in DIGF-1B01 may not take this course for credit."
-        },
-        {
-          "code": "MAAD-1003",
-          "title": "Experimental Making",
-          "credits": 0.5,
-          "description": "Experimental approaches to using found, repurposed, and unusual materials are explored to develop innovative art and functional forms through play. Projects include working with themes of bodies, site-specific locations, and land-based learning. Emphasis is on methods of idea generation, documenting process work, and communicating concepts to others."
-        },
-        {
-          "code": "ENGL-1003",
-          "title": "The Essay & the Argument",
-          "credits": 0.5,
-          "description": "This course is designed specifically for students who wish to sharpen their writing skills through intensive practice and review of composition mechanics and English grammar. Students will focus on grammar fundamentals, paragraph construction and reading strategies. This workshop allows students to explore aspects of essay composition while developing confidence in their own writing skills through practical exercises. Students who select this course will develop their basic writing skills such as sentence, paragraph and essay structure, punctuation, as well as critical thinking. Students with credit in ENGL-1004, ENGL-1B03, ENGL-1B04, LBST-1A41, LBST-1B11, ENGL-1B05, LBST-1A42, LBST-1B12, LBST-1004, LBST-1A43, LBST-1B13, LBST-1001, LBST-1A40 may not take this course for credit."
-        }
-      ],
-      "program-specific_electives": [
-        {
-          "code": "DIGF-1007",
-          "title": "Intro to Game Design",
-          "credits": 0.5,
-          "description": "From film, television, animation, web to mobile; digital games are a central part of the modern media experience. This studio seminar course provides a practical introduction to game design via a series of applied game-making exercises. This course provides practical and theoretical studies of games and gameplay to build foundational game design skills for broad application. Class exercises will frame the fundamentals of games: rules, play and culture to support the game design process. Through a series of game making exercises the student will learn and apply a range of methods and approaches to design and build playful game experiences. Students with credit in DIGF-1B02, GDES-1028 or GDES-1B30 may not take this course for credit."
-        },
-        {
-          "code": "GDES-1015",
-          "title": "Typography 1",
-          "credits": 0.5,
-          "description": "This introductory studio course provides students with an understanding of the basic vocabulary, skills and use of letterforms and how they combine to form words, text and meaning. The anatomy and structure of letterforms and the formal relationships between them are considered. Students are exposed to a foundational understanding of current typographic classification, technology and systems. This course will develop the students' ability to explore and employ typography and is a first step toward developing typographic mastery. Students with credit in GDES-1015, GDES-1B17, GRPH-2A04 may not take this course for credit."
-        },
-        {
-          "code": "VISC-1002",
-          "title": "Global Vis & Mat Cult: to Pres",
-          "credits": 0.5,
-          "description": "This lecture course surveys developments in global nineteenth through the twentieth-first-century art, architecture, design and material culture. Students will explore the historical, intellectual and socioeconomic contexts of this period using key examples of visual and material culture, while addressing themes such as industrialization, imperialism, propaganda, mass reproduction, technology and globalization. Particular emphasis will be placed on theoretical and critical issues emerging during this time period, including concepts of exoticism, scientific truth, the reproduction of images, the public sphere, commodity culture, hybridity and indigeneity from a global perspective that traces the development of multiple modernisms and postmodernity. Students with credit in LBST-1B05, VISC-1B07 may not take this course for credit."
-        }
-      ],
-      "open_electives": [],
-      "breadth_electives": []
+      "fall": {
+        "core_courses": [
+          {
+            "code": "DIGF-1002",
+            "title": "Cross-Disciplinary Collab",
+            "credits": 0.5,
+            "description": "- From concept to implementation, most projects require a diversity of people and skills in order to make the project successful or feasible. This course examines different models of collaboration, team formation, and communication to ensure success. It discusses the value and implications of different skill sets and problem-solving orientations over project life-cycles and group decision making. The course comprises reading discussions, small-exercises and student reflections with the aim to understanding the conditions and stages for high-functioning teams and successful projects. Note: This \"Writing Across the Curriculum\" (WAC) course is part of an initiative to support students in their disciplinary writing.",
+            "prerequisites": null
+          }
+        ],
+        "program_specific_electives": [
+          {
+            "code": "DIGF-1001",
+            "title": "Digital Models + Fabrication",
+            "credits": 0.5,
+            "description": "This studio seminar course provides a practical and theoretical introduction to the concepts and methods of digital design and production. It examines how digital sketching, fabrication, and generative design can be used for the exploration and communication of complex ideas. The applications range from constructing digital models of physical space, creating and generating 3D forms, and transforming digital models into physical objects. The projects undertaken will lead to informed choice-making of the appropriate tool for a particular concept or idea. The student will learn to build their own techniques for their design process, visualizations and presentations. Students with credit in DIGF-1B01 may not take this course for credit.",
+            "prerequisites": null
+          },
+          {
+            "code": "DIGF-1007",
+            "title": "Intro to Game Design",
+            "credits": 0.5,
+            "description": "From film, television, animation, web to mobile; digital games are a central part of the modern media experience. This studio seminar course provides a practical introduction to game design via a series of applied game-making exercises. This course provides practical and theoretical studies of games and gameplay to build foundational game design skills for broad application. Class exercises will frame the fundamentals of games: rules, play and culture to support the game design process. Through a series of game making exercises the student will learn and apply a range of methods and approaches to design and build playful game experiences. Students with credit in DIGF-1B02, GDES-1028 or GDES-1B30 may not take this course for credit.",
+            "prerequisites": null
+          }
+        ],
+        "open_electives": [
+          {
+            "code": "MAAD-1003",
+            "title": "Experimental Making",
+            "credits": 0.5,
+            "description": "Experimental approaches to using found, repurposed, and unusual materials are explored to develop innovative art and functional forms through play. Projects include working with themes of bodies, site-specific locations, and land-based learning. Emphasis is on methods of idea generation, documenting process work, and communicating concepts to others.",
+            "prerequisites": "None"
+          },
+          {
+            "code": "GDES-1015",
+            "title": "Typography 1",
+            "credits": 0.5,
+            "description": "This introductory studio course provides students with an understanding of the basic vocabulary, skills and use of letterforms and how they combine to form words, text and meaning. The anatomy and structure of letterforms and the formal relationships between them are considered. Students are exposed to a foundational understanding of current typographic classification, technology and systems. This course will develop the students' ability to explore and employ typography and is a first step toward developing typographic mastery. Students with credit in GDES-1015, GDES-1B17, GRPH-2A04 may not take this course for credit.",
+            "prerequisites": "None"
+          }
+        ],
+        "breadth_electives": [
+          {
+            "code": "ENGL-1003",
+            "title": "The Essay & the Argument",
+            "credits": 0.5,
+            "description": "This course is designed specifically for students who wish to sharpen their writing skills through intensive practice and review of composition mechanics and English grammar. Students will focus on grammar fundamentals, paragraph construction and reading strategies. This workshop allows students to explore aspects of essay composition while developing confidence in their own writing skills through practical exercises.Students who select this course will develop their basic writing skills such as sentence, paragraph and essay structure, punctuation, as well as critical thinking. Students with credit in ENGL-1004, ENGL-1B03, ENGL-1B04, LBST-1A41, LBST-1B11, ENGL-1B05, LBST-1A42, LBST-1B12, LBST-1004, LBST-1A43, LBST-1B13, LBST-1001, LBST-1A40 may not take this course for credit.",
+            "prerequisites": null
+          },
+          {
+            "code": "VISC-1002",
+            "title": "Global Vis & Mat Cult: to Pres",
+            "credits": 0.5,
+            "description": "This lecture course surveys developments in global nineteenth through the twentieth-first-century art, architecture, design and material culture. Students will explore the historical, intellectual and socioeconomic contexts of this period using key examples of visual and material culture, while addressing themes such as industrialization, imperialism, propaganda, mass reproduction, technology and globalization. Particular emphasis will be placed on theoretical and critical issues emerging during this time period, including concepts of exoticism, scientific truth, the reproduction of images, the public sphere, commodity culture, hybridity and indigeneity from a global perspective that traces the development of multiple modernisms and postmodernity. Students with credit in LBST-1B05, VISC-1B07 may not take this course for credit.",
+            "prerequisites": null
+          }
+        ]
+      },
+      "winter": {
+        "core_courses": [
+          {
+            "code": "DIGF-1003",
+            "title": "Atelier 0",
+            "credits": 0.5,
+            "description": "- This course introduces the core ideas of the Digital Futures program. It synthesizes the technical and conceptual methods introduced in the first year of the program, and provides a space of experimentation for students to explore them further. The goal is to prepare students for the Ateliers and explore how their work can engage industries and communities beyond the classroom.",
+            "prerequisites": null
+          },
+          {
+            "code": "SCTM-2005",
+            "title": "Intro Comp Sci-Logic & Coding",
+            "credits": 0.5,
+            "description": "- This course introduces students to the fundamentals of logic, and computer programming. It emphasizes object-oriented languages, allowing students to understand and later develop capacity in a wider range of programming methods. The material will be contextualized within both art and design practices, introducing students to programming for environments, objects and online, as well as practices of interaction, automation, generation, networks and visualization. Students will understand how to incorporate and recombine existing code and to use established design patterns. Basic foundational coding languages will be used to introduce key concepts that students can employ in their subsequent study of advanced programming languages . Students will be asked to bring in work-in-progress from their studio courses that can be implemented through coding.",
+            "prerequisites": null
+          },
+          {
+            "code": "DIGF-2002",
+            "title": "Physical Computing",
+            "credits": 0.5,
+            "description": "- Physical computing is a human centric approach to the ways in which we bridge the analog and digital worlds. Through a series of hands-on labs that promote quick prototyping and iterative design, students expand their understanding of the relationship between electronics and software and create a variety of working prototypes, kinetic artworks, installations, and physical environments.",
+            "prerequisites": null
+          }
+        ],
+        "program_specific_electives": [],
+        "open_electives": [
+          {
+            "code": "INDS-1003",
+            "title": "Body, Object & Digital Space",
+            "credits": 0.5,
+            "description": "This course observes nature through the exploration of line, pattern, form - translating them Into digital space, then into tangible objects. Students gain insight into how the human body relates to objects and space. By investigating the basic components of an object's architecture (form, material, structure, texture) students will learn how to reference the natural world through the integration of narrative in the creation of a product. Students will also learn how basic CAD skills can integrate ideas into the iterative process of concept development through the exploration and development of objects and their specific materials using analogue and digital methods.",
+            "prerequisites": null
+          },
+          {
+            "code": "EXAN-1001",
+            "title": "Intro: Experimental Animation",
+            "credits": 0.5,
+            "description": "Focusing on experimental animation practice, this course introduces the diversity of histories, techniques and principles of animation through a sequence of studio exercises, material explorations, short written assignments, lectures, screenings and seminars. Techniques introduced include: drawing for 2D animation, stop-motion, rotoscoping and sound design for animation. Students with credit in INTM-2006 or INTM-2B11 may not take this course for credit.",
+            "prerequisites": null
+          },
+          {
+            "code": "EXAN-2008",
+            "title": "Intro to 3D Modeling and Anim",
+            "credits": 0.5,
+            "description": "This course introduces 3D modeling and animation as tools for artistic expression. Students learn techniques of modeling, texturing, lighting, rendering, introductory animation and camera movement. The critical context of 3D graphics and animation history as well as examples from contemporary art and animation practice are discussed in relation to studio assignments. Students are introduced to the requirements of specific applications of 3D asset creation for different outcomes. Students with credit in INTM-2016, INTM-2B33 may not take this course for credit.",
+            "prerequisites": null
+          }
+        ],
+        "breadth_electives": []
+      }
     },
     "2": {
-      "core_courses": [
-        {
-          "code": "DIGF-2014",
-          "title": "Atelier I",
-          "credits": 1.0,
-          "description": "This studio-seminar course investigates current themes, technologies and debates that inform interdisciplinary digital science, art, design and enterprise. The classes explore issues and problems through project research, conception and initiation - including readings and discussion, lectures, site visits, engagement with industry partners, and student presentations. Students apply personal and group problem-solving strategies to their collective work. Seminar topics are developed on an annual basis through a faculty and student curriculum retreat process."
-        },
-        {
-          "code": "DIGF-2015",
-          "title": "Atelier II",
-          "credits": 1.0,
-          "description": "In Atelier II: Collaboration, students develop their ideas and execute their projects as prototypes collectively with feedback from faculty and industry partners. Atelier II: Collaboration is linked to Atelier I: Discovery and builds on the practical and technical skills gained in the fall semester.The course encourages a wide range of approaches to collaborative research and practice-based problem-solving methods. Interaction with industry partners begun in the first semester in Atelier I: Discovery is deepened in the second semester with Atelier II: Collaboration as students work towards a physical articulation of their creative projects. Note: This \"Writing Across the Curriculum\" (WAC) course is part of an initiative to support students in their disciplinary writing."
-        }
-      ],
-      "program-specific_electives": [
-        {
-          "code": "DIGF-2016",
-          "title": "Intro to Wearable Electronics",
-          "credits": 0.5,
-          "description": "Wearable Computing sits at the intersection of design, art, craft, and emerging technologies. This studio course focuses on interactivity in the wearable context and the human body as interface and display. It provides a hands-on introduction to basic tools and techniques for incorporating microcontrollers, sensors, and actuators into garments and accessories. No previous experience in physical computing is required. Through prototyping and experimentation, students will learn to create engaging wearable computing systems. Students with credit in DIGF-2016, GDES-3015, GDES-3B16 may not take this course for credit."
-        },
-        {
-          "code": "INTM-2004",
-          "title": "Sonic Arts",
-          "credits": 0.5,
-          "description": "This course introduces sound and audio as artistic media. Students learn to record sounds and transform them using visual editing computer software. Each student works at shaping and building this material into short sound studies. Contemporary and historical examples of artists' audio projects and methods of electronic composition are presented and discussed. Students are encouraged to develop their sound studies for film or video soundtracks, in performance or as audio installations. Students with credit in INTM-2B06 may not take this course for credit."
-        },
-        {
-          "code": "HUMN-2007",
-          "title": "Computational History & Theory",
-          "credits": 0.5,
-          "description": "Data machines in computational science transform information into science and social science knowledge � about disease, environments, human behaviour, traffic patterns, etc. This course studies the history of computational mathematics, computational neuro/cognitive sciences and practitioners, addressing how trends in mathematics and scientific paradigms inform science practices and their social effects. Students will employ critical approaches from science studies, philosophy, and communication to evaluate data's historical evolution, its constraints within modular systems and consumer science literature. The course examines historical and contemporary case studies to see how critical theory can be employed to study data in broader, complex (biological and sociocultural) systems to create meaningful findings for society. Students with credit in HUMN-2B31 may not take this course for credit."
-        }
-      ],
-      "open_electives": [
-        {
-          "code": "INTM-2017",
-          "title": "Hybrid Media Lab",
-          "credits": 0.5,
-          "description": "Hybrid Media Lab has a multi-disciplinary focus; students learn to combine diverse media in their art production while being introduced to experimental working methods. The course will examine how artists integrate various media and materials, installation works, audio, film and video hybrids and digital interfaces. Students learn to work collaboratively by carrying interdisciplinary projects through various stages of fabrication and production. Converging sites of practice will be explored, discussed and analyzed."
-        },
-        {
-          "code": "VISM-2006",
-          "title": "Critical Play",
-          "credits": 0.5,
-          "description": "Through critical play practices, we experiment with identity, creative expression and invention, and we learn to improvise in a system of rules. This course addresses how such forms of play can generate criticality among players. Students will explore meaning-making in play through exploration of a range of games, and by tracing a history of subversive art practices from Surrealism to contemporary game creation. Finally, the course presents diverse analytical approaches, including art history, critical theory and visual culture, to enable students to construct critical play practices. Understanding games beyond entertainment, the course seeks to foster critically-aware gamers. Students with credit in VISM-3001, VISM-3B01 may not take this course for credit."
-        }
-      ],
-      "breadth_electives": [
-        {
-          "code": "INTM-2003",
-          "title": "Mechanics for Artists",
-          "credits": 0.5,
-          "description": "The mechanical skills and knowledge required by artists to build kinetic installation and sculpture are developed in this course. Topics for discussion include three-dimensional prototyping techniques and the principles inherent in such basic mechanical components as bearings, levers, cams, gears, pulleys, springs and pendulums. Particular attention is given to the use of recycled components. Students with credit in INTM-2B05, INTM-3B08 may not take this course for credit."
-        },
-        {
-          "code": "VISM-2002",
-          "title": "History of New Media Art",
-          "credits": 0.5,
-          "description": "This survey course offers a history of the relationship of art and media from the beginnings of photography and avant-garde cinema to contemporary digital and video art practices. The course examines technological developments that have affected and transformed perception and representation including time-motion studies, industrialization (Taylorism), mass culture, and global electronic networks (Internet). The influence of new media on various avant-garde movements including cubism, constructivism, surrealism, dada, and on the stylistic innovations of collage and montage will be explored. Selected writings on art and technology by key thinkers will complement a visual and intellectual survey of artworks."
-        }
-      ]
+      "fall": {
+        "core_courses": [
+          {
+            "code": "DIGF-2014",
+            "title": "Atelier I: Discovery",
+            "credits": 1.0,
+            "description": "- This studio-seminar course investigates current themes, technologies and debates that inform interdisciplinary digital science, art, design and enterprise. The classes explore issues and problems through project research, conception and initiation - including readings and discussion, lectures, site visits, engagement with industry partners, and student presentations. Students apply personal and group problem-solving strategies to their collective work. Seminar topics are developed on an annual basis through a faculty and student curriculum retreat process.",
+            "prerequisites": null
+          }
+        ],
+        "program_specific_electives": [
+          {
+            "code": "DIGF-2016",
+            "title": "Intro to Wearable Electronics",
+            "credits": 0.5,
+            "description": "Wearable Computing sits at the intersection of design, art, craft, and emerging technologies. This studio course focuses on interactivity in the wearable context and the human body as interface and display. It provides a hands-on introduction to basic tools and techniques for incorporating microcontrollers, sensors, and actuators into garments and accessories. No previous experience in physical computing is required. Through prototyping and experimentation, students will learn to create engaging wearable computing systems. Students with credit in DIGF-2016, GDES-3015, GDES-3B16 may not take this course for credit.",
+            "prerequisites": null
+          }
+        ],
+        "open_electives": [
+          {
+            "code": "INTM-2004",
+            "title": "Sonic Arts",
+            "credits": 0.5,
+            "description": "This course introduces sound and audio as artistic media. Students learn to record sounds and transform them using visual editing computer software. Each student works at shaping and building this material into short sound studies. Contemporary and historical examples of artists' audio projects and methods of electronic composition are presented and discussed. Students are encouraged to develop their sound studies for film or video soundtracks, in performance or as audio installations. Students with credit in INTM-2B06 may not take this course for credit.\n\n2.0 credits of first and second year from ADVR ASOC BUSI CRCP CROS CRWR DIGF DRPT ENVR EXAN FABR GART GDES GRPH ILLU INDS INTM INVC IVCA IVCD LIFE MAAD PHOT PRNT PRPB SCIN - Must be completed prior to taking this course.\n1.0 credit of first-year from ENGL HUMN IVCL IVCV SCTM SOSC VISA VISC VISD VISM - Must be completed prior to taking this course.",
+            "prerequisites": "3.0 credits overall - Must be completed prior to taking this course."
+          },
+          {
+            "code": "INTM-2017",
+            "title": "Hybrid Media Lab",
+            "credits": 0.5,
+            "description": "Hybrid Media Lab has a multi-disciplinary focus; students learn to combine diverse media in their art production while being introduced to experimental working methods. The course will examine how artists integrate various media and materials, installation works, audio, film and video hybrids and digital interfaces. Students learn to work collaboratively by carrying interdisciplinary projects through various stages of fabrication and production. Converging sites of practice will be explored, discussed and analyzed.\n\n2.0 credits of first and second year from ADVR ASOC BUSI CRCP CROS CRWR DIGF DRPT ENVR EXAN FABR GART GDES GRPH ILLU INDS INTM INVC IVCD IVCA LIFE MAAD PHOT PRNT PRPB SCIN - Must be completed prior to taking this course.\n1.0 credit of first-year from ENGL HUMN IVCL IVCV SCTM SOSC VISA VISC VISD VISM - Must be completed prior to taking this course.",
+            "prerequisites": "3.0 credits overall - Must be completed prior to taking this course."
+          }
+        ],
+        "breadth_electives": [
+          {
+            "code": "HUMN-2007",
+            "title": "Computational History & Theory",
+            "credits": 0.5,
+            "description": "Data machines in computational science transform information into science and social science knowledge  about disease, environments, human behaviour, traffic patterns, etc. This course studies the history of computational mathematics, computational neuro/cognitive sciences and practitioners, addressing how trends in mathematics and scientific paradigms inform science practices and their social effects. Students will employ critical approaches from science studies, philosophy, and communication to evaluate data's historical evolution, its constraints within modular systems and consumer science literature. The course examines historical and contemporary case studies to see how critical theory can be employed to study data in broader, complex (biological and sociocultural) systems to create meaningful findings for society. Students with credit in HUMN-2B31 may not take this course for credit.",
+            "prerequisites": null
+          },
+          {
+            "code": "VISM-2006",
+            "title": "Critical Play",
+            "credits": 0.5,
+            "description": "Through critical play practices, we experiment with identity, creative expression and invention, and we learn to improvise in a system of rules. This course addresses how such forms of play can generate criticality among players. Students will explore meaning-making in play through exploration of a range of games, and by tracing a history of subversive art practices from Surrealism to contemporary game creation. Finally, the course presents diverse analytical approaches, including art history, critical theory and visual culture, to enable students to construct critical play practices. Understanding games beyond entertainment, the course seeks to foster critically-aware gamers. Students with credit in VISM-3001, VISM-3B01 may not take this course for credit.",
+            "prerequisites": null
+          }
+        ]
+      },
+      "winter": {
+        "core_courses": [
+          {
+            "code": "DIGF2015",
+            "title": "Atelier II: Collaboration",
+            "credits": 1.0,
+            "description": "- In Atelier II: Collaboration, students develop their ideas and execute their projects as prototypes collectively with feedback from faculty and industry partners. Atelier II: Collaboration is linked to Atelier I: Discovery and builds on the practical and technical skills gained in the fall semester.The course encourages a wide range of approaches to collaborative research and practice-based problem-solving methods. Interaction with industry partners begun in the first semester in Atelier I: Discovery is deepened in the second semester with Atelier II: Collaboration as students work towards a physical articulation of their creative projects. Note: This \"Writing Across the Curriculum\" (WAC) course is part of an initiative to support students in their disciplinary writing.",
+            "prerequisites": null
+          }
+        ],
+        "program_specific_electives": [
+          {
+            "code": "DIGF-2012",
+            "title": "Low Poly Game Art",
+            "credits": 0.5,
+            "description": "Low polygon 3D art occur in real-time applications like digital games that have historically been constrained by the technologies used. However this approach to 3D modelling has become a contemporary art form evidenced across a wide range of contexts from art galleries to game consoles. This studio course surveys a broad range of approaches to building low poly game art exploring 3D production processes and contexts of delivery. Students will produce low poly playable experiences ready for exhibition.",
+            "prerequisites": null
+          }
+        ],
+        "open_electives": [
+          {
+            "code": "EXAN-2004",
+            "title": "XR Space Jam",
+            "credits": 0.5,
+            "description": "XR (Virtual, Augmented and Mixed Reality) technology is explored to expand traditional assumptions of animation to include intuitive, innovative, and performative aspects. In a series of low stakes assignments, students familiarize themselves with immersive 3D technology, including 3D volumetric video and image captures. This beginner course positions the artist as a member of an inclusive and diverse community to begin developing critical engagement with a broader experimental practice. It helps animators associate 3D environments with other disciplines like stop motion, 2D animation and drawing and painting.",
+            "prerequisites": null
+          },
+          {
+            "code": "INTM-2003",
+            "title": "Mechanics for Artists",
+            "credits": 0.5,
+            "description": "The mechanical skills and knowledge required by artists to build kinetic installation and sculpture are developed in this course. Topics for discussion include three-dimensional prototyping techniques and the principles inherent in such basic mechanical components as bearings, levers, cams, gears, pulleys, springs and pendulums. Particular attention is given to the use of recycled components. Students with credit in INTM-2B05, INTM-3B08 may not take this course for credit.\n\n2.0 credits of first and second year from ADVR ASOC BUSI CRCP CROS CRWR DIGF DRPT ENVR EXAN FABR GART GDES GRPH ILLU INDS INTM INVC IVCA IVCD LIFE MAAD PHOT PRNT PRPB SCIN - Must be completed prior to taking this course.\n1.0 credit of first-year from ENGL HUMN IVCL IVCV SCTM SOSC VISA VISC VISD VISM - Must be completed prior to taking this course.",
+            "prerequisites": "3.0 credits overall - Must be completed prior to taking this course."
+          }
+        ],
+        "breadth_electives": [
+          {
+            "code": "SOSC-2003",
+            "title": "Doing Human-Centred Research",
+            "credits": 0.5,
+            "description": "Students will acquire basic skills in the collection, preparation, and reporting of human-centred research. The research methods to be taught will include content analysis, ethnographic field research, interviewing, and the development of surveys and questionnaires. The course will also review a range of ways of presenting research findings. This will all be taught with a view to working with human research subjects in an ethical manner. Students with credit in SOSC-3011, SOSC-2B06 may not take this course for credit.",
+            "prerequisites": null
+          },
+          {
+            "code": "VISM-2002",
+            "title": "History of New Media Art",
+            "credits": 0.5,
+            "description": "This survey course offers a history of the relationship of art and media from the beginnings of photography and avant-garde cinema to contemporary digital and video art practices. The course examines technological developments that have affected and transformed perception and representation including time-motion studies, industrialization (Taylorism), mass culture, and global electronic networks (Internet). The influence of new media on various avant-garde movements including cubism, constructivism, surrealism, dada, and on the stylistic innovations of collage and montage will be explored. Selected writings on art and technology by key thinkers will complement a visual and intellectual survey of artworks.\n\nOne of: ENGL-1003, ENGL-1004, LBST-1D01 or 0.5 credits of second year from ENGL - Must be completed prior to taking this course.",
+            "prerequisites": "0.5 credit from first year Liberal Studies IVCV VISA VISD VISC VISM or LBST-1D01 - Must be completed prior to taking this course."
+          }
+        ]
+      }
     },
     "3": {
-      "core_courses": [
-        {
-          "code": "DIGF-3008",
-          "title": "Atelier III",
-          "credits": 1.0,
-          "description": "This studio-seminar course provides students with the opportunity to further develop their analytical and problem-solving skills in a collaborative praxis (practice through research) environment with the engagement of faculty and industry partners. Atelier III: Investigation is a theme-based course. The core seminar topic is developed on an annual basis through a faculty and student curriculum retreat process. Engagement with industry partners is a key component of the course and underpins student-driven projects. Atelier III: Investigation is a prerequisite for Atelier IV: Synthesis."
-        },
-        {
-          "code": "DIGF-3009",
-          "title": "Atelier IV",
-          "credits": 1.0,
-          "description": "Atelier IV: Synthesis challenges students to refine and test their research and practice-based methods as they work towards the development of a collaborative project that was proposed and prototyped in the fall semester. Industry engagement continues to have an important role in project support and context. The skills gained in Atelier IV prepares students for the proposal of a major body of work in their thesis year, for which thesis development is provided."
-        }
-      ],
-      "program-specific_electives": [
-        {
-          "code": "DIGF-3012",
-          "title": "Experimental Projection",
-          "credits": 0.5,
-          "description": "Light is material, and with projection technologies comes greater capacity to shape experiences of light and space. This studio-seminar class provides foundations into projection and projection mapping technologies, combining discussion of criticalcontexts and perspectives from art, architecture, film, new media, and design, with the act of developing and implementing projection-based projects. Through lectures, in-class discussions of readings, exhibition visits, and project-based assignments,students will trace the techno-cultural histories of projection/mapping and their contemporary uses and also develop an understanding of the technical considerations of projection-based art, and learn tools and techniques for projection mapping."
-        },
-        {
-          "code": "INDS-3013",
-          "title": "Disruptive Futures",
-          "credits": 0.5,
-          "description": "This course examines how companies can deploy and implement disruptive technologies such as AI, robotics and the role design plays in this context. We will explore the development of disruptive technologies and how companies can adopt the new technologies to increase user experience and efficiency, enhance products and services, and diversify their revenue streams. Industry strategies are used to identify opportunities within disruptive technologies and to implement them in developing products and services. The legal, ethical, and economic implications of incorporating disruptive technologies into everyday products and services are examined."
-        },
-        {
-          "code": "BUSI-3003",
-          "title": "Busi Ethics, Sustainability",
-          "credits": 0.5,
-          "description": "This course is designed to increase student awareness of the importance of ethics and social responsibility and sustainable economic development for firms of all sizes as well as local and global economies. Following an overview of the complex landscape of business ethics and corporate social responsibility, and the added dimension of sustainable economic practices, the course focuses on three major themes: ethical leadership, ethical decision making, and the application of ethical/sustainability frameworks to all aspects of business, with particular attention to the creative industries."
-        }
-      ],
-      "open_electives": [
-        {
-          "code": "DIGF-3007",
-          "title": "Game Engines",
-          "credits": 0.5,
-          "description": "A game engine is a powerful development tool: enabling complex interactive experiences by providing a pre-defined structure from which to start. This course presents a critical introduction to the history, structure and craft of digital and analog game engines. It examines the affordances, mechanics, and techno-cultural histories behind a range of historic, contemporary and emerging engines and frameworks. Today's game engines are platforms on which creators build rich narratives, immersive experiences, and unique interfaces, within and beyond games. Students will gain a nuanced understanding of the ways in which game engines support and/or disrupt particular design, experiential, and cultural goals."
-        },
-        {
-          "code": "GDES-3010",
-          "title": "Motion Design",
-          "credits": 0.5,
-          "description": "The practices of visual communication are investigated in the specific context of motion design. Through an exploration of narrative structures, spatial compositions and sound, techniques of motion design will be applied in the production of time-based works. Techniques introduced include keyframing, 2D animation, rotoscoping, media integration and 2D / 3D tracking as it relates to timing and pacing, animation basics and sound."
-        },
-        {
-          "code": "HUMN-3008",
-          "title": "Ethics in the Global Context",
-          "credits": 0.5,
-          "description": "A study of key ethical issues in the global context. Taking our approach from multiple points of view derived from American/European, Asian, African, and indigenous societies, we will consider questions such as the following: cultural exploitation, fair trade, social justice, racial discrimination, patenting indigenous knowledge, right to aid, right to food, human rights, justification of war and terrorism, gender rights, the ethical status of abortion, legalization of euthanasia, the value of affirmative action, abuse of power, environmental racism, development and displacement, the problem of ethnocentrism & diversity, terrorism and security, etc. Students will develop tolerance and respect for other cultures and theoretical perspectives, learn how to think critically about ethical issues, and become informed about global ethical values. Students with credit in HUMN-3B10 may not take this course for credit."
-        }
-      ],
-      "breadth_electives": [
-        {
-          "code": "INDS-2021",
-          "title": "Design for Film & Theatre",
-          "credits": 0.5,
-          "description": "A production designer is responsible for the overall visual concept in theatre and film productions. Students will learn to apply art and design principles from the initial script study through the collaborative and creative process in order to visually enrich screen and stage narratives. This includes how to task timelines for preparation and procedures for production design, research, storyboarding, props, designing for special effects and location while working with limited budgets. The development of the artistic team in film and theatrical applications is studied through interdisciplinary class projects and critique of the production outcomes."
-        },
-        {
-          "code": "SCTM-3003",
-          "title": "Bio Principles Sustainability",
-          "credits": 0.5,
-          "description": "This course examines major scientific issues surrounding the concept of sustainability. Topics covered will include: population growth and the human carrying capacity, land use and agriculture, biotechnology and genetic engineering, climate change and pollution, and ecosystem services in urban design. Each section of the course will discuss the scientific principles and concepts relevant to understanding sustainability within these areas. Students will apply their scientific knowledge to examine and critique contemporary design and cultural practices from the perspective of biological sustainability. An additional focus on emerging biologically focused design tools such as Biomimicry will be discussed. Students with credit in SCTM-2B04, SCTM-3B04 may not take this course for credit."
-        }
-      ]
+      "fall": {
+        "core_courses": [
+          {
+            "code": "DIGF3008",
+            "title": "Atelier III: Investigation",
+            "credits": 1.0,
+            "description": "- This studio-seminar course provides students with the opportunity to further develop their analytical and problem-solving skills in a collaborative praxis (practice through research) environment with the engagement of faculty and industry partners. Atelier III: Investigation is a theme-based course. The core seminar topic is developed on an annual basis through a faculty and student curriculum retreat process. Engagement with industry partners is a key component of the course and underpins student-driven projects. Atelier III: Investigation is a prerequisite for Atelier IV: Synthesis.",
+            "prerequisites": null
+          }
+        ],
+        "program_specific_electives": [
+          {
+            "code": "DIGF-3012",
+            "title": "Experimental Projection",
+            "credits": 0.5,
+            "description": "Light is material, and with projection technologies comes greater capacity to shape experiences of light and space. This studio-seminar class provides foundations into projection and projection mapping technologies, combining discussion of criticalcontexts and perspectives from art, architecture, film, new media, and design, with the act of developing and implementing projection-based projects. Through lectures, in-class discussions of readings, exhibition visits, and project-based assignments,students will trace the techno-cultural histories of projection/mapping and their contemporary uses and also develop an understanding of the technical considerations of projection-based art, and learn tools and techniques for projection mapping.",
+            "prerequisites": "SCTM-2005, EXAN-1001, and one of EXAN-2003 or EXAN-2005 - Must be completed prior to taking this course."
+          },
+          {
+            "code": "DIGF-3007",
+            "title": "Game Engines",
+            "credits": 0.5,
+            "description": "A game engine is a powerful development tool: enabling complex interactive experiences by providing a pre-defined structure from which to start. This course presents a critical introduction to the history, structure and craft of digital and analog game engines. It examines the affordances, mechanics, and techno-cultural histories behind a range of historic, contemporary and emerging engines and frameworks. Today's game engines are platforms on which creators build rich narratives, immersive experiences, and unique interfaces, within and beyond games. Students will gain a nuanced understanding of the ways in which game engines support and/or disrupt particular design, experiential, and cultural goals.",
+            "prerequisites": "Take at least one of: DIGF-1007, DIGF-2013 OR DIGF-3006 or permission of the instructor - Must be completed prior to taking this course."
+          }
+        ],
+        "open_electives": [
+          {
+            "code": "INDS-3013",
+            "title": "Disruptive Futures",
+            "credits": 0.5,
+            "description": "This course examines how companies can deploy and implement disruptive technologies such as AI, robotics and the role design plays in this context. We will explore the development of disruptive technologies and how companies can adopt the new technologies to increase user experience and efficiency, enhance products and services, and diversify their revenue streams. Industry strategies are used to identify opportunities within disruptive technologies and to implement them in developing products and services. The legal, ethical, and economic implications of incorporating disruptive technologies into everyday products and services are examined.",
+            "prerequisites": null
+          },
+          {
+            "code": "GDES-3010",
+            "title": "Motion Design",
+            "credits": 0.5,
+            "description": "The practices of visual communication are investigated in the specific context of motion design. Through an exploration of narrative structures, spatial compositions and sound, techniques of motion design will be applied in the production of time-based works. Techniques introduced include keyframing, 2D animation, rotoscoping, media integration and 2D / 3D tracking as it relates to motion design. Workshops and exercises further develop principles and tools relevant to timing and pacing, animation basics and sound.\n\n6.0 credits from ADVR ASOC BUSI CRCP CROS CRWR DIGF DRPT ENVR EXAN FABR GART GDES GRPH ILLU INDS INTM INVC IVCA IVCD LIFE MAAD PHOT PRNT PRPB SCIN - Must be completed prior to taking this course.\n2.0 credits from ENGL HUMN IVCL IVCV SCTM SOSC VISA VISC VISD VISM - Must be completed prior to taking this course.",
+            "prerequisites": "8.0 credits overall - Must be completed prior to taking this course."
+          }
+        ],
+        "breadth_electives": [
+          {
+            "code": "BUSI-3003",
+            "title": "Busi Ethics, Sustainability",
+            "credits": 0.5,
+            "description": "This course is designed to increase student awareness of the importance of ethics and social responsibility and sustainable economic development for firms of all sizes as well as local and global economies. Following an overview of the complex landscape of business ethics and corporate social responsibility, and the added dimension of sustainable economic practices, the course focuses on three major themes: ethical leadership, ethical decision making, and the application of ethical/sustainability frameworks to all aspects of business, with particular attention to the creative industries.",
+            "prerequisites": null
+          },
+          {
+            "code": "HUMN-3008",
+            "title": "Ethics in the Global Context",
+            "credits": 0.5,
+            "description": "A study of key ethical issues in the global context. Taking our approach from multiple points of view derived from American/European, Asian, African, and indigenous societies, we will consider questions such as the following: cultural exploitation, fair trade, social justice, racial discrimination, patenting indigenous knowledge, right to aid, right to food, human rights, justification of war and terrorism, gender rights, the ethical status of abortion, legalization of euthanasia, the value of affirmative action, abuse of power, environmental racism, development and displacement, the problem of ethnocentrism & diversity, terrorism and security, etc. Students will develop tolerance and respect for other cultures and theoretical perspectives, learn how to think critically about ethical issues, and become informed about global ethical values. Students with credit in HUMN-3B10 may not take this course for credit.",
+            "prerequisites": null
+          }
+        ]
+      },
+      "winter": {
+        "core_courses": [
+          {
+            "code": "DIGF-3009",
+            "title": "Atelier IV: Synthesis",
+            "credits": 1.0,
+            "description": "- Atelier IV: Synthesis challenges students to refine and test their research and practice-based methods as they work towards the development of a collaborative project that was proposed and prototyped in the fall semester. Industry engagement continues to have an important role in project support and context. The skills gained in Atelier IV prepares students for the proposal of a major body of work in their thesis year, for which thesis development is provided.",
+            "prerequisites": null
+          }
+        ],
+        "program_specific_electives": [
+          {
+            "code": "DIGF-3011",
+            "title": "Shader Art",
+            "credits": 0.5,
+            "description": "Shaders are crucial to the creation of advanced visual effects within interactive media and games. As GPUs have become more powerful the tools available to create shaders within a variety of programming environments has expanded. Students will create these real-time materials using node-based programming interfaces and coding languages within game engines and other development environments. The work developed within the course will focus on how these new tools can be used to develop new modes of artistic expression across a variety of platforms. Students will also build fundamental understanding of CG shader pipelines, classical shading and texturing, and physically-based shading, in an interdisciplinary manner.",
+            "prerequisites": null
+          }
+        ],
+        "open_electives": [
+          {
+            "code": "INDS-3016",
+            "title": "Creative Technologies",
+            "credits": 0.5,
+            "description": "Building on previously acquired interdisciplinary technical skills, the fabrication of a self-directed interactive design project incorporating electronics, mechanics, microcontrollers, distributed processing, and machine learning is undertaken. Ideas are translated into tangible designs that address real-world social, cultural, technological, and economic issues. All phases of the project development process from ideation, concept development, research, design, and implementation support the integration of emerging technologies into existing design processes and practices.",
+            "prerequisites": null
+          },
+          {
+            "code": "INDS-2021",
+            "title": "Design for Film & Theatre",
+            "credits": 0.5,
+            "description": "A production designer is responsible for the overall visual concept in theatre and film productions. Students will learn to apply art and design principles from the initial script study through the collaborative and creative process in order to visually enrich screen and stage narratives. This includes how to task timelines for preparation and procedures for production design, research, storyboarding, props, designing for special effects and location while working with limited budgets. The development of the artistic team in film and theatrical applications is studied through interdisciplinary class projects and critique of the production outcomes.\n\n4.0 credits from ADVR ASOC BUSI CRCP CROS CRWR DIGF DRPT ENVR EXAN FABR GART GDES GRPH ILLU INDS INTM INVC IVCA IVCD LIFE MAAD PHOT PRNT PRPB SCIN - Must be completed prior to taking this course.\n1.0 credit from ENGL HUMN IVCL IVCV SCTM SOSC VISA VISC VISD VISM - Must be completed prior to taking this course.",
+            "prerequisites": "6.0 credits overall - Must be completed prior to taking this course."
+          }
+        ],
+        "breadth_electives": [
+          {
+            "code": "VISM-3002",
+            "title": "Data Vis & Visual Analytics",
+            "credits": 0.5,
+            "description": "Data can be understood as one of the twenty-first century's most valuable resources. Underlying the rise of new forms of science, social media, finance, and artificial intelligence, data are produced in increased amounts that require extraction, analysis, and representation. This course introduces students to the history of the human use of data and the emerging and related fields of data visualization, visual analytics, and data materialization, drawing from computer science, cognitive science, geolocation, and design. It presents examples of software and applications, and provides insights into debates about data aesthetics, art, and design methodological approaches.",
+            "prerequisites": null
+          },
+          {
+            "code": "SCTM-3003",
+            "title": "Bio Principles Sustainability",
+            "credits": 0.5,
+            "description": "This course examines major scientific issues surrounding the concept of sustainability. Topics covered will include: population growth and the human carrying capacity, land use and agriculture, biotechnology and genetic engineering, climate change and pollution, and ecosystem services in urban design. Each section of the course will discuss the scientific principles and concepts relevant to understanding sustainability within these areas. Students will apply their scientific knowledge to examine and critique contemporary design and cultural practices from the perspective of biological sustainability. An additional focus on emerging biologically focused design tools such as Biomimicry will be discussed. Students with credit in SCTM-2B04, SCTM-3B04 may not take this course for credit.\n\n0.5 credits of second year from ENGL HUMN IVCL IVCV SCTM SOSC VISA VISC VISD VISM - Must be completed prior to taking this course.",
+            "prerequisites": "One of ENGL-1003, ENGL-1004, CRWR-1001, CRWR-1003, or VISA-1001 - Must be completed prior to taking this course."
+          }
+        ]
+      }
     },
     "4": {
-      "core_courses": [
-        {
-          "code": "DIGF-4002",
-          "title": "Critical Code",
-          "credits": 0.5,
-          "description": "Throughout this course students will write and critique code with respect to its effect on the world. Aspects of digital humanities, code aesthetics, software studies, and critical code studies will be introduced to students as forms of discourse for critiquing the generation and evaluation of code. Students will build on existing skills and knowledge to further investigate, write, and critique code and its generation methodologies with respect to its effect on the larger social context and its participation in networks of social relations."
-        },
-        {
-          "code": "GDES-3037",
-          "title": "Research, Insight, Innovation",
-          "credits": 0.5,
-          "description": "Significant possibilities for design are at the intersection of human behaviour and new technology. These possibilities aid the designer in creating new experiences, spaces and products to benefit humankind. The focus of this course is the understanding of the motivation behind human behavior and the use of this understanding towards envisioning future product and service opportunities. This course explores methodologies used to discover the 'signals' emitted by new patterns of human behaviour.Students will also learn to inspire a creative culture of innovation through exploration, discovery and learning, both within a team structure and their solo practice."
-        },
-        {
-          "code": "VISC-4008",
-          "title": "Art and Design Activism",
-          "credits": 0.5,
-          "description": "There is a rich history of artists/designers invested in social change and political activism. Art & Design Activism will look at the practices of artists and designers whose work intersects with issues of social justice. The course will investigate the cultural conditions of activist actions, the goals and effectiveness of visual activism, and the technological environments and tools that have been used to disseminate activist content in historic and contemporary cultures. Broad thematics include: the environment, globalization, war and peace movements, civil rights movements, religious dissent, indigenous rights, nationalism, sexual politics, race and class issues, new communication technologies and methodologies. Students with credit in VISC-4B22 may not take this course for credit."
-        }
-      ],
-      "program-specific_electives": [],
-      "open_electives": [
-        {
-          "code": "DIGF-4897",
-          "title": "Field Placement",
-          "credits": 0.5,
-          "description": "Field placements provide students with opportunities to gain experience in the professional worlds of art and design that will complement their studies. On-site work is performed under the guidance of the field study sponsor, and the field study credit is supervised and evaluated by an OCAD U teaching faculty. For more information: OCADU Centre for Emerging Artists and Designers, Experiential Learning - Field Placement (https://bit.ly/3iGJtOV)"
-        },
-        {
-          "code": "GDES-3005",
-          "title": "Guerrilla Entrepreneurship",
-          "credits": 0.5,
-          "description": "In response to the growing practice of artist-produced objects (ie. books, zines, apparel, accessories, housewares, linens, toys, games, etc.), this course acts as an introduction to creative entrepreneurial activity. Various media and techniques available in self-publishing and production are researched, and proven DIY marketing tactics and venues are explored in the development of a final business plan. Students with credit in GDES-3B06 may not take this course for credit."
-        },
-        {
-          "code": "SCTM-3001",
-          "title": "Statistics",
-          "credits": 0.5,
-          "description": "This course introduces students to quantitative research methods and statistical analyses. Students learn about the research process and strategies to choose appropriate methodologies given specific research questions and approaches. Students learn about statistical thinking and how to make meaning from data as a way of understanding the world from evidence based perspectives. Students learn to distinguish between unfounded, anecdotal and legitimate research evidence, strengthening their critical thinking, analytic and research literacy skills. Students learn how to (i) design a research study, (ii) collect, analyze and report data, (iii) write a report of research findings, (iv) evaluate and understand research findings. Students with credit in SCTM-3B02 may not take this course for credit."
-        }
-      ],
-      "breadth_electives": [
-        {
-          "code": "DIGF-4001",
-          "title": "Leadership in Digital Economy",
-          "credits": 0.5,
-          "description": "This course draws on the principles and foundations from the 1st year course: Cross-disciplinary Collaboration, as well as learner experiences of executing projects during the intervening time at OCAD U. The course supplements discussions on collaboration and team functioning and focuses on issues of leadership, conflict management, decision-making models, organizational change, and inclusivity. This is a seminar that draws on experiences of learners, as well as readings from diverse professional domains of business, sociology, cultural, and science and technology studies. The course progression will also be guided by key guest lecturers and case studies. Students with credit in DIGF-4B01 may not take this course for credit."
-        },
-        {
-          "code": "GDES-3062",
-          "title": "Design (as) Research",
-          "credits": 0.5,
-          "description": "Practice-based research techniques in design as ethnographic methods are explored. Research projects are used to pursue three objectives: Research to inform design deliverables, research to educate designers/researchers for future practice, and research to inform the professional design, academic, and wider communities. This course is an optional replacement for: GRPH-3012 Research Methods for GD, INDS-3002 Research Methods for ID. Students wishing to use this course as a replacement require advance permission from Chair, so that this equivalency (requiring a minimum grade of 60) can be placed on their record. Students with credit in GDES-3B68 may not take this course for credit."
-        },
-        {
-          "code": "SOSC-3013",
-          "title": "Race, Racism, and Media",
-          "credits": 0.5,
-          "description": "This course critically explores representations of citizen subjects who are marginalized and socially excluded through visual and discursive intersections of race, class, sexual subjectivity, and gender. Starting with colonialist and imperialist discourses of race, the course tracks the historical shaping of the global world via conquest, migration, racial politics and border crossings. We examine the theoretical and practical tensions, impacts and frameworks that media images and cultural discourses have, and what this means for questions of social justice, equality and global resistance."
-        },
-        {
-          "code": "DIGF-4904",
-          "title": "Interdisciplinary Thesis 2",
-          "credits": 1.0,
-          "description": "This course gives students the opportunity to develop an in-depth, self-determined project either individually or as a team. Students will develop work from a conceptual, technical, and social perspective to an advanced level by utilizing a research and development framework. Open to students from all programs, this course provides the space to investigate and create work that spans multiple disciplines through the creative use of current and future technologies. Depending on the scale of the project this course may be taken on its own or in combination with DIGF Interdisciplinary Thesis 1 for credit."
-        },
-        {
-          "code": "GDES-3103",
-          "title": "Information Visualization 1",
-          "credits": 0.5,
-          "description": "We live in a data rich world. Today's capacity to store and access vast amounts of data increases the need for citizens, researchers, governments and business to analyze, represent, and interpret information in useful, intuitive and compelling ways. This course introduces the design process of devising visualizations, from gathering and structuring data to encoding and representing information. It focuses on the design principles and techniques used in the process of revealing patterns and relationships in the data toward effective communication of information. Students with credit in GDES-2002, GDES-2B04 may not take this course for credit."
-        },
-        {
-          "code": "HUMN-3016",
-          "title": "Extraordinary Bodies",
-          "credits": 0.5,
-          "description": "This seminar course looks at how \"physically different\" bodies have been viewed artistically throughout history and in our contemporary culture. We will look at how different models of looking at \"otherness\" have pervaded our culture and how a newer, social model has finally taken root, as well as how these models affect not only our creative lives but also our social, political and personal lives, as well as the environments in which we live. By exploring different bodies as cultural representations we will be challenged to find ways in which the experience of those deemed \"different\" can be included in contemporary art, literature, and film. Students with credit in HUMN-3B21 may not take this course for credit."
-        }
-      ]
+      "fall": {
+        "core_courses": [],
+        "program_specific_electives": [
+          {
+            "code": "DIGF-4002",
+            "title": "Critical Code",
+            "credits": 0.5,
+            "description": "Throughout this course students will write and critique code with respect to its effect on the world. Aspects of digital humanities, code aesthetics, software studies, and critical code studies will be introduced to students as forms of discourse for critiquing the generation and evaluation of code. Students will build on existing skills and knowledge to further investigate, write, and critique code and its generation methodologies with respect to its effect on the larger social context and its participation in networks of social relations.",
+            "prerequisites": null
+          },
+          {
+            "code": "DIGF-4897",
+            "title": "Field Placement",
+            "credits": 0.5,
+            "description": "Field placements provide students with opportunities to gain experience in the professional worlds of art and design that will complement their studies. On-site work is performed under the guidance of the field study sponsor, and the field study credit is supervised and evaluated by an OCAD U teaching faculty. For more information: OCADU Centre for Emerging Artists and Designers, Experiential Learning - Field Placement (https://bit.ly/3iGJtOV)",
+            "prerequisites": null
+          }
+        ],
+        "open_electives": [
+          {
+            "code": "GDES-3037",
+            "title": "Research, Insight, Innovation",
+            "credits": 0.5,
+            "description": "Significant possibilities for design are at the intersection of human behaviour and new technology. These possibilities aid the designer in creating new experiences, spaces and products to benefit humankind. The focus of this course is the understanding of the motivation behind human behavior and the use of this understanding towards envisioning future product and service opportunities. This course explores methodologies used to discover the 'signals' emitted by new patterns of human behaviour.Students will also learn to inspire a creative culture of innovation through exploration, discovery and learning, both within a team structure and their solo practice.\" Students with credit in GDES-3B40, INDS-3B24 may not take this course for credit.",
+            "prerequisites": null
+          },
+          {
+            "code": "GDES-3005",
+            "title": "Guerrilla Entrepreneurship",
+            "credits": 0.5,
+            "description": "In response to the growing practice of artist-produced objects (ie. books, zines, apparel, accessories, housewares, linens, toys, games, etc.), this course acts as an introduction to creative entrepreneurial activity. Various media and techniques available in self-publishing and production are researched, and proven DIY marketing tactics and venues are explored in the development of a final business plan. Students with credit in GDES-3B06 may not take this course for credit.\n\n6.0 credits from ADVR ASOC BUSI CRCP CROS CRWR DIGF DRPT ENVR EXAN FABR GART GDES GRPH ILLU INDS INTM INVC IVCA IVCD LIFE MAAD PHOT PRNT PRPB SCIN - Must be completed prior to taking this course.\n2.0 credits from ENGL HUMN IVCL IVCV SCTM SOSC VISA VISC VISD VISM - Must be completed prior to taking this course.",
+            "prerequisites": "8.0 credits overall - Must be completed prior to taking this course."
+          }
+        ],
+        "breadth_electives": [
+          {
+            "code": "VISC-4008",
+            "title": "Art and Design Activism",
+            "credits": 0.5,
+            "description": "There is a rich history of artists/designers invested in social change and political activism. Art & Design Activism will look at the practices of artists and designers whose work intersects with issues of social justice. The course will investigate the cultural conditions of activist actions, the goals and effectiveness of visual activism, and the technological environments and tools that have been used to disseminate activist content in historic and contemporary cultures. Broad thematics include: the environment, globalization, war and peace movements, civil rights movements, religious dissent, indigenous rights, nationalism, sexual politics, race and class issues, new communication technologies and methodologies. Students with credit in VISC-4B22 may not take this course for credit.",
+            "prerequisites": null
+          },
+          {
+            "code": "SCTM-3001",
+            "title": "Statistics",
+            "credits": 0.5,
+            "description": "This course introduces students to quantitative research methods and statistical analyses. Students learn about the research process and strategies to choose appropriate methodologies given specific research questions and approaches. Students learn about statistical thinking and how to make meaning from data as a way of understanding the world from evidence based perspectives. Students learn to distinguish between unfounded, anecdotal and legitimate research evidence, strengthening their critical thinking, analytic and research literacy skills. Students learn how to (i) design a research study, (ii) collect, analyze and report data, (iii) write a report of research findings, (iv) evaluate and understand research findings. Students with credit in SCTM-3B02 may not take this course for credit.\n\n0.5 credit of second or third year from ENGL HUMN IVCL IVCV LBST SCTM SOSC VISA VISC VISD VISM - Must be completed prior to taking this course.",
+            "prerequisites": "One of ENGL-1003, ENGL-1004, CRWR-1001, CRWR-1003, or VISA-1001 - Must be completed prior to taking this course."
+          }
+        ]
+      },
+      "winter": {
+        "core_courses": [],
+        "program_specific_electives": [
+          {
+            "code": "DIGF-4001",
+            "title": "Leadership in Digital Economy",
+            "credits": 0.5,
+            "description": "This course draws on the principles and foundations from the 1st year course: Cross-disciplinary Collaboration, as well as learner experiences of executing projects during the intervening time at OCAD U. The course supplements discussions on collaboration and team functioning and focuses on issues of leadership, conflict management, decision-making models, organizational change, and inclusivity. This is a seminar that draws on experiences of learners, as well as readings from diverse professional domains of business, sociology, cultural, and science and technology studies. The course progression will also be guided by key guest lecturers and case studies. Students with credit in DIGF-4B01 may not take this course for credit.",
+            "prerequisites": null
+          },
+          {
+            "code": "DIGF-4904",
+            "title": "Interdisciplinary Thesis 2",
+            "credits": 1.0,
+            "description": "This course gives students the opportunity to develop an in-depth, self-determined project either individually or as a team. Students will develop work from a conceptual, technical, and social perspective to an advanced level by utilizing a research and development framework. Open to students from all programs, this course provides the space to investigate and create work that spans multiple disciplines through the creative use of current and future technologies. Depending on the scale of the project this course may be taken on its own or in combination with DIGF Interdisciplinary Thesis 1 for credit.",
+            "prerequisites": null
+          }
+        ],
+        "open_electives": [
+          {
+            "code": "GDES-3062",
+            "title": "Design (as) Research",
+            "credits": 0.5,
+            "description": "Practice-based research techniques in design as ethnographic methods are explored. Research projects are used to pursue three objectives: Research to inform design deliverables, research to educate designers/researchers for future practice, and research to inform the professional design, academic, and wider communities. This course is an optional replacement for: GRPH-3012 Research Methods for GD, INDS-3002 Research Methods for ID. Students wishing to use this course as a replacement require advance permission from Chair, so that this equivalency (requiring a minimum grade of 60) can be placed on their record. Students with credit in GDES-3B68 may not take this course for credit.",
+            "prerequisites": null
+          },
+          {
+            "code": "GDES-3103",
+            "title": "Information Visualization 1",
+            "credits": 0.5,
+            "description": "We live in a data rich world. Today's capacity to store and access vast amounts of data increases the need for citizens, researchers, governments and business to analyze, represent, and interpret information in useful, intuitive and compelling ways. This course introduces the design process of devising visualizations, from gathering and structuring data to encoding and representing information. It focuses on the design principles and techniques used in the process of revealing patterns and relationships in the data toward effective communication of information. Students with credit in GDES-2002, GDES-2B04 may not take this course for credit.",
+            "prerequisites": null
+          }
+        ],
+        "breadth_electives": [
+          {
+            "code": "SOSC-3013",
+            "title": "Race, Racism, and Media",
+            "credits": 0.5,
+            "description": "This course critically explores representations of citizen subjects who are marginalized and socially excluded through visual and discursive intersections of race, class, sexual subjectivity, and gender. Starting with colonialist and imperialist discourses of race, the course tracks the historical shaping of the global world via conquest, migration, racial politics and border crossings. We examine the theoretical and practical tensions, impacts and frameworks that media images and cultural discourses have, and what this means for questions of social justice, equality and global resistance.\n\n0.5 credit of second or third year from ENGL HUMN IVCL IVCV LBST SCTM SOSC VISA VISC VISD VISM - Must be completed prior to taking this course.",
+            "prerequisites": "One of ENGL-1003, ENGL-1004, CRWR-1001, CRWR-1003, or VISA-1001 - Must be completed prior to taking this course."
+          },
+          {
+            "code": "HUMN-3016",
+            "title": "Extraordinary Bodies",
+            "credits": 0.5,
+            "description": "This seminar course looks at how \"physically different\" bodies have been viewed artistically throughout history and in our contemporary culture. We will look at how different models of looking at \"otherness\" have pervaded our culture and how a newer, social model has finally taken root, as well as how these models affect not only our creative lives but also our social, political and personal lives, as well as the environments in which we live. By exploring different bodies as cultural representations we will be challenged to find ways in which the experience of those deemed \"different\" can be included in contemporary art, literature, and film. Students with credit in HUMN-3B21 may not take this course for credit.\n\n0.5 credit of second or third year from ENGL HUMN IVCL IVCV LBST SCTM SOSC VISA VISC VISD VISM - Must be completed prior to taking this course.",
+            "prerequisites": "One of ENGL-1003, ENGL-1004, CRWR-1001, CRWR-1003, or VISA-1001 - Must be completed prior to taking this course."
+          }
+        ]
+      }
     }
   }
 }

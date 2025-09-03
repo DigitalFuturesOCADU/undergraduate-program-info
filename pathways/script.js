@@ -103,8 +103,9 @@ class PathwayViewer {
         // Course type headers
         const courseTypes = [
             { key: 'core_courses', label: 'Core Courses' },
-            { key: 'program-specific_electives', label: 'Program-Specific Electives' },
-            { key: 'open_electives', label: 'Open Electives' }
+            { key: 'program_specific_electives', label: 'Program Specific Electives' },
+            { key: 'open_electives', label: 'Open Electives' },
+            { key: 'breadth_electives', label: 'Breadth Electives' }
         ];
 
         courseTypes.forEach(type => {
@@ -114,20 +115,42 @@ class PathwayViewer {
             grid.appendChild(header);
         });
 
-        // Year rows with data
+        // Year rows with data (Fall and Winter semesters)
         for (let year = 1; year <= 4; year++) {
-            // Year label
-            const yearLabel = document.createElement('div');
-            yearLabel.className = 'grid-header year-label';
-            yearLabel.textContent = `Year ${year}`;
-            grid.appendChild(yearLabel);
+            const yearData = data.years[year.toString()];
+            if (!yearData) continue;
 
-            // Course cells for each type
-            courseTypes.forEach(type => {
-                const courses = data.years[year.toString()]?.[type.key] || [];
-                const cell = this.createGridCell(courses);
-                grid.appendChild(cell);
-            });
+            // Fall semester
+            if (yearData.fall) {
+                // Year/Semester label
+                const fallLabel = document.createElement('div');
+                fallLabel.className = 'grid-header year-label';
+                fallLabel.textContent = `Year ${year} - Fall`;
+                grid.appendChild(fallLabel);
+
+                // Course cells for each type in Fall
+                courseTypes.forEach(type => {
+                    const courses = yearData.fall[type.key] || [];
+                    const cell = this.createGridCell(courses);
+                    grid.appendChild(cell);
+                });
+            }
+
+            // Winter semester
+            if (yearData.winter) {
+                // Year/Semester label
+                const winterLabel = document.createElement('div');
+                winterLabel.className = 'grid-header year-label';
+                winterLabel.textContent = `Year ${year} - Winter`;
+                grid.appendChild(winterLabel);
+
+                // Course cells for each type in Winter
+                courseTypes.forEach(type => {
+                    const courses = yearData.winter[type.key] || [];
+                    const cell = this.createGridCell(courses);
+                    grid.appendChild(cell);
+                });
+            }
         }
 
         container.appendChild(grid);

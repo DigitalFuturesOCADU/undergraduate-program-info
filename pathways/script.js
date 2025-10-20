@@ -6,6 +6,11 @@ class PathwayViewer {
         this.pathwayData = {};
         this.comparisonData = {};
         this.searchIndex = {};
+        this.requiredCourses = [
+            'DIGF-1002', 'ENGL-1003', 'VISC-1002', 'DIGF-1003', 
+            'SCTM-2005', 'DIGF-2002', 'DIGF-2014', 'DIGF-2015', 
+            'DIGF-3008', 'DIGF-3009'
+        ];
 
         this.init();
     }
@@ -78,7 +83,7 @@ class PathwayViewer {
 
         // Update header info
         const pathwayName = this.pathwayData[pathway].name;
-        document.querySelector('.pathway-info').textContent = `Viewing ${pathwayName} pathway`;
+        document.querySelector('.pathway-info').textContent = `${pathwayName} pathway`;
 
         // Populate course grid
         this.populateCourseGrid(pathway);
@@ -122,9 +127,10 @@ class PathwayViewer {
 
             // Fall semester
             if (yearData.fall) {
-                // Year/Semester label
+                // Year/Semester label with year number and transition marker
                 const fallLabel = document.createElement('div');
-                fallLabel.className = 'grid-header year-label';
+                fallLabel.className = 'grid-header year-label year-fall-label';
+                fallLabel.setAttribute('data-year', year);
                 fallLabel.textContent = `Year ${year} - Fall`;
                 grid.appendChild(fallLabel);
 
@@ -140,7 +146,8 @@ class PathwayViewer {
             if (yearData.winter) {
                 // Year/Semester label
                 const winterLabel = document.createElement('div');
-                winterLabel.className = 'grid-header year-label';
+                winterLabel.className = 'grid-header year-label year-winter-label';
+                winterLabel.setAttribute('data-year', year);
                 winterLabel.textContent = `Year ${year} - Winter`;
                 grid.appendChild(winterLabel);
 
@@ -167,13 +174,32 @@ class PathwayViewer {
 
         courses.forEach(course => {
             const courseItem = document.createElement('div');
-            // Add class based on credit value
-            const creditClass = course.credits === 1.0 ? 'course-item-full' : 'course-item-half';
-            courseItem.className = `course-item ${creditClass}`;
+            // Add class based on credit value or course name
+            // Atelier courses are always 1.0 credit courses
+            const isAtelierCourse = course.title && (
+                course.title.includes('Atelier I') || 
+                course.title.includes('Atelier II') || 
+                course.title.includes('Atelier III') || 
+                course.title.includes('Atelier IV')
+            );
+            
+            const creditValue = parseFloat(course.credits);
+            const creditClass = (isAtelierCourse || creditValue >= 1.0) ? 'course-item-full' : 'course-item-half';
+            
+            // Check if this is a required course
+            const isRequired = this.requiredCourses.includes(course.code);
+            const requiredClass = isRequired ? 'course-required' : '';
+            
+            courseItem.className = `course-item ${creditClass} ${requiredClass}`;
+            
+            // Debug log to verify credit classification
+            if (isAtelierCourse) {
+                console.log(`✓ Atelier Course: ${course.code} "${course.title}", Credits: ${course.credits}, Class: ${creditClass}`);
+            }
+            
             courseItem.innerHTML = `
                 <div class="course-title">${course.title}</div>
                 <div class="course-code">${course.code || 'TBD'}</div>
-                <div class="course-credits">${course.credits} Credits</div>
             `;
 
             courseItem.addEventListener('click', () => {
@@ -196,7 +222,20 @@ class PathwayViewer {
         title.textContent = course.title;
         code.textContent = course.code || 'TBD';
         credits.textContent = `${course.credits} Credits`;
-        description.textContent = course.description || 'No description available.';
+        
+        // Remove leading "- " from description if present
+        let descriptionText = course.description || 'No description available.';
+        if (descriptionText.startsWith('- ')) {
+            descriptionText = descriptionText.substring(2);
+        }
+        description.textContent = descriptionText;
+
+        // Check if this is a required course and show/hide the required badge
+        const isRequired = this.requiredCourses.includes(course.code);
+        const requiredBadge = document.getElementById('modalRequired');
+        if (requiredBadge) {
+            requiredBadge.style.display = isRequired ? 'inline-block' : 'none';
+        }
 
         modal.style.display = 'block';
         document.body.style.overflow = 'hidden';

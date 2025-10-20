@@ -23,12 +23,14 @@
 
 body {
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    line-height: 1.4;
+    line-height: 1.5;
     color: var(--text-color);
     background: var(--light-bg);
     min-height: 100vh;
     margin: 0;
     padding: 0;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 .container {
@@ -86,8 +88,8 @@ body {
 .pathway-card {
     background: var(--light-bg);
     border: 1px solid var(--border-color);
-    padding: 24px;
-    margin-bottom: 12px;
+    padding: 20px;
+    margin-bottom: 16px;
     cursor: pointer;
     transition: border-color 0.2s ease;
 }
@@ -104,15 +106,16 @@ body {
 .pathway-card h3 {
     margin-bottom: 12px;
     color: var(--text-color);
-    font-size: 1.1em;
-    font-weight: 400;
+    font-size: 1.05em;
+    font-weight: 500;
     letter-spacing: -0.2px;
+    line-height: 1.3;
 }
 
 .pathway-card p {
     color: var(--text-light);
     font-size: 0.9em;
-    line-height: 1.5;
+    line-height: 1.6;
     font-weight: 400;
 }
 
@@ -152,7 +155,7 @@ body {
 
 .content-header {
     background: var(--light-bg);
-    padding: 8px 40px 0 40px;
+    padding: 12px 40px 8px 40px;
     border-bottom: none;
 }
 
@@ -162,18 +165,20 @@ body {
     margin-bottom: 8px;
     font-size: 2.2em;
     letter-spacing: -0.5px;
+    line-height: 1.2;
 }
 
 .pathway-info {
     color: var(--text-light);
     font-size: 1em;
     font-weight: 400;
+    line-height: 1.5;
 }
 
 /* Course Grid with Headers */
 .course-grid-container {
     flex: 1;
-    padding: 16px 40px;
+    padding: 20px 40px;
     background: var(--light-bg);
     margin: 8px 40px 40px 40px;
 }
@@ -181,9 +186,9 @@ body {
 .grid-with-headers {
     display: grid;
     grid-template-columns: 140px repeat(4, 1fr);
-    grid-template-rows: 50px repeat(8, 240px);
-    gap: 0;
-    background: var(--light-bg);
+    grid-template-rows: 50px repeat(8, minmax(280px, auto));
+    gap: 1px;
+    background: var(--border-color);
 }
 
 .grid-header {
@@ -194,8 +199,9 @@ body {
     justify-content: center;
     font-weight: 400;
     font-size: 0.9em;
-    padding: 8px;
+    padding: 12px 8px;
     text-align: center;
+    line-height: 1.3;
 }
 
 .grid-header.corner-cell {
@@ -207,7 +213,7 @@ body {
     text-orientation: horizontal;
     background: var(--light-bg);
     color: var(--text-light);
-    font-weight: 400;
+    font-weight: 500;
     letter-spacing: 1px;
     text-transform: uppercase;
     font-size: 0.85em;
@@ -216,6 +222,31 @@ body {
     border-top: 1px solid var(--border-color);
     border-bottom: 1px solid var(--border-color);
     position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.grid-header.year-fall-label {
+    border-top: 3px solid var(--text-color);
+}
+
+.grid-header.year-winter-label {
+    position: relative;
+}
+
+.grid-header.year-winter-label::before {
+    content: attr(data-year);
+    position: absolute;
+    left: -60px;
+    top: -25px;
+    font-size: 2em;
+    font-weight: 700;
+    color: var(--text-color);
+    letter-spacing: 0;
+    text-transform: none;
+    line-height: 1;
+    width: 50px;
+    text-align: center;
 }
 
 .grid-header.course-type-label {
@@ -223,21 +254,22 @@ body {
     writing-mode: horizontal-tb;
     text-orientation: horizontal;
     font-size: 0.85em;
-    line-height: 1.2;
+    line-height: 1.3;
     color: var(--text-light);
-    font-weight: 400;
+    font-weight: 500;
     letter-spacing: 0.5px;
     text-transform: uppercase;
+    padding: 8px 12px;
 }
 
 .grid-cell {
     background: var(--light-bg);
-    padding: 8px;
-    height: 240px;
-    overflow: hidden;
+    padding: 12px;
+    min-height: 280px;
+    overflow: visible;
     display: flex;
     flex-direction: column;
-    gap: 4px;
+    gap: 8px;
 }
 
 .grid-cell.empty {
@@ -248,7 +280,7 @@ body {
     color: var(--text-light);
     font-style: normal;
     font-size: 0.8em;
-    height: 240px;
+    min-height: 280px;
 }
 
 .grid-cell.empty::before {
@@ -259,13 +291,17 @@ body {
 .course-item {
     background: var(--card-bg);
     border: 1px solid var(--border-color);
-    padding: 6px;
-    margin-bottom: 4px;
+    padding: 10px;
+    margin-bottom: 6px;
     cursor: pointer;
     transition: border-color 0.2s ease, opacity 0.3s ease, transform 0.3s ease;
     opacity: 0;
     transform: translateY(10px);
     animation: fadeInUp 0.4s ease forwards;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    box-sizing: border-box;
 }
 
 .course-item:hover {
@@ -283,33 +319,53 @@ body {
     border-color: var(--text-color);
 }
 
+.course-item.course-required {
+    border: 2px solid var(--text-color);
+}
+
 .course-item-full {
-    min-height: 144px;
+    height: 160px;
+    min-height: 160px;
+    max-height: 160px;
 }
 
 .course-item-half {
-    min-height: 72px;
+    height: 80px;
+    min-height: 80px;
+    max-height: 80px;
 }
 
 .course-code {
     font-weight: 500;
     color: var(--text-color);
-    font-size: 0.85em;
-    letter-spacing: 0.5px;
+    font-size: 0.8em;
+    letter-spacing: 0.3px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 .course-title {
-    font-size: 0.9em;
+    font-size: 0.85em;
     color: var(--text-color);
-    margin: 4px 0;
     line-height: 1.3;
-    font-weight: 600;
+    font-weight: 500;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    line-clamp: 4;
+    -webkit-box-orient: vertical;
 }
 
-.course-credits {
-    font-size: 0.8em;
-    color: var(--text-light);
+.course-item .course-credits {
+    display: none;
+}
+
+.course-meta .course-credits {
+    font-size: 0.9em;
+    color: var(--text-color);
     font-weight: 400;
+    white-space: nowrap;
 }
 
 /* Placeholder styles */
@@ -410,14 +466,26 @@ body {
     font-weight: 400;
 }
 
-.course-code {
+.course-meta .course-code {
     background: var(--card-bg);
     color: var(--text-color);
+    white-space: normal;
+    overflow: visible;
+    text-overflow: clip;
 }
 
-.course-credits {
+.course-meta .course-credits {
     background: var(--card-bg);
     color: var(--text-color);
+    white-space: normal;
+}
+
+.course-meta .course-required {
+    background: var(--text-color);
+    color: var(--light-bg);
+    white-space: normal;
+    font-weight: 600;
+    letter-spacing: 0.5px;
 }
 
 .course-description {
@@ -429,18 +497,22 @@ body {
 /* Mobile Responsive */
 @media (max-width: 1024px) {
     .course-grid-container {
-        padding: 16px;
+        padding: 20px;
         margin: 16px;
     }
 
     .grid-with-headers {
         grid-template-columns: 120px repeat(4, 1fr);
-        gap: 0;
+        gap: 1px;
     }
 
     .grid-header.year-label {
         font-size: 0.8em;
         padding-left: 12px;
+    }
+    
+    .grid-cell {
+        padding: 10px;
     }
 }
 
@@ -506,13 +578,13 @@ body {
     }
 
     .grid-cell {
-        padding: 8px;
-        min-height: 60px;
+        padding: 10px;
+        min-height: 80px;
     }
 
     .course-item {
-        padding: 6px;
-        margin-bottom: 4px;
+        padding: 8px;
+        margin-bottom: 6px;
     }
 
     .modal-content {
@@ -535,6 +607,7 @@ body {
 
     .pathway-card {
         padding: 16px;
+        margin-bottom: 12px;
     }
 
     .content-header {
@@ -542,26 +615,27 @@ body {
     }
 
     .course-grid-container {
-        padding: 8px;
+        padding: 12px;
         margin: 8px;
     }
 
     .grid-with-headers {
-        gap: 6px;
+        gap: 1px;
     }
 
     .grid-header {
-        padding: 6px;
+        padding: 8px 6px;
         font-size: 0.8em;
     }
 
     .grid-cell {
-        padding: 6px;
-        min-height: 50px;
+        padding: 8px;
+        min-height: 60px;
     }
 
     .course-item {
-        padding: 4px;
+        padding: 8px;
+        margin-bottom: 4px;
     }
 
     .course-code {
@@ -570,6 +644,7 @@ body {
 
     .course-title {
         font-size: 0.85em;
+        line-height: 1.4;
     }
 
     .course-credits {

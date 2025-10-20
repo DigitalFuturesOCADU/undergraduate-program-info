@@ -168,7 +168,7 @@
       "winter": {
         "core_courses": [
           {
-            "code": "DIGF2015",
+            "code": "DIGF-2015",
             "title": "Atelier II: Collaboration",
             "credits": 1.0,
             "description": "- In Atelier II: Collaboration, students develop their ideas and execute their projects as prototypes collectively with feedback from faculty and industry partners. Atelier II: Collaboration is linked to Atelier I: Discovery and builds on the practical and technical skills gained in the fall semester.The course encourages a wide range of approaches to collaborative research and practice-based problem-solving methods. Interaction with industry partners begun in the first semester in Atelier I: Discovery is deepened in the second semester with Atelier II: Collaboration as students work towards a physical articulation of their creative projects. Note: This \"Writing Across the Curriculum\" (WAC) course is part of an initiative to support students in their disciplinary writing.",
@@ -222,7 +222,7 @@
       "fall": {
         "core_courses": [
           {
-            "code": "DIGF3008",
+            "code": "DIGF-3008",
             "title": "Atelier III: Investigation",
             "credits": 1.0,
             "description": "- This studio-seminar course provides students with the opportunity to further develop their analytical and problem-solving skills in a collaborative praxis (practice through research) environment with the engagement of faculty and industry partners. Atelier III: Investigation is a theme-based course. The core seminar topic is developed on an annual basis through a faculty and student curriculum retreat process. Engagement with industry partners is a key component of the course and underpins student-driven projects. Atelier III: Investigation is a prerequisite for Atelier IV: Synthesis.",

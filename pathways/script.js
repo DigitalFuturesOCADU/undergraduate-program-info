@@ -110,7 +110,7 @@ class PathwayViewer {
             { key: 'core_courses', label: 'Core Courses' },
             { key: 'program_specific_electives', label: 'Program Specific Electives' },
             { key: 'open_electives', label: 'Open Electives' },
-            { key: 'breadth_electives', label: 'Breadth Electives' }
+            { key: 'breadth_electives', label: 'Breadth' }
         ];
 
         courseTypes.forEach(type => {

@@ -1,4 +1,4 @@
-/* New layout styles - Sidebar + Grid */
+/* Pathway Viewer — Sidebar + Grid */
 
 :root {
     --primary-color: #000000;
@@ -9,10 +9,7 @@
     --text-color: #000000;
     --text-light: #666666;
     --border-color: #e0e0e0;
-    --shadow: none;
-    --shadow-hover: none;
     --sidebar-width: 320px;
-    --header-height: 80px;
 }
 
 * {
@@ -33,12 +30,23 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
+body.modal-open {
+    overflow: hidden;
+}
+
+body.sidebar-open {
+    overflow: hidden;
+}
+
 .container {
     display: flex;
     min-height: 100vh;
 }
 
-/* Sidebar Styles */
+/* =============================================
+   SIDEBAR
+   ============================================= */
+
 .sidebar {
     width: var(--sidebar-width);
     background: var(--light-bg);
@@ -60,19 +68,11 @@ body {
 }
 
 .sidebar-header h2 {
-    margin: 0;
-    font-weight: 400;
-    font-size: 1.2em;
-    letter-spacing: 0.5px;
-    text-transform: uppercase;
-    color: var(--text-color);
-}
-
-.sidebar-header h2 {
     margin-bottom: 8px;
     font-weight: 300;
     font-size: 1.5em;
     letter-spacing: -0.3px;
+    color: var(--text-color);
 }
 
 .sidebar-header p {
@@ -91,15 +91,21 @@ body {
     padding: 20px;
     margin-bottom: 16px;
     cursor: pointer;
-    transition: border-color 0.2s ease;
+    transition: border-color 0.2s ease, border-left 0.2s ease;
 }
 
 .pathway-card:hover {
     border-color: var(--text-color);
 }
 
+.pathway-card:focus-visible {
+    outline: 2px solid var(--text-color);
+    outline-offset: 2px;
+}
+
 .pathway-card.active {
     border-color: var(--text-color);
+    border-left: 4px solid var(--text-color);
     background: var(--card-bg);
 }
 
@@ -133,26 +139,53 @@ body {
     margin: 0;
 }
 
-.search-placeholder {
-    text-align: center;
-    padding: 16px;
-    background: var(--card-bg);
+/* =============================================
+   MOBILE SIDEBAR TOGGLE
+   ============================================= */
+
+.sidebar-toggle {
+    display: none;
+    position: fixed;
+    top: 16px;
+    left: 16px;
+    z-index: 200;
+    background: var(--light-bg);
     border: 1px solid var(--border-color);
+    width: 44px;
+    height: 44px;
+    cursor: pointer;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    padding: 0;
 }
 
-.search-placeholder p {
-    margin-bottom: 4px;
-    color: var(--text-light);
-    font-size: 0.9em;
-    font-weight: 400;
+.toggle-bar {
+    display: block;
+    width: 20px;
+    height: 2px;
+    background: var(--text-color);
+    transition: transform 0.3s ease, opacity 0.3s ease;
 }
 
-.search-placeholder small {
-    color: var(--text-light);
-    font-size: 0.8em;
+/* Animate to X when open */
+body.sidebar-open .toggle-bar:nth-child(1) {
+    transform: translateY(7px) rotate(45deg);
 }
 
-/* Main Content Styles */
+body.sidebar-open .toggle-bar:nth-child(2) {
+    opacity: 0;
+}
+
+body.sidebar-open .toggle-bar:nth-child(3) {
+    transform: translateY(-7px) rotate(-45deg);
+}
+
+/* =============================================
+   MAIN CONTENT
+   ============================================= */
+
 .main-content {
     flex: 1;
     margin-left: var(--sidebar-width);
@@ -183,10 +216,13 @@ body {
     line-height: 1.5;
 }
 
-/* Course Grid with Headers */
+/* =============================================
+   COURSE GRID
+   ============================================= */
+
 .course-grid-container {
     flex: 1;
-    padding: 20px 40px;
+    padding: 20px 40px 20px 80px;
     background: var(--light-bg);
     margin: 8px 40px 40px 40px;
 }
@@ -194,7 +230,7 @@ body {
 .grid-with-headers {
     display: grid;
     grid-template-columns: 140px repeat(4, 1fr);
-    grid-template-rows: 50px repeat(8, minmax(280px, auto));
+    grid-template-rows: 50px repeat(8, minmax(200px, auto));
     gap: 1px;
     background: var(--border-color);
 }
@@ -240,23 +276,29 @@ body {
     border-top: 3px solid var(--text-color);
 }
 
-.grid-header.year-winter-label {
-    position: relative;
-}
-
-.grid-header.year-winter-label::before {
+/* Year number — centered vertically across fall+winter rows, to the left of the thick line */
+.grid-header.year-fall-label::before {
     content: attr(data-year);
     position: absolute;
-    left: -60px;
-    top: -25px;
+    left: -48px;
+    top: 0;
+    bottom: 0;
+    height: calc(200% + 1px);
+    display: flex;
+    align-items: center;
     font-size: 2.4em;
     font-weight: 700;
     color: var(--text-color);
     letter-spacing: 0;
     text-transform: none;
     line-height: 1;
-    width: 50px;
-    text-align: center;
+    pointer-events: none;
+    width: 44px;
+    justify-content: center;
+}
+
+.grid-header.year-winter-label {
+    position: relative;
 }
 
 .grid-header.course-type-label {
@@ -275,7 +317,7 @@ body {
 .grid-cell {
     background: var(--light-bg);
     padding: 12px;
-    min-height: 280px;
+    min-height: 200px;
     overflow: visible;
     display: flex;
     flex-direction: column;
@@ -290,13 +332,12 @@ body {
     color: var(--text-light);
     font-style: normal;
     font-size: 0.8em;
-    min-height: 280px;
+    min-height: 200px;
 }
 
-.grid-cell.empty::before {
-    content: "";
-    font-size: 0.9em;
-}
+/* =============================================
+   COURSE ITEMS
+   ============================================= */
 
 .course-item {
     background: var(--card-bg);
@@ -304,18 +345,23 @@ body {
     padding: 8px;
     margin-bottom: 6px;
     cursor: pointer;
-    transition: border-color 0.2s ease, opacity 0.3s ease, transform 0.3s ease;
+    transition: border-color 0.2s ease, transform 0.15s ease;
     opacity: 0;
     transform: translateY(10px);
     animation: fadeInUp 0.4s ease forwards;
     display: flex;
     flex-direction: column;
     gap: 2px;
-    box-sizing: border-box;
 }
 
 .course-item:hover {
     border-color: var(--text-color);
+    transform: translateY(-1px);
+}
+
+.course-item:focus-visible {
+    outline: 2px solid var(--text-color);
+    outline-offset: 2px;
 }
 
 @keyframes fadeInUp {
@@ -323,10 +369,6 @@ body {
         opacity: 1;
         transform: translateY(0);
     }
-}
-
-.course-item:hover {
-    border-color: var(--text-color);
 }
 
 .course-item.course-required {
@@ -375,7 +417,10 @@ body {
     white-space: nowrap;
 }
 
-/* Placeholder styles */
+/* =============================================
+   PLACEHOLDER
+   ============================================= */
+
 .grid-placeholder {
     grid-column: 1 / -1;
     grid-row: 1 / -1;
@@ -402,7 +447,10 @@ body {
     font-weight: 400;
 }
 
-/* Modal Styles */
+/* =============================================
+   MODAL
+   ============================================= */
+
 .modal {
     display: none;
     position: fixed;
@@ -411,17 +459,25 @@ body {
     top: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0,0,0,0.3);
-    backdrop-filter: none;
+    background-color: rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(2px);
+    -webkit-backdrop-filter: blur(2px);
+}
+
+.modal.visible {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    padding-top: 5vh;
 }
 
 .modal-content {
     background: var(--light-bg);
-    margin: 5% auto;
     padding: 0;
     border: 1px solid var(--border-color);
     width: 90%;
     max-width: 600px;
+    animation: modalFadeIn 0.2s ease;
 }
 
 @keyframes modalFadeIn {
@@ -435,6 +491,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    gap: 16px;
 }
 
 .modal-header h3 {
@@ -450,10 +507,25 @@ body {
     color: var(--text-light);
     cursor: pointer;
     transition: color 0.2s;
+    background: none;
+    border: none;
+    min-width: 44px;
+    min-height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    line-height: 1;
+    flex-shrink: 0;
 }
 
 .modal-close:hover {
     color: var(--text-color);
+}
+
+.modal-close:focus-visible {
+    outline: 2px solid var(--text-color);
+    outline-offset: 2px;
 }
 
 .modal-body {
@@ -464,6 +536,7 @@ body {
     display: flex;
     gap: 16px;
     margin-bottom: 20px;
+    flex-wrap: wrap;
 }
 
 .course-meta span {
@@ -501,10 +574,13 @@ body {
     font-weight: 400;
 }
 
-/* Mobile Responsive */
+/* =============================================
+   RESPONSIVE — TABLET (1024px)
+   ============================================= */
+
 @media (max-width: 1024px) {
     .course-grid-container {
-        padding: 20px;
+        padding: 20px 20px 20px 60px;
         margin: 16px;
     }
 
@@ -517,43 +593,72 @@ body {
         font-size: 0.8em;
         padding-left: 12px;
     }
-    
+
     .grid-cell {
         padding: 10px;
     }
-    
+
     .course-item-full {
-        height: 180px;
-        min-height: 180px;
-        max-height: 180px;
+        min-height: 160px;
     }
 
     .course-item-half {
-        height: 90px;
-        min-height: 90px;
-        max-height: 90px;
+        min-height: 80px;
     }
 }
+
+/* =============================================
+   RESPONSIVE — MOBILE (768px)
+   ============================================= */
 
 @media (max-width: 768px) {
     :root {
         --sidebar-width: 100%;
     }
 
+    /* Show hamburger toggle */
+    .sidebar-toggle {
+        display: flex;
+    }
+
     .container {
         flex-direction: column;
     }
 
+    /* Sidebar: hidden by default, slides in as overlay */
     .sidebar {
-        position: relative;
+        position: fixed;
+        width: 85%;
+        max-width: 360px;
+        height: 100vh;
+        top: 0;
+        left: 0;
+        transform: translateX(-100%);
+        transition: transform 0.3s ease;
+        z-index: 150;
+        box-shadow: none;
+    }
+
+    .sidebar.mobile-open {
+        transform: translateX(0);
+        box-shadow: 4px 0 20px rgba(0, 0, 0, 0.1);
+    }
+
+    /* Overlay behind sidebar when open */
+    body.sidebar-open::before {
+        content: '';
+        position: fixed;
+        top: 0;
+        left: 0;
         width: 100%;
-        height: auto;
-        max-height: 40vh;
-        overflow-y: auto;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.15);
+        z-index: 140;
     }
 
     .main-content {
         margin-left: 0;
+        padding-top: 60px;
     }
 
     .content-header {
@@ -569,10 +674,21 @@ body {
         margin: 6px 12px 20px 12px;
     }
 
+    /* Mobile grid: single-column, course-type labels inline */
     .grid-with-headers {
-        grid-template-columns: 1fr;
-        grid-template-rows: auto;
+        display: flex;
+        flex-direction: column;
         gap: 0;
+        background: var(--light-bg);
+    }
+
+    .grid-header.corner-cell {
+        display: none;
+    }
+
+    /* Course type labels: show as inline section headers */
+    .grid-header.course-type-label {
+        display: none;
     }
 
     .grid-header.year-label {
@@ -581,41 +697,88 @@ body {
         background: var(--light-bg);
         border: none;
         margin-bottom: 0;
-        min-height: 40px;
+        min-height: 44px;
         color: var(--text-light);
-        font-weight: 400;
+        font-weight: 500;
         letter-spacing: 1px;
         text-transform: uppercase;
         font-size: 0.9em;
         justify-content: flex-start;
         padding-left: 16px;
         border-bottom: 1px solid var(--border-color);
+        position: sticky;
+        top: 0;
+        z-index: 10;
     }
 
-    .grid-header.course-type-label {
-        display: none; /* Hide course type headers on mobile */
+    .grid-header.year-fall-label {
+        border-top: 2px solid var(--text-color);
     }
 
+    .grid-header.year-fall-label::before {
+        display: none;
+    }
+
+    /* Show course type as label on each cell */
     .grid-cell {
-        padding: 10px;
-        min-height: 80px;
+        padding: 10px 16px;
+        min-height: auto;
+    }
+
+    .grid-cell:not(.empty)::before {
+        content: attr(data-course-type);
+        display: block;
+        font-size: 0.7em;
+        font-weight: 500;
+        letter-spacing: 0.5px;
+        text-transform: uppercase;
+        color: var(--text-light);
+        margin-bottom: 8px;
+        padding-bottom: 4px;
+        border-bottom: 1px solid var(--border-color);
+    }
+
+    .grid-cell.empty {
+        display: none;
     }
 
     .course-item {
-        padding: 8px;
+        padding: 10px;
         margin-bottom: 6px;
+        min-height: 44px;
+    }
+
+    .course-item-full {
+        min-height: 100px;
+    }
+
+    .course-item-half {
+        min-height: 60px;
+    }
+
+    .modal.visible {
+        padding-top: 10vh;
     }
 
     .modal-content {
         width: 95%;
-        margin: 10% auto;
+        max-height: 80vh;
+        overflow-y: auto;
     }
 
     .modal-header,
     .modal-body {
         padding: 20px;
     }
+
+    .pathway-card {
+        min-height: 44px;
+    }
 }
+
+/* =============================================
+   RESPONSIVE — SMALL MOBILE (480px)
+   ============================================= */
 
 @media (max-width: 480px) {
     .sidebar-header,
@@ -634,12 +797,8 @@ body {
     }
 
     .course-grid-container {
-        padding: 12px;
-        margin: 8px;
-    }
-
-    .grid-with-headers {
-        gap: 1px;
+        padding: 8px;
+        margin: 4px 8px 16px 8px;
     }
 
     .grid-header {
@@ -649,20 +808,19 @@ body {
 
     .grid-cell {
         padding: 8px;
-        min-height: 60px;
     }
 
     .course-item {
-        padding: 8px;
+        padding: 10px;
         margin-bottom: 4px;
     }
-    
+
     .course-item-full {
-        min-height: 170px;
+        min-height: 90px;
     }
 
     .course-item-half {
-        min-height: 85px;
+        min-height: 50px;
     }
 
     .course-code {
@@ -677,11 +835,25 @@ body {
     .course-credits {
         font-size: 0.75em;
     }
+
+    .modal-header,
+    .modal-body {
+        padding: 16px;
+    }
+
+    .course-meta {
+        flex-direction: column;
+        gap: 8px;
+    }
 }
 
-/* Print styles */
+/* =============================================
+   PRINT
+   ============================================= */
+
 @media print {
     .sidebar,
+    .sidebar-toggle,
     .modal {
         display: none !important;
     }

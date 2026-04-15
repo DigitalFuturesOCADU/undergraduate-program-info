@@ -1,111 +1,179 @@
-// New layout JavaScript - Sidebar + Grid functionality
+// Pathway Viewer — Sidebar + Grid application
 
 class PathwayViewer {
     constructor() {
         this.currentPathway = null;
         this.pathwayData = {};
-        this.comparisonData = {};
-        this.searchIndex = {};
-        this.requiredCourses = [
-            'DIGF-1002', 'ENGL-1003', 'VISC-1002', 'DIGF-1003', 
-            'SCTM-2005', 'DIGF-2002', 'DIGF-2014', 'DIGF-2015', 
-            'DIGF-3008', 'DIGF-3009'
-        ];
-
+        this.courseMap = new WeakMap();
+        this.lastFocusedElement = null;
         this.init();
     }
 
     async init() {
+        this.cacheDOM();
+        if (!this.container) return;
+        this.showLoading();
         await this.loadData();
         this.setupEventListeners();
         this.updateUI();
     }
 
+    cacheDOM() {
+        this.container = document.getElementById('courseGridContainer');
+        this.modal = document.getElementById('courseModal');
+        this.modalTitle = document.getElementById('modalTitle');
+        this.modalCode = document.getElementById('modalCode');
+        this.modalCredits = document.getElementById('modalCredits');
+        this.modalDescription = document.getElementById('modalDescription');
+        this.modalRequired = document.getElementById('modalRequired');
+        this.modalClose = document.querySelector('.modal-close');
+        this.pathwayInfo = document.querySelector('.pathway-info');
+        this.sidebar = document.querySelector('.sidebar');
+        this.sidebarToggle = document.getElementById('sidebarToggle');
+    }
+
     async loadData() {
-        try {
-            // Load pathway data
-            const pathways = ['creative-technologist', 'physical-interface-designer', 'games-playable-media-maker'];
+        const pathways = [
+            'creative-technologist',
+            'physical-interface-designer',
+            'games-playable-media-maker'
+        ];
 
-            for (const pathway of pathways) {
-                const response = await fetch(`${pathway}.json`);
-                this.pathwayData[pathway] = await response.json();
+        const results = await Promise.allSettled(
+            pathways.map(async (id) => {
+                const response = await fetch(`${id}.json`);
+                if (!response.ok) throw new Error(`HTTP ${response.status}`);
+                return { id, data: await response.json() };
+            })
+        );
+
+        let failures = 0;
+        for (const result of results) {
+            if (result.status === 'fulfilled') {
+                this.pathwayData[result.value.id] = result.value.data;
+            } else {
+                failures++;
             }
+        }
 
-            // Load comparison and search data
-            const comparisonResponse = await fetch('pathway-comparison.json');
-            this.comparisonData = await comparisonResponse.json();
-
-            const searchResponse = await fetch('searchable-index.json');
-            this.searchIndex = await searchResponse.json();
-
-        } catch (error) {
-            console.error('Error loading data:', error);
+        if (failures === pathways.length) {
             this.showError('Failed to load course data. Please refresh the page.');
+        } else if (failures > 0) {
+            console.warn(`${failures} pathway file(s) failed to load.`);
         }
     }
 
     setupEventListeners() {
-        // Pathway card clicks
+        // Pathway card clicks + keyboard
         document.querySelectorAll('.pathway-card').forEach(card => {
             card.addEventListener('click', () => {
-                const pathway = card.dataset.pathway;
-                this.selectPathway(pathway);
+                this.selectPathway(card.dataset.pathway);
+            });
+            card.addEventListener('keydown', (e) => {
+                if (e.key === 'Enter' || e.key === ' ') {
+                    e.preventDefault();
+                    this.selectPathway(card.dataset.pathway);
+                }
             });
         });
 
-        // Modal close
-        document.querySelector('.modal-close').addEventListener('click', () => {
-            this.closeModal();
-        });
+        // Event delegation for course item clicks on the grid
+        if (this.container) {
+            this.container.addEventListener('click', (e) => {
+                const courseItem = e.target.closest('.course-item');
+                if (!courseItem) return;
+                const course = this.courseMap.get(courseItem);
+                if (course) this.showCourseModal(course, courseItem);
+            });
+        }
 
-        document.getElementById('courseModal').addEventListener('click', (e) => {
-            if (e.target === e.currentTarget) {
-                this.closeModal();
-            }
-        });
+        // Modal close via button
+        if (this.modalClose) {
+            this.modalClose.addEventListener('click', () => this.closeModal());
+        }
 
-        // Keyboard navigation
+        // Modal close via backdrop
+        if (this.modal) {
+            this.modal.addEventListener('click', (e) => {
+                if (e.target === e.currentTarget) this.closeModal();
+            });
+        }
+
+        // Keyboard: Escape closes modal
         document.addEventListener('keydown', (e) => {
-            if (e.key === 'Escape') {
+            if (e.key === 'Escape' && this.modal && this.modal.classList.contains('visible')) {
                 this.closeModal();
             }
         });
+
+        // Modal focus trap
+        if (this.modal) {
+            this.modal.addEventListener('keydown', (e) => {
+                if (e.key !== 'Tab') return;
+                this.trapFocus(e);
+            });
+        }
+
+        // Mobile sidebar toggle
+        if (this.sidebarToggle) {
+            this.sidebarToggle.addEventListener('click', () => this.toggleSidebar());
+        }
     }
+
+    // -- Pathway selection --
 
     selectPathway(pathway) {
+        const data = this.pathwayData[pathway];
+        if (!data) return;
+
         this.currentPathway = pathway;
 
-        // Update active card
+        // Update active card + aria
         document.querySelectorAll('.pathway-card').forEach(card => {
-            card.classList.remove('active');
+            const isActive = card.dataset.pathway === pathway;
+            card.classList.toggle('active', isActive);
+            card.setAttribute('aria-selected', isActive);
         });
-        document.querySelector(`[data-pathway="${pathway}"]`).classList.add('active');
 
-        // Update header info
-        const pathwayName = this.pathwayData[pathway].name;
-        document.querySelector('.pathway-info').textContent = `${pathwayName} pathway`;
+        // Update header
+        if (this.pathwayInfo) {
+            this.pathwayInfo.textContent = `${data.name} Pathway`;
+        }
 
-        // Populate course grid
+        // Populate grid
         this.populateCourseGrid(pathway);
+
+        // Mobile: collapse sidebar and scroll to content
+        if (window.innerWidth <= 768 && this.sidebar) {
+            this.sidebar.classList.remove('mobile-open');
+            document.body.classList.remove('sidebar-open');
+            if (this.container) {
+                this.container.scrollIntoView({ behavior: 'smooth', block: 'start' });
+            }
+        }
     }
 
+    // -- Grid rendering --
+
     populateCourseGrid(pathway) {
-        const container = document.getElementById('courseGridContainer');
+        if (!this.container) return;
         const data = this.pathwayData[pathway];
+        if (!data) return;
 
-        // Clear existing content
-        container.innerHTML = '';
+        const requiredCourses = data.required_courses || [];
 
-        // Create grid with headers
+        // Clear
+        this.container.innerHTML = '';
+
         const grid = document.createElement('div');
         grid.className = 'grid-with-headers';
 
-        // Top-left corner (empty)
-        const cornerCell = document.createElement('div');
-        cornerCell.className = 'grid-header corner-cell';
-        grid.appendChild(cornerCell);
+        // Corner cell
+        const corner = document.createElement('div');
+        corner.className = 'grid-header corner-cell';
+        grid.appendChild(corner);
 
-        // Course type headers
+        // Column headers
         const courseTypes = [
             { key: 'core_courses', label: 'Core Courses' },
             { key: 'program_specific_electives', label: 'Program Specific Electives' },
@@ -120,176 +188,211 @@ class PathwayViewer {
             grid.appendChild(header);
         });
 
-        // Year rows with data (Fall and Winter semesters)
+        // Year rows
         for (let year = 1; year <= 4; year++) {
             const yearData = data.years[year.toString()];
             if (!yearData) continue;
 
-            // Fall semester
-            if (yearData.fall) {
-                // Year/Semester label with year number and transition marker
-                const fallLabel = document.createElement('div');
-                fallLabel.className = 'grid-header year-label year-fall-label';
-                fallLabel.setAttribute('data-year', year);
-                fallLabel.textContent = `Year ${year} - Fall`;
-                grid.appendChild(fallLabel);
+            const semesters = [
+                { key: 'fall', labelClass: 'year-fall-label' },
+                { key: 'winter', labelClass: 'year-winter-label' }
+            ];
 
-                // Course cells for each type in Fall
+            for (const sem of semesters) {
+                if (!yearData[sem.key]) continue;
+
+                const label = document.createElement('div');
+                label.className = `grid-header year-label ${sem.labelClass}`;
+                label.setAttribute('data-year', year);
+                label.textContent = `Year ${year} - ${sem.key.charAt(0).toUpperCase() + sem.key.slice(1)}`;
+                grid.appendChild(label);
+
                 courseTypes.forEach(type => {
-                    const courses = yearData.fall[type.key] || [];
-                    const cell = this.createGridCell(courses);
-                    grid.appendChild(cell);
-                });
-            }
-
-            // Winter semester
-            if (yearData.winter) {
-                // Year/Semester label
-                const winterLabel = document.createElement('div');
-                winterLabel.className = 'grid-header year-label year-winter-label';
-                winterLabel.setAttribute('data-year', year);
-                winterLabel.textContent = `Year ${year} - Winter`;
-                grid.appendChild(winterLabel);
-
-                // Course cells for each type in Winter
-                courseTypes.forEach(type => {
-                    const courses = yearData.winter[type.key] || [];
-                    const cell = this.createGridCell(courses);
+                    const courses = yearData[sem.key][type.key] || [];
+                    const cell = this.createGridCell(courses, requiredCourses, type.label);
                     grid.appendChild(cell);
                 });
             }
         }
 
-        container.appendChild(grid);
+        this.container.appendChild(grid);
     }
 
-    createGridCell(courses) {
+    createGridCell(courses, requiredCourses, typeLabel) {
         const cell = document.createElement('div');
         cell.className = 'grid-cell';
+        if (typeLabel) {
+            cell.setAttribute('data-course-type', typeLabel);
+        }
 
         if (courses.length === 0) {
             cell.classList.add('empty');
             return cell;
         }
 
-        courses.forEach(course => {
-            const courseItem = document.createElement('div');
-            // Add class based on credit value or course name
-            // Atelier courses are always 1.0 credit courses
-            const isAtelierCourse = course.title && (
-                course.title.includes('Atelier I') || 
-                course.title.includes('Atelier II') || 
-                course.title.includes('Atelier III') || 
-                course.title.includes('Atelier IV')
-            );
-            
-            const creditValue = parseFloat(course.credits);
-            const creditClass = (isAtelierCourse || creditValue >= 1.0) ? 'course-item-full' : 'course-item-half';
-            
-            // Check if this is a required course
-            const isRequired = this.requiredCourses.includes(course.code);
-            const requiredClass = isRequired ? 'course-required' : '';
-            
-            courseItem.className = `course-item ${creditClass} ${requiredClass}`;
-            
-            // Debug log to verify credit classification
-            if (isAtelierCourse) {
-                console.log(`✓ Atelier Course: ${course.code} "${course.title}", Credits: ${course.credits}, Class: ${creditClass}`);
-            }
-            
-            courseItem.innerHTML = `
-                <div class="course-title">${course.title}</div>
-                <div class="course-code">${course.code || 'TBD'}</div>
-            `;
+        courses.forEach((course, i) => {
+            const item = document.createElement('div');
 
-            courseItem.addEventListener('click', () => {
-                this.showCourseModal(course);
+            const creditValue = parseFloat(course.credits) || 0;
+            const creditClass = creditValue >= 1.0 ? 'course-item-full' : 'course-item-half';
+            const isRequired = requiredCourses.includes(course.code);
+
+            item.className = `course-item ${creditClass}${isRequired ? ' course-required' : ''}`;
+            item.setAttribute('tabindex', '0');
+            item.setAttribute('role', 'button');
+            item.setAttribute('aria-label', `${course.title} (${course.code || 'TBD'})`);
+            item.style.animationDelay = `${i * 0.05}s`;
+
+            // Build content with DOM API (no innerHTML)
+            const titleEl = document.createElement('div');
+            titleEl.className = 'course-title';
+            titleEl.textContent = course.title;
+
+            const codeEl = document.createElement('div');
+            codeEl.className = 'course-code';
+            codeEl.textContent = course.code || 'TBD';
+
+            item.appendChild(titleEl);
+            item.appendChild(codeEl);
+
+            // Keyboard activation
+            item.addEventListener('keydown', (e) => {
+                if (e.key === 'Enter' || e.key === ' ') {
+                    e.preventDefault();
+                    this.showCourseModal(course, item);
+                }
             });
 
-            cell.appendChild(courseItem);
+            // Store course reference for event delegation
+            this.courseMap.set(item, course);
+
+            cell.appendChild(item);
         });
 
         return cell;
     }
 
-    showCourseModal(course) {
-        const modal = document.getElementById('courseModal');
-        const title = document.getElementById('modalTitle');
-        const code = document.getElementById('modalCode');
-        const credits = document.getElementById('modalCredits');
-        const description = document.getElementById('modalDescription');
+    // -- Modal --
 
-        title.textContent = course.title;
-        code.textContent = course.code || 'TBD';
-        credits.textContent = `${course.credits} Credits`;
-        
-        // Remove leading "- " from description if present
-        let descriptionText = course.description || 'No description available.';
-        if (descriptionText.startsWith('- ')) {
-            descriptionText = descriptionText.substring(2);
-        }
-        description.textContent = descriptionText;
+    showCourseModal(course, triggerElement) {
+        if (!this.modal) return;
 
-        // Check if this is a required course and show/hide the required badge
-        const isRequired = this.requiredCourses.includes(course.code);
-        const requiredBadge = document.getElementById('modalRequired');
-        if (requiredBadge) {
-            requiredBadge.style.display = isRequired ? 'inline-block' : 'none';
+        this.lastFocusedElement = triggerElement || document.activeElement;
+
+        if (this.modalTitle) this.modalTitle.textContent = course.title;
+        if (this.modalCode) this.modalCode.textContent = course.code || 'TBD';
+        if (this.modalCredits) this.modalCredits.textContent = `${course.credits} Credits`;
+
+        if (this.modalDescription) {
+            let desc = course.description || 'No description available.';
+            if (desc.startsWith('- ')) desc = desc.substring(2);
+            this.modalDescription.textContent = desc;
         }
 
-        modal.style.display = 'block';
-        document.body.style.overflow = 'hidden';
+        // Required badge
+        const data = this.currentPathway ? this.pathwayData[this.currentPathway] : null;
+        const requiredCourses = data ? (data.required_courses || []) : [];
+        const isRequired = requiredCourses.includes(course.code);
+        if (this.modalRequired) {
+            this.modalRequired.style.display = isRequired ? 'inline-block' : 'none';
+        }
+
+        this.modal.classList.add('visible');
+        document.body.classList.add('modal-open');
+
+        // Move focus into modal
+        if (this.modalClose) {
+            this.modalClose.focus();
+        }
     }
 
     closeModal() {
-        const modal = document.getElementById('courseModal');
-        modal.style.display = 'none';
-        document.body.style.overflow = 'auto';
+        if (!this.modal) return;
+        this.modal.classList.remove('visible');
+        document.body.classList.remove('modal-open');
+
+        // Return focus
+        if (this.lastFocusedElement) {
+            this.lastFocusedElement.focus();
+            this.lastFocusedElement = null;
+        }
+    }
+
+    trapFocus(e) {
+        const modalContent = this.modal.querySelector('.modal-content');
+        if (!modalContent) return;
+
+        const focusable = modalContent.querySelectorAll(
+            'button, [href], input, select, textarea, [tabindex]:not([tabindex="-1"])'
+        );
+        if (focusable.length === 0) return;
+
+        const first = focusable[0];
+        const last = focusable[focusable.length - 1];
+
+        if (e.shiftKey && document.activeElement === first) {
+            e.preventDefault();
+            last.focus();
+        } else if (!e.shiftKey && document.activeElement === last) {
+            e.preventDefault();
+            first.focus();
+        }
+    }
+
+    // -- Mobile sidebar --
+
+    toggleSidebar() {
+        if (!this.sidebar) return;
+        const isOpen = this.sidebar.classList.toggle('mobile-open');
+        document.body.classList.toggle('sidebar-open', isOpen);
+        if (this.sidebarToggle) {
+            this.sidebarToggle.setAttribute('aria-expanded', isOpen);
+        }
+    }
+
+    // -- UI helpers --
+
+    showLoading() {
+        if (!this.container) return;
+        this.container.innerHTML = '';
+        const placeholder = document.createElement('div');
+        placeholder.className = 'grid-placeholder';
+        const h3 = document.createElement('h3');
+        h3.textContent = 'Loading courses...';
+        placeholder.appendChild(h3);
+        this.container.appendChild(placeholder);
     }
 
     updateUI() {
-        // Add loading state initially
-        const container = document.getElementById('courseGridContainer');
-        container.innerHTML = `
-            <div class="grid-placeholder">
-                <h3>Select a pathway to view courses</h3>
-                <p>Choose from the sidebar to explore 4-year course structures</p>
-            </div>
-        `;
+        if (!this.container) return;
+        this.container.innerHTML = '';
+        const placeholder = document.createElement('div');
+        placeholder.className = 'grid-placeholder';
+        const h3 = document.createElement('h3');
+        h3.textContent = 'Select a pathway to view courses';
+        const p = document.createElement('p');
+        p.textContent = 'Choose from the sidebar to explore 4-year course structures';
+        placeholder.appendChild(h3);
+        placeholder.appendChild(p);
+        this.container.appendChild(placeholder);
     }
 
     showError(message) {
-        const container = document.getElementById('courseGridContainer');
-        container.innerHTML = `
-            <div class="grid-placeholder">
-                <h3>Unable to load courses</h3>
-                <p>${message}</p>
-            </div>
-        `;
+        if (!this.container) return;
+        this.container.innerHTML = '';
+        const placeholder = document.createElement('div');
+        placeholder.className = 'grid-placeholder';
+        const h3 = document.createElement('h3');
+        h3.textContent = 'Unable to load courses';
+        const p = document.createElement('p');
+        p.textContent = message;
+        placeholder.appendChild(h3);
+        placeholder.appendChild(p);
+        this.container.appendChild(placeholder);
     }
 }
 
-// Initialize when DOM is loaded
+// Initialize
 document.addEventListener('DOMContentLoaded', () => {
     new PathwayViewer();
-});
-
-// Handle mobile sidebar toggle (for future enhancement)
-function toggleSidebar() {
-    const sidebar = document.querySelector('.sidebar');
-    sidebar.classList.toggle('mobile-open');
-}
-
-// Utility function for responsive design
-function isMobile() {
-    return window.innerWidth <= 768;
-}
-
-// Handle window resize
-window.addEventListener('resize', () => {
-    // Add any responsive adjustments here
-    const sidebar = document.querySelector('.sidebar');
-    if (isMobile()) {
-        sidebar.classList.remove('mobile-open');
-    }
 });
